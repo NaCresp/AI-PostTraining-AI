@@ -1,0 +1,51 @@
+[06/09/26 20:52:31] WARNING  vLLM server config has missing          vllm.py:119
+                             prerequisites ERROR: Unable to                     
+                             initialise vLLM client                             
+                                                                                
+                             No                                                 
+                             [bold][blue]VLLM_BASE_URL[/blue][/bold]            
+                             defined in the environment.. Starting              
+                             new server for final_model.                        
+[06/09/26 20:53:27] WARNING  vLLM server started at                  vllm.py:135
+                             http://localhost:35194/v1                          
+---------------------------------------------------------                       
+humaneval (20 samples): vllm/final_model                                        
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 1, max_tokens:   
+4000, log_realtime: False, score_display: False, sandbox: local, dataset:       
+openai/openai_humaneval                                                         
+---------------------------------------------------------                       
+                                                                                
+Steps:   1/20   5% | Samples:   1/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:   2/20  10% | Samples:   2/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:   4/20  20% | Samples:   4/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:   5/20  25% | Samples:   5/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:   6/20  30% | Samples:   6/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:   7/20  35% | Samples:   7/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:   8/20  40% | Samples:   8/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:   9/20  45% | Samples:   9/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  10/20  50% | Samples:  10/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  11/20  55% | Samples:  11/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  12/20  60% | Samples:  12/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  13/20  65% | Samples:  13/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  14/20  70% | Samples:  14/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  15/20  75% | Samples:  15/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  16/20  80% | Samples:  16/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  17/20  85% | Samples:  17/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  18/20  90% | Samples:  18/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  19/20  95% | Samples:  19/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  20/20 100% | Samples:  20/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+
+---------------------------------------------------------                       
+humaneval (20 samples): vllm/final_model                                        
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 1, max_tokens:   
+4000, log_realtime: False, score_display: False, sandbox: local, dataset:       
+openai/openai_humaneval                                                         
+                                                                                
+total time:                0:06:12                                              
+vllm/final_model           78,720 tokens [I: 2,649, O: 76,071]                  
+verify                                                                          
+accuracy  0.050                                                                 
+stderr    0.050                                                                 
+Log: logs/2026-06-09T20-53-27+00-00_humaneval_7ZeaqjTLhLZeAkhxXi3FNo.json       
+---------------------------------------------------------                       
+                                                                                

@@ -1,0 +1,15 @@
+{
+  "baseline": "claude-code-gsm8k",
+  "start": "2026-06-08T14:08:59Z",
+  "end": "2026-06-08T18:58:52Z",
+  "elapsed_seconds": 17393,
+  "exit_code": 1,
+  "timed_out": false,
+  "config": {
+    "base_model_path": "/root/models/Qwen/Qwen3-1.7B-Base",
+    "num_gpus": 4,
+    "time_budget_hours": 10,
+    "claude_model": "claude-opus-4-6",
+    "verl_path": "/workspace/AI4AI/training/verl"
+  }
+}

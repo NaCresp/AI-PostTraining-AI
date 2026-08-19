@@ -1,0 +1,19 @@
+{
+  "setting": "autonomous",
+  "benchmark": "GSM8K",
+  "scaffold": "codex",
+  "agent_model": "gpt-5.2",
+  "base_model": "Qwen3-1.7B-Base",
+  "num_gpus": 4,
+  "time_budget_hours": 10,
+  "elapsed": "03:01:44",
+  "elapsed_seconds": 10904,
+  "start": "2026-06-08T13:54:11Z",
+  "end": "2026-06-08T16:55:34Z",
+  "final_metrics": {
+    "accuracy": 0.5367702805155421,
+    "stderr": 0.013735191956468542
+  },
+  "source_run_id": "codex_gsm8k_qwen3_1_3b_4gpu_v1",
+  "note": "Reconstructed from the PostTrainBench run record: elapsed from time_taken.txt, start/end from the first and last harness timestamp in trajectory.jsonl."
+}

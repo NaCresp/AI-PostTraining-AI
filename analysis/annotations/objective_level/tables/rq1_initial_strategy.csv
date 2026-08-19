@@ -1,0 +1,32 @@
+harness_family,benchmark,n,objective_counts,top_objective,top_share,entropy,normalized_entropy
+Claude,AIME 2025,32,"{""reward_optimization"":1,""supervised_likelihood"":31}",supervised_likelihood,0.96875,0.13906079845474112,0.20062232431271465
+Claude,ArenaHardWriting,34,"{""supervised_likelihood"":34}",supervised_likelihood,1.0,-0.0,-0.0
+Claude,BFCL,43,"{""supervised_likelihood"":43}",supervised_likelihood,1.0,-0.0,-0.0
+Claude,GPQA Main,39,"{""reward_optimization"":1,""supervised_likelihood"":38}",supervised_likelihood,0.9743589743589743,0.11924692639624491,0.17203694935311378
+Claude,GSM8K,38,"{""reward_optimization"":1,""supervised_likelihood"":37}",supervised_likelihood,0.9736842105263158,0.12169240267806193,0.17556502585750278
+Claude,HealthBench,36,"{""supervised_likelihood"":36}",supervised_likelihood,1.0,-0.0,-0.0
+Claude,HumanEval,37,"{""supervised_likelihood"":37}",supervised_likelihood,1.0,-0.0,-0.0
+Codex,AIME 2025,31,"{""supervised_likelihood"":31}",supervised_likelihood,1.0,-0.0,-0.0
+Codex,ArenaHardWriting,42,"{""supervised_likelihood"":42}",supervised_likelihood,1.0,-0.0,-0.0
+Codex,BFCL,21,"{""supervised_likelihood"":21}",supervised_likelihood,1.0,-0.0,-0.0
+Codex,GPQA Main,35,"{""reward_optimization"":1,""supervised_likelihood"":34}",supervised_likelihood,0.9714285714285714,0.12974069471942834,0.18717625687320819
+Codex,GSM8K,38,"{""supervised_likelihood"":38}",supervised_likelihood,1.0,-0.0,-0.0
+Codex,HealthBench,29,"{""supervised_likelihood"":29}",supervised_likelihood,1.0,-0.0,-0.0
+Codex,HumanEval,31,"{""supervised_likelihood"":31}",supervised_likelihood,1.0,-0.0,-0.0
+GLM-X,AIME 2025,1,"{""supervised_likelihood"":1}",supervised_likelihood,1.0,-0.0,-0.0
+GLM-X,GSM8K,1,"{""supervised_likelihood"":1}",supervised_likelihood,1.0,-0.0,-0.0
+GLM-X,HumanEval,1,"{""supervised_likelihood"":1}",supervised_likelihood,1.0,-0.0,-0.0
+OpenCode,AIME 2025,40,"{""supervised_likelihood"":40}",supervised_likelihood,1.0,-0.0,-0.0
+OpenCode,ArenaHardWriting,38,"{""supervised_likelihood"":38}",supervised_likelihood,1.0,-0.0,-0.0
+OpenCode,BFCL,36,"{""supervised_likelihood"":36}",supervised_likelihood,1.0,-0.0,-0.0
+OpenCode,GPQA Main,43,"{""supervised_likelihood"":43}",supervised_likelihood,1.0,-0.0,-0.0
+OpenCode,GSM8K,41,"{""supervised_likelihood"":41}",supervised_likelihood,1.0,-0.0,-0.0
+OpenCode,HealthBench,38,"{""supervised_likelihood"":38}",supervised_likelihood,1.0,-0.0,-0.0
+OpenCode,HumanEval,39,"{""supervised_likelihood"":39}",supervised_likelihood,1.0,-0.0,-0.0
+Qwen3Max,AIME 2025,4,"{""supervised_likelihood"":4}",supervised_likelihood,1.0,-0.0,-0.0
+Qwen3Max,ArenaHardWriting,4,"{""supervised_likelihood"":4}",supervised_likelihood,1.0,-0.0,-0.0
+Qwen3Max,BFCL,4,"{""supervised_likelihood"":4}",supervised_likelihood,1.0,-0.0,-0.0
+Qwen3Max,GPQA Main,4,"{""supervised_likelihood"":4}",supervised_likelihood,1.0,-0.0,-0.0
+Qwen3Max,GSM8K,4,"{""supervised_likelihood"":4}",supervised_likelihood,1.0,-0.0,-0.0
+Qwen3Max,HealthBench,4,"{""supervised_likelihood"":4}",supervised_likelihood,1.0,-0.0,-0.0
+Qwen3Max,HumanEval,4,"{""supervised_likelihood"":4}",supervised_likelihood,1.0,-0.0,-0.0

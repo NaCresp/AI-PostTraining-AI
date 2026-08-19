@@ -1,0 +1,6 @@
+harness_family,n,n_objective_ready,n_with_valid_pair,n_with_objective_change,valid_objective_pairs,same_objective_pairs,objective_change_pairs,objective_change_rate,within_objective_rate
+Claude,463,259,227,8,1132,1114,18,0.015901060070671377,0.9840989399293286
+Codex,369,227,217,5,943,930,13,0.013785790031813362,0.9862142099681867
+GLM-X,84,3,2,0,3,3,0,0.0,1.0
+OpenCode,394,275,258,3,1411,1407,4,0.002834868887313962,0.997165131112686
+Qwen3Max,28,28,25,0,68,68,0,0.0,1.0

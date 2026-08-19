@@ -1,0 +1,219 @@
+{
+  "samples": 8,
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "max_tokens": 32000,
+  "max_model_len": 32768,
+  "results": [
+    {
+      "name": "v3_c10",
+      "checkpoint": "/workspace/AI4AI/experiments/claude-code-human/workspace/checkpoints/grpo_v3/checkpoint-10",
+      "pass_at_8": 0.1,
+      "pass_at_8_correct": 3,
+      "total_problems": 30,
+      "sample_accuracy": 0.0292,
+      "sample_correct": 7,
+      "sample_total": 240,
+      "correct_ground_truths": [
+        "70",
+        "279",
+        "62"
+      ],
+      "per_problem": [
+        {
+          "index": 0,
+          "ground_truth": "70",
+          "num_correct_samples": 5,
+          "pass": true
+        },
+        {
+          "index": 1,
+          "ground_truth": "588",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 2,
+          "ground_truth": "16",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 3,
+          "ground_truth": "117",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 4,
+          "ground_truth": "279",
+          "num_correct_samples": 1,
+          "pass": true
+        },
+        {
+          "index": 5,
+          "ground_truth": "504",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 6,
+          "ground_truth": "821",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 7,
+          "ground_truth": "77",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 8,
+          "ground_truth": "62",
+          "num_correct_samples": 1,
+          "pass": true
+        },
+        {
+          "index": 9,
+          "ground_truth": "81",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 10,
+          "ground_truth": "259",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 11,
+          "ground_truth": "510",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 12,
+          "ground_truth": "204",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 13,
+          "ground_truth": "60",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 14,
+          "ground_truth": "735",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 15,
+          "ground_truth": "468",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 16,
+          "ground_truth": "49",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 17,
+          "ground_truth": "82",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 18,
+          "ground_truth": "106",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 19,
+          "ground_truth": "336",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 20,
+          "ground_truth": "293",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 21,
+          "ground_truth": "237",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 22,
+          "ground_truth": "610",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 23,
+          "ground_truth": "149",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 24,
+          "ground_truth": "907",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 25,
+          "ground_truth": "113",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 26,
+          "ground_truth": "19",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 27,
+          "ground_truth": "248",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 28,
+          "ground_truth": "104",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 29,
+          "ground_truth": "240",
+          "num_correct_samples": 0,
+          "pass": false
+        }
+      ],
+      "evaluator_sample_level_results": {
+        "aime_2025": {
+          "accuracy": 0.0292,
+          "correct": 7,
+          "total": 240
+        },
+        "overall": {
+          "accuracy": 0.0292,
+          "correct": 7,
+          "total": 240
+        }
+      },
+      "evaluator_stderr_tail": "8/67 [00:01<00:00, 25.80it/s]\nCapturing CUDA graphs (decode, FULL):  76%|███████▌  | 51/67 [00:01<00:00, 26.77it/s]\nCapturing CUDA graphs (decode, FULL):  82%|████████▏ | 55/67 [00:02<00:00, 27.87it/s]\nCapturing CUDA graphs (decode, FULL):  87%|████████▋ | 58/67 [00:02<00:00, 26.83it/s]\nCapturing CUDA graphs (decode, FULL):  91%|█████████ | 61/67 [00:02<00:00, 26.45it/s]\nCapturing CUDA graphs (decode, FULL):  96%|█████████▌| 64/67 [00:02<00:00, 27.24it/s]\nCapturing CUDA graphs (decode, FULL): 100%|██████████| 67/67 [00:02<00:00, 27.43it/s]\nCapturing CUDA graphs (decode, FULL): 100%|██████████| 67/67 [00:02<00:00, 26.97it/s]\n\nAdding requests:   0%|          | 0/30 [00:00<?, ?it/s]\nAdding requests: 100%|██████████| 30/30 [00:00<00:00, 582.53it/s]\n\nProcessed prompts:   0%|          | 0/240 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]\nProcessed prompts:   3%|▎         | 8/240 [00:08<04:15,  1.10s/it, est. speed input: 126.10 toks/s, output: 316.04 toks/s]\nProcessed prompts:   7%|▋         | 16/240 [00:13<03:03,  1.22it/s, est. speed input: 198.38 toks/s, output: 350.56 toks/s]\nProcessed prompts:  10%|█         | 24/240 [00:14<01:38,  2.19it/s, est. speed input: 267.90 toks/s, output: 603.78 toks/s]\nProcessed prompts:  13%|█▎        | 32/240 [00:17<01:35,  2.18it/s, est. speed input: 515.39 toks/s, output: 757.20 toks/s]\nProcessed prompts:  17%|█▋        | 40/240 [00:18<01:09,  2.87it/s, est. speed input: 632.72 toks/s, output: 1003.37 toks/s]\nProcessed prompts:  20%|██        | 48/240 [00:20<00:55,  3.47it/s, est. speed input: 649.35 toks/s, output: 1211.96 toks/s]\nProcessed prompts:  23%|██▎       | 56/240 [00:21<00:44,  4.17it/s, est. speed input: 648.81 toks/s, output: 1430.05 toks/s]\nProcessed prompts:  27%|██▋       | 64/240 [00:21<00:32,  5.41it/s, est. speed input: 682.13 toks/s, output: 1669.05 toks/s]\nProcessed prompts:  30%|███       | 72/240 [00:22<00:28,  6.00it/s, est. speed input: 700.02 toks/s, output: 1870.61 toks/s]\nProcessed prompts:  33%|███▎      | 80/240 [00:23<00:21,  7.37it/s, est. speed input: 723.78 toks/s, output: 2063.32 toks/s]\nProcessed prompts:  37%|███▋      | 88/240 [00:24<00:22,  6.68it/s, est. speed input: 947.23 toks/s, output: 2157.09 toks/s]\nProcessed prompts:  40%|████      | 96/240 [00:29<00:41,  3.46it/s, est. speed input: 833.00 toks/s, output: 2027.02 toks/s]\nProcessed prompts:  43%|████▎     | 104/240 [21:47<1:50:09, 48.60s/it, est. speed input: 23.26 toks/s, output: 124.66 toks/s]\nProcessed prompts:  77%|███████▋  | 184/240 [22:25<08:51,  9.50s/it, est. speed input: 35.34 toks/s, output: 643.82 toks/s]  \nProcessed prompts:  80%|████████  | 192/240 [23:04<07:13,  9.02s/it, est. speed input: 35.84 toks/s, output: 653.87 toks/s]\nProcessed prompts:  83%|████████▎ | 200/240 [24:01<05:50,  8.77s/it, est. speed input: 36.38 toks/s, output: 652.96 toks/s]\nProcessed prompts:  87%|████████▋ | 208/240 [24:37<04:19,  8.11s/it, est. speed input: 36.12 toks/s, output: 661.39 toks/s]\nProcessed prompts:  90%|█████████ | 216/240 [25:21<03:03,  7.64s/it, est. speed input: 36.75 toks/s, output: 689.39 toks/s]\nProcessed prompts:  93%|█████████▎| 224/240 [25:40<01:44,  6.55s/it, est. speed input: 37.33 toks/s, output: 727.60 toks/s]\nProcessed prompts:  97%|█████████▋| 232/240 [25:46<00:41,  5.23s/it, est. speed input: 37.98 toks/s, output: 750.32 toks/s]\nProcessed prompts: 100%|██████████| 240/240 [25:50<00:00,  4.08s/it, est. speed input: 38.60 toks/s, output: 771.95 toks/s]\nProcessed prompts: 100%|██████████| 240/240 [25:50<00:00,  4.08s/it, est. speed input: 38.60 toks/s, output: 771.95 toks/s]\nProcessed prompts: 100%|██████████| 240/240 [25:50<00:00,  6.46s/it, est. speed input: 38.60 toks/s, output: 771.95 toks/s]\n[rank0]:[W623 00:01:07.254807637 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[submodule "verl"]
+	path = framework/skills/wiki/sources/upstream/verl
+	url = https://github.com/volcengine/verl
+[submodule "trl"]
+	path = framework/skills/wiki/sources/upstream/trl
+	url = https://github.com/huggingface/trl
+[submodule "openrlhf"]
+	path = framework/skills/wiki/sources/upstream/openrlhf
+	url = https://github.com/OpenRLHF/OpenRLHF
+[submodule "nemo-rl"]
+	path = framework/skills/wiki/sources/upstream/nemo-rl
+	url = https://github.com/NVIDIA-NeMo/RL
+[submodule "slime"]
+	path = framework/skills/wiki/sources/upstream/slime
+	url = https://github.com/THUDM/slime
+[submodule "miles"]
+	path = framework/skills/wiki/sources/upstream/miles
+	url = https://github.com/radixark/miles

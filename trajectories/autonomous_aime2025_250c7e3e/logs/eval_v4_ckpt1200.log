@@ -1,0 +1,42 @@
+[06/09/26 18:53:04] WARNING  vLLM server config has missing          vllm.py:119
+                             prerequisites ERROR: Unable to                     
+                             initialise vLLM client                             
+                                                                                
+                             No                                                 
+                             [bold][blue]VLLM_BASE_URL[/blue][/bold]            
+                             defined in the environment.. Starting              
+                             new server for                                     
+                             /home/ben/task/sft_output_v4/checkpoint            
+                             -1200.                                             
+[06/09/26 18:54:51] WARNING  vLLM server started at                  vllm.py:135
+                             http://localhost:34963/v1                          
+---------------------------------------------------------                       
+aime2025 (30 samples): vllm//home/ben/task/sft_output_v4/checkpoint-1200        
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 6, max_tokens:   
+16000, log_realtime: False, score_display: False, dataset: math-ai/aime25       
+---------------------------------------------------------                       
+                                                                                
+Steps:   2/30   6% | Samples:   2/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:   5/30  16% | Samples:   5/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:   8/30  26% | Samples:   8/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  14/30  46% | Samples:  14/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  19/30  63% | Samples:  19/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  24/30  80% | Samples:  24/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  27/30  90% | Samples:  27/ 30 | vllm:  3/ 6 | HTTP retries: 0
+Steps:  28/30  93% | Samples:  28/ 30 | vllm:  2/ 6 | HTTP retries: 0
+Steps:  29/30  96% | Samples:  29/ 30 | vllm:  1/ 6 | HTTP retries: 0
+Steps:  30/30 100% | Samples:  30/ 30 | vllm:  0/ 6 | HTTP retries: 0
+
+---------------------------------------------------------                       
+aime2025 (30 samples): vllm//home/ben/task/sft_output_v4/checkpoint-1200        
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 6, max_tokens:   
+16000, log_realtime: False, score_display: False, dataset: math-ai/aime25       
+                                                                                
+total time:                                  0:01:52                            
+vllm//home/ben/task/sft_output_v4/checkpoi…  77,255 tokens [I: 8,302, O: 68,953]
+aime_scorer                                                                     
+accuracy     0.000                                                              
+stderr       0.000                                                              
+Log: logs/2026-06-09T18-54-51+00-00_aime2025_CirA3fWSbZrxkxmSTUGwvq.json        
+---------------------------------------------------------                       
+                                                                                

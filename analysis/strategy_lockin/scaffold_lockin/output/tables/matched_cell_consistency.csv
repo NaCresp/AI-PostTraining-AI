@@ -1,0 +1,13 @@
+benchmark,base_model,claude_full_sft_count,claude_full_sft_share,claude_peft_sft_count,claude_peft_sft_share,claude_identified_initial_n,codex_full_sft_count,codex_full_sft_share,codex_peft_sft_count,codex_peft_sft_share,codex_identified_initial_n,claude_more_full_sft,codex_more_peft,full_sft_share_gap_claude_minus_codex,peft_share_gap_codex_minus_claude
+AIME 2025,Gemma-3-4B-PT,3,0.6,2,0.4,5,0,0.0,12,1.0,12,True,True,0.6,0.6
+AIME 2025,Qwen3-1.7B-Base,2,0.4,0,0.0,5,0,0.0,8,1.0,8,True,True,0.4,1.0
+AIME 2025,Qwen3-4B-Base,6,0.8571428571428571,1,0.14285714285714285,7,0,0.0,8,0.8888888888888888,9,True,True,0.8571428571428571,0.746031746031746
+AIME 2025,SmolLM3-3B-Base,8,1.0,0,0.0,8,0,0.0,11,1.0,11,True,True,1.0,1.0
+GSM8K,Gemma-3-4B-PT,8,1.0,0,0.0,8,1,0.07692307692307693,12,0.9230769230769231,13,True,True,0.9230769230769231,0.9230769230769231
+GSM8K,Qwen3-1.7B-Base,7,1.0,0,0.0,7,2,0.2,7,0.7,10,True,True,0.8,0.7
+GSM8K,Qwen3-4B-Base,5,0.7142857142857143,1,0.14285714285714285,7,1,0.09090909090909091,10,0.9090909090909091,11,True,True,0.6233766233766234,0.7662337662337662
+GSM8K,SmolLM3-3B-Base,3,0.75,1,0.25,4,2,0.2222222222222222,7,0.7777777777777778,9,True,True,0.5277777777777778,0.5277777777777778
+HumanEval,Gemma-3-4B-PT,6,0.8571428571428571,1,0.14285714285714285,7,0,0.0,12,1.0,12,True,True,0.8571428571428571,0.8571428571428572
+HumanEval,Qwen3-1.7B-Base,7,1.0,0,0.0,7,1,0.1,9,0.9,10,True,True,0.9,0.9
+HumanEval,Qwen3-4B-Base,7,0.875,1,0.125,8,0,0.0,13,1.0,13,True,True,0.875,0.875
+HumanEval,SmolLM3-3B-Base,3,0.5,3,0.5,6,1,0.08333333333333333,11,0.9166666666666666,12,True,True,0.4166666666666667,0.41666666666666663

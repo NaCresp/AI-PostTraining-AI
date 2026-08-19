@@ -1,0 +1,855 @@
+W0609 11:58:37.811000 3890 torch/distributed/run.py:774] 
+W0609 11:58:37.811000 3890 torch/distributed/run.py:774] *****************************************
+W0609 11:58:37.811000 3890 torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0609 11:58:37.811000 3890 torch/distributed/run.py:774] *****************************************
+Loading tokenizer...
+Loading model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading and tokenizing dataset...
+Loading tokenizer...
+Loading model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading tokenizer...
+Raw dataset size: 265661
+Loading and tokenizing dataset...
+
+Tokenizing (num_proc=8):   0%|          | 0/265661 [00:00<?, ? examples/s]Loading model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading and tokenizing dataset...
+Loading tokenizer...
+Loading model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Raw dataset size: 265661
+Loading and tokenizing dataset...
+
+Tokenizing (num_proc=8):   0%|          | 0/265661 [00:00<?, ? examples/s]Raw dataset size: 265661
+
+Tokenizing (num_proc=8):   0%|          | 0/265661 [00:00<?, ? examples/s]
+Tokenizing (num_proc=8):   0%|          | 1000/265661 [00:01<07:21, 599.78 examples/s]
+Tokenizing (num_proc=8):   1%|          | 2000/265661 [00:01<03:37, 1212.65 examples/s]Raw dataset size: 265661
+
+Tokenizing (num_proc=8):   0%|          | 0/265661 [00:00<?, ? examples/s]
+Tokenizing (num_proc=8):   1%|          | 3000/265661 [00:02<02:23, 1830.25 examples/s]
+Tokenizing (num_proc=8):   2%|▏         | 5000/265661 [00:02<01:24, 3097.33 examples/s]
+Tokenizing (num_proc=8):   2%|▏         | 6000/265661 [00:02<01:09, 3710.25 examples/s]
+Tokenizing (num_proc=8):   3%|▎         | 7000/265661 [00:02<00:58, 4419.70 examples/s]
+Tokenizing (num_proc=8):   3%|▎         | 8000/265661 [00:02<01:03, 4056.36 examples/s]
+Tokenizing (num_proc=8):   0%|          | 1000/265661 [00:02<10:22, 425.47 examples/s]
+Tokenizing (num_proc=8):   4%|▍         | 10000/265661 [00:03<01:01, 4190.82 examples/s]
+Tokenizing (num_proc=8):   1%|          | 2000/265661 [00:02<04:52, 901.73 examples/s]
+Tokenizing (num_proc=8):   0%|          | 1000/265661 [00:02<10:02, 439.04 examples/s]
+Tokenizing (num_proc=8):   5%|▍         | 12000/265661 [00:03<00:54, 4672.51 examples/s]
+Tokenizing (num_proc=8):   2%|▏         | 5000/265661 [00:02<01:39, 2623.54 examples/s]
+Tokenizing (num_proc=8):   2%|▏         | 6000/265661 [00:02<01:21, 3171.38 examples/s]
+Tokenizing (num_proc=8):   1%|          | 3000/265661 [00:02<03:08, 1395.31 examples/s]
+Tokenizing (num_proc=8):   5%|▍         | 13000/265661 [00:04<00:55, 4556.27 examples/s]
+Tokenizing (num_proc=8):   3%|▎         | 8000/265661 [00:03<00:59, 4311.91 examples/s]
+Tokenizing (num_proc=8):   3%|▎         | 7000/265661 [00:03<01:20, 3217.56 examples/s]
+Tokenizing (num_proc=8):   6%|▌         | 16000/265661 [00:04<00:47, 5238.22 examples/s]
+Tokenizing (num_proc=8):   6%|▋         | 17000/265661 [00:04<00:43, 5719.43 examples/s]
+Tokenizing (num_proc=8):   0%|          | 1000/265661 [00:02<11:15, 391.52 examples/s]
+Tokenizing (num_proc=8):   3%|▎         | 9000/265661 [00:03<01:19, 3217.03 examples/s]
+Tokenizing (num_proc=8):   1%|          | 3000/265661 [00:02<03:16, 1339.31 examples/s]
+Tokenizing (num_proc=8):   7%|▋         | 18000/265661 [00:04<00:50, 4948.67 examples/s]
+Tokenizing (num_proc=8):   4%|▍         | 10000/265661 [00:04<01:12, 3521.26 examples/s]
+Tokenizing (num_proc=8):   2%|▏         | 5000/265661 [00:02<01:42, 2541.31 examples/s]
+Tokenizing (num_proc=8):   3%|▎         | 9000/265661 [00:03<01:19, 3226.18 examples/s]
+Tokenizing (num_proc=8):   7%|▋         | 19000/265661 [00:05<00:49, 5013.14 examples/s]
+Tokenizing (num_proc=8):   5%|▍         | 12000/265661 [00:04<00:50, 5063.56 examples/s]
+Tokenizing (num_proc=8):   8%|▊         | 22000/265661 [00:05<00:29, 8334.71 examples/s]
+Tokenizing (num_proc=8):   3%|▎         | 7000/265661 [00:03<01:12, 3557.87 examples/s]
+Tokenizing (num_proc=8):   4%|▍         | 11000/265661 [00:04<01:06, 3833.53 examples/s]
+Tokenizing (num_proc=8):   5%|▍         | 13000/265661 [00:04<01:05, 3838.82 examples/s]
+Tokenizing (num_proc=8):   9%|▉         | 24000/265661 [00:05<00:33, 7188.98 examples/s]
+Tokenizing (num_proc=8):   5%|▌         | 14000/265661 [00:04<00:47, 5280.53 examples/s]
+Tokenizing (num_proc=8):   9%|▉         | 25000/265661 [00:05<00:32, 7306.11 examples/s]
+Tokenizing (num_proc=8):   6%|▌         | 15000/265661 [00:04<00:47, 5270.40 examples/s]
+Tokenizing (num_proc=8):   6%|▋         | 17000/265661 [00:04<00:38, 6454.08 examples/s]
+Tokenizing (num_proc=8):  10%|▉         | 26000/265661 [00:05<00:39, 6128.99 examples/s]
+Tokenizing (num_proc=8):   7%|▋         | 18000/265661 [00:05<00:41, 6040.33 examples/s]
+Tokenizing (num_proc=8):  10%|█         | 27000/265661 [00:06<00:41, 5727.61 examples/s]
+Tokenizing (num_proc=8):   6%|▌         | 16000/265661 [00:04<00:54, 4608.18 examples/s]
+Tokenizing (num_proc=8):   8%|▊         | 20000/265661 [00:05<00:31, 7802.05 examples/s]
+Tokenizing (num_proc=8):   3%|▎         | 9000/265661 [00:04<01:31, 2804.49 examples/s]
+Tokenizing (num_proc=8):   4%|▍         | 10000/265661 [00:04<01:22, 3114.68 examples/s]
+Tokenizing (num_proc=8):   7%|▋         | 18000/265661 [00:05<00:47, 5228.42 examples/s]
+Tokenizing (num_proc=8):  11%|█         | 29000/265661 [00:06<00:40, 5827.40 examples/s]
+Tokenizing (num_proc=8):   4%|▍         | 11000/265661 [00:04<01:11, 3539.41 examples/s]
+Tokenizing (num_proc=8):  12%|█▏        | 32000/265661 [00:06<00:26, 8886.15 examples/s]
+Tokenizing (num_proc=8):   8%|▊         | 22000/265661 [00:05<00:39, 6234.00 examples/s]
+Tokenizing (num_proc=8):   8%|▊         | 21000/265661 [00:05<00:33, 7347.77 examples/s]
+Tokenizing (num_proc=8):   5%|▍         | 12000/265661 [00:04<01:11, 3523.44 examples/s]
+Tokenizing (num_proc=8):   9%|▊         | 23000/265661 [00:05<00:33, 7320.17 examples/s]
+Tokenizing (num_proc=8):   9%|▉         | 25000/265661 [00:06<00:33, 7264.96 examples/s]
+Tokenizing (num_proc=8):  13%|█▎        | 34000/265661 [00:07<00:31, 7423.67 examples/s]
+Tokenizing (num_proc=8):  10%|▉         | 26000/265661 [00:06<00:36, 6485.77 examples/s]
+Tokenizing (num_proc=8):   5%|▌         | 14000/265661 [00:05<01:01, 4086.96 examples/s]
+Tokenizing (num_proc=8):   9%|▉         | 24000/265661 [00:05<00:41, 5854.94 examples/s]
+Tokenizing (num_proc=8):  13%|█▎        | 35000/265661 [00:07<00:36, 6397.19 examples/s]
+Tokenizing (num_proc=8):  11%|█         | 28000/265661 [00:06<00:28, 8236.01 examples/s]
+Tokenizing (num_proc=8):   6%|▌         | 16000/265661 [00:05<00:44, 5658.49 examples/s]
+Tokenizing (num_proc=8):   7%|▋         | 18000/265661 [00:05<00:33, 7440.02 examples/s]
+Tokenizing (num_proc=8):  10%|▉         | 26000/265661 [00:06<00:38, 6168.56 examples/s]
+Tokenizing (num_proc=8):  14%|█▍        | 37000/265661 [00:07<00:34, 6550.81 examples/s]
+Tokenizing (num_proc=8):  11%|█         | 28000/265661 [00:06<00:30, 7907.31 examples/s]
+Tokenizing (num_proc=8):  14%|█▍        | 38000/265661 [00:07<00:33, 6705.21 examples/s]
+Tokenizing (num_proc=8):  11%|█▏        | 30000/265661 [00:06<00:34, 6851.64 examples/s]
+Tokenizing (num_proc=8):  11%|█▏        | 30000/265661 [00:06<00:27, 8636.81 examples/s]
+Tokenizing (num_proc=8):  15%|█▌        | 40000/265661 [00:07<00:30, 7320.58 examples/s]
+Tokenizing (num_proc=8):   8%|▊         | 20000/265661 [00:05<00:40, 6037.71 examples/s]
+Tokenizing (num_proc=8):  12%|█▏        | 33000/265661 [00:07<00:31, 7405.89 examples/s]
+Tokenizing (num_proc=8):  16%|█▌        | 42000/265661 [00:08<00:25, 8649.13 examples/s]
+Tokenizing (num_proc=8):   8%|▊         | 22000/265661 [00:06<00:41, 5930.58 examples/s]
+Tokenizing (num_proc=8):  13%|█▎        | 34000/265661 [00:07<00:35, 6590.60 examples/s]
+Tokenizing (num_proc=8):  16%|█▌        | 43000/265661 [00:08<00:32, 6927.85 examples/s]
+Tokenizing (num_proc=8):  12%|█▏        | 32000/265661 [00:06<00:37, 6257.40 examples/s]
+Tokenizing (num_proc=8):   9%|▉         | 24000/265661 [00:06<00:32, 7437.06 examples/s]
+Tokenizing (num_proc=8):  14%|█▎        | 36000/265661 [00:07<00:29, 7906.22 examples/s]
+Tokenizing (num_proc=8):  17%|█▋        | 45000/265661 [00:08<00:32, 6785.62 examples/s]
+Tokenizing (num_proc=8):  13%|█▎        | 34000/265661 [00:07<00:36, 6347.56 examples/s]
+Tokenizing (num_proc=8):  10%|▉         | 26000/265661 [00:06<00:34, 7018.67 examples/s]
+Tokenizing (num_proc=8):  14%|█▍        | 37000/265661 [00:07<00:37, 6159.68 examples/s]
+Tokenizing (num_proc=8):  17%|█▋        | 46000/265661 [00:08<00:31, 6909.03 examples/s]
+Tokenizing (num_proc=8):  14%|█▎        | 36000/265661 [00:07<00:30, 7543.70 examples/s]
+Tokenizing (num_proc=8):  15%|█▍        | 39000/265661 [00:07<00:28, 7999.28 examples/s]
+Tokenizing (num_proc=8):  14%|█▍        | 38000/265661 [00:07<00:25, 9020.38 examples/s]
+Tokenizing (num_proc=8):  18%|█▊        | 48000/265661 [00:08<00:27, 7978.18 examples/s]
+Tokenizing (num_proc=8):  10%|█         | 27000/265661 [00:06<00:38, 6187.49 examples/s]
+Tokenizing (num_proc=8):  18%|█▊        | 49000/265661 [00:09<00:28, 7519.94 examples/s]
+Tokenizing (num_proc=8):  15%|█▌        | 41000/265661 [00:08<00:29, 7652.46 examples/s]
+Tokenizing (num_proc=8):  11%|█         | 29000/265661 [00:07<00:34, 6946.83 examples/s]
+Tokenizing (num_proc=8):  19%|█▉        | 50000/265661 [00:09<00:30, 7165.03 examples/s]
+Tokenizing (num_proc=8):  11%|█▏        | 30000/265661 [00:07<00:35, 6697.80 examples/s]
+Tokenizing (num_proc=8):  16%|█▌        | 42000/265661 [00:08<00:34, 6492.24 examples/s]
+Tokenizing (num_proc=8):  19%|█▉        | 51000/265661 [00:09<00:29, 7294.46 examples/s]
+Tokenizing (num_proc=8):  15%|█▌        | 40000/265661 [00:08<00:35, 6393.75 examples/s]
+Tokenizing (num_proc=8):  16%|█▌        | 43000/265661 [00:08<00:32, 6875.13 examples/s]
+Tokenizing (num_proc=8):  12%|█▏        | 33000/265661 [00:07<00:24, 9386.90 examples/s]
+Tokenizing (num_proc=8):  20%|█▉        | 53000/265661 [00:09<00:30, 6923.42 examples/s]
+Tokenizing (num_proc=8):  16%|█▌        | 42000/265661 [00:08<00:34, 6464.98 examples/s]
+Tokenizing (num_proc=8):  17%|█▋        | 45000/265661 [00:08<00:32, 6809.17 examples/s]
+Tokenizing (num_proc=8):  20%|██        | 54000/265661 [00:09<00:29, 7137.45 examples/s]
+Tokenizing (num_proc=8):  17%|█▋        | 44000/265661 [00:08<00:28, 7865.79 examples/s]
+Tokenizing (num_proc=8):  18%|█▊        | 47000/265661 [00:09<00:26, 8347.49 examples/s]
+Tokenizing (num_proc=8):  13%|█▎        | 35000/265661 [00:07<00:34, 6770.12 examples/s]
+Tokenizing (num_proc=8):  17%|█▋        | 46000/265661 [00:08<00:24, 9047.11 examples/s]
+Tokenizing (num_proc=8):  21%|██        | 56000/265661 [00:10<00:25, 8100.63 examples/s]
+Tokenizing (num_proc=8):  21%|██▏       | 57000/265661 [00:10<00:26, 7850.76 examples/s]
+Tokenizing (num_proc=8):  18%|█▊        | 49000/265661 [00:09<00:28, 7607.02 examples/s]
+Tokenizing (num_proc=8):  14%|█▍        | 37000/265661 [00:08<00:38, 5914.08 examples/s]
+Tokenizing (num_proc=8):  22%|██▏       | 58000/265661 [00:10<00:33, 6130.95 examples/s]
+Tokenizing (num_proc=8):  19%|█▉        | 50000/265661 [00:09<00:34, 6332.44 examples/s]
+Tokenizing (num_proc=8):  18%|█▊        | 48000/265661 [00:09<00:34, 6370.97 examples/s]
+Tokenizing (num_proc=8):  15%|█▌        | 40000/265661 [00:08<00:26, 8468.71 examples/s]
+Tokenizing (num_proc=8):  23%|██▎       | 60000/265661 [00:10<00:25, 8067.04 examples/s]
+Tokenizing (num_proc=8):  19%|█▉        | 51000/265661 [00:09<00:31, 6823.11 examples/s]
+Tokenizing (num_proc=8):  23%|██▎       | 61000/265661 [00:10<00:29, 7042.85 examples/s]
+Tokenizing (num_proc=8):  16%|█▌        | 42000/265661 [00:08<00:27, 8091.88 examples/s]
+Tokenizing (num_proc=8):  19%|█▉        | 50000/265661 [00:09<00:34, 6328.23 examples/s]
+Tokenizing (num_proc=8):  20%|█▉        | 52000/265661 [00:09<00:36, 5841.02 examples/s]
+Tokenizing (num_proc=8):  23%|██▎       | 62000/265661 [00:10<00:28, 7052.64 examples/s]
+Tokenizing (num_proc=8):  20%|██        | 54000/265661 [00:10<00:26, 8114.03 examples/s]
+Tokenizing (num_proc=8):  20%|█▉        | 52000/265661 [00:09<00:27, 7666.48 examples/s]
+Tokenizing (num_proc=8):  24%|██▎       | 63000/265661 [00:11<00:26, 7564.18 examples/s]
+Tokenizing (num_proc=8):  17%|█▋        | 44000/265661 [00:08<00:27, 8042.18 examples/s]
+Tokenizing (num_proc=8):  20%|██        | 54000/265661 [00:09<00:23, 8841.36 examples/s]
+Tokenizing (num_proc=8):  24%|██▍       | 65000/265661 [00:11<00:24, 8254.73 examples/s]
+Tokenizing (num_proc=8):  21%|██        | 56000/265661 [00:10<00:31, 6612.68 examples/s]
+Tokenizing (num_proc=8):  17%|█▋        | 46000/265661 [00:09<00:32, 6740.19 examples/s]
+Tokenizing (num_proc=8):  25%|██▍       | 66000/265661 [00:11<00:32, 6228.00 examples/s]
+Tokenizing (num_proc=8):  18%|█▊        | 48000/265661 [00:09<00:26, 8232.45 examples/s]
+Tokenizing (num_proc=8):  21%|██        | 56000/265661 [00:10<00:32, 6541.93 examples/s]
+Tokenizing (num_proc=8):  22%|██▏       | 58000/265661 [00:10<00:30, 6853.53 examples/s]
+Tokenizing (num_proc=8):  26%|██▌       | 68000/265661 [00:11<00:24, 7925.94 examples/s]
+Tokenizing (num_proc=8):  22%|██▏       | 59000/265661 [00:10<00:28, 7228.52 examples/s]
+Tokenizing (num_proc=8):  26%|██▌       | 69000/265661 [00:11<00:26, 7380.93 examples/s]
+Tokenizing (num_proc=8):  23%|██▎       | 60000/265661 [00:11<00:31, 6621.09 examples/s]
+Tokenizing (num_proc=8):  26%|██▋       | 70000/265661 [00:11<00:25, 7581.78 examples/s]
+Tokenizing (num_proc=8):  22%|██▏       | 58000/265661 [00:10<00:32, 6304.98 examples/s]
+Tokenizing (num_proc=8):  23%|██▎       | 62000/265661 [00:11<00:23, 8745.82 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 71000/265661 [00:12<00:24, 7859.53 examples/s]
+Tokenizing (num_proc=8):  19%|█▉        | 50000/265661 [00:10<00:34, 6247.84 examples/s]
+Tokenizing (num_proc=8):  23%|██▎       | 60000/265661 [00:10<00:27, 7560.82 examples/s]
+Tokenizing (num_proc=8):  23%|██▎       | 62000/265661 [00:10<00:22, 8905.05 examples/s]
+Tokenizing (num_proc=8):  20%|█▉        | 52000/265661 [00:10<00:28, 7489.45 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 73000/265661 [00:12<00:22, 8481.81 examples/s]
+Tokenizing (num_proc=8):  24%|██▍       | 64000/265661 [00:11<00:30, 6711.36 examples/s]
+Tokenizing (num_proc=8):  20%|██        | 54000/265661 [00:10<00:28, 7407.21 examples/s]
+Tokenizing (num_proc=8):  28%|██▊       | 74000/265661 [00:12<00:30, 6240.68 examples/s]
+Tokenizing (num_proc=8):  21%|██        | 56000/265661 [00:10<00:24, 8654.42 examples/s]
+Tokenizing (num_proc=8):  24%|██▍       | 64000/265661 [00:11<00:30, 6644.70 examples/s]
+Tokenizing (num_proc=8):  29%|██▊       | 76000/265661 [00:12<00:24, 7902.46 examples/s]
+Tokenizing (num_proc=8):  25%|██▍       | 66000/265661 [00:11<00:28, 6998.26 examples/s]
+Tokenizing (num_proc=8):  29%|██▉       | 77000/265661 [00:12<00:26, 7164.63 examples/s]
+Tokenizing (num_proc=8):  26%|██▌       | 68000/265661 [00:12<00:28, 7027.35 examples/s]
+Tokenizing (num_proc=8):  25%|██▍       | 66000/265661 [00:11<00:32, 6232.78 examples/s]
+Tokenizing (num_proc=8):  30%|██▉       | 79000/265661 [00:13<00:23, 7951.33 examples/s]
+Tokenizing (num_proc=8):  22%|██▏       | 58000/265661 [00:11<00:32, 6351.24 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 71000/265661 [00:12<00:21, 9111.25 examples/s]
+Tokenizing (num_proc=8):  26%|██▌       | 69000/265661 [00:11<00:22, 8654.22 examples/s]
+Tokenizing (num_proc=8):  30%|███       | 81000/265661 [00:13<00:22, 8167.07 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 71000/265661 [00:12<00:23, 8332.37 examples/s]
+Tokenizing (num_proc=8):  23%|██▎       | 60000/265661 [00:11<00:34, 5969.86 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 73000/265661 [00:12<00:25, 7573.03 examples/s]
+Tokenizing (num_proc=8):  31%|███       | 82000/265661 [00:13<00:28, 6409.26 examples/s]
+Tokenizing (num_proc=8):  24%|██▎       | 63000/265661 [00:11<00:25, 7983.09 examples/s]
+Tokenizing (num_proc=8):  32%|███▏      | 84000/265661 [00:13<00:23, 7836.29 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 73000/265661 [00:12<00:25, 7491.70 examples/s]
+Tokenizing (num_proc=8):  28%|██▊       | 74000/265661 [00:12<00:29, 6502.36 examples/s]
+Tokenizing (num_proc=8):  32%|███▏      | 85000/265661 [00:14<00:25, 7087.19 examples/s]
+Tokenizing (num_proc=8):  24%|██▍       | 65000/265661 [00:11<00:25, 7791.56 examples/s]
+Tokenizing (num_proc=8):  29%|██▊       | 76000/265661 [00:13<00:26, 7032.41 examples/s]
+Tokenizing (num_proc=8):  33%|███▎      | 87000/265661 [00:14<00:22, 8067.89 examples/s]
+Tokenizing (num_proc=8):  28%|██▊       | 74000/265661 [00:12<00:33, 5765.43 examples/s]
+Tokenizing (num_proc=8):  29%|██▉       | 78000/265661 [00:13<00:21, 8682.79 examples/s]
+Tokenizing (num_proc=8):  25%|██▍       | 66000/265661 [00:12<00:28, 6959.21 examples/s]
+Tokenizing (num_proc=8):  29%|██▉       | 77000/265661 [00:12<00:22, 8495.14 examples/s]
+Tokenizing (num_proc=8):  34%|███▎      | 89000/265661 [00:14<00:21, 8125.34 examples/s]
+Tokenizing (num_proc=8):  26%|██▌       | 68000/265661 [00:12<00:30, 6449.43 examples/s]
+Tokenizing (num_proc=8):  30%|██▉       | 79000/265661 [00:13<00:23, 7939.33 examples/s]
+Tokenizing (num_proc=8):  30%|███       | 80000/265661 [00:13<00:28, 6605.81 examples/s]
+Tokenizing (num_proc=8):  34%|███▍      | 90000/265661 [00:14<00:26, 6560.14 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 71000/265661 [00:12<00:23, 8158.82 examples/s]
+Tokenizing (num_proc=8):  34%|███▍      | 91000/265661 [00:14<00:26, 6646.26 examples/s]
+Tokenizing (num_proc=8):  30%|███       | 81000/265661 [00:13<00:25, 7353.27 examples/s]
+Tokenizing (num_proc=8):  31%|███       | 82000/265661 [00:14<00:27, 6704.93 examples/s]
+Tokenizing (num_proc=8):  35%|███▌      | 93000/265661 [00:15<00:23, 7335.47 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 72000/265661 [00:12<00:28, 6852.14 examples/s]
+Tokenizing (num_proc=8):  32%|███▏      | 84000/265661 [00:14<00:24, 7407.98 examples/s]
+Tokenizing (num_proc=8):  36%|███▌      | 95000/265661 [00:15<00:20, 8417.40 examples/s]
+Tokenizing (num_proc=8):  27%|██▋       | 73000/265661 [00:13<00:28, 6646.10 examples/s]
+Tokenizing (num_proc=8):  31%|███       | 82000/265661 [00:13<00:31, 5802.02 examples/s]
+Tokenizing (num_proc=8):  32%|███▏      | 86000/265661 [00:14<00:20, 8857.03 examples/s]
+Tokenizing (num_proc=8):  32%|███▏      | 85000/265661 [00:14<00:21, 8494.00 examples/s]
+Tokenizing (num_proc=8):  37%|███▋      | 97000/265661 [00:15<00:19, 8487.58 examples/s]
+Tokenizing (num_proc=8):  29%|██▊       | 76000/265661 [00:13<00:27, 6952.27 examples/s]
+Tokenizing (num_proc=8):  33%|███▎      | 87000/265661 [00:14<00:22, 8075.72 examples/s]
+Tokenizing (num_proc=8):  33%|███▎      | 88000/265661 [00:14<00:26, 6600.93 examples/s]
+Tokenizing (num_proc=8):  37%|███▋      | 98000/265661 [00:15<00:26, 6381.13 examples/s]
+Tokenizing (num_proc=8):  30%|██▉       | 79000/265661 [00:13<00:21, 8821.60 examples/s]
+Tokenizing (num_proc=8):  37%|███▋      | 99000/265661 [00:15<00:24, 6770.92 examples/s]
+Tokenizing (num_proc=8):  34%|███▍      | 90000/265661 [00:15<00:26, 6744.23 examples/s]
+Tokenizing (num_proc=8):  34%|███▎      | 89000/265661 [00:14<00:25, 7007.17 examples/s]
+Tokenizing (num_proc=8):  30%|███       | 80000/265661 [00:14<00:25, 7151.79 examples/s]
+Tokenizing (num_proc=8):  38%|███▊      | 101000/265661 [00:16<00:23, 6874.97 examples/s]
+Tokenizing (num_proc=8):  35%|███▍      | 92000/265661 [00:15<00:22, 7853.10 examples/s]
+Tokenizing (num_proc=8):  35%|███▌      | 93000/265661 [00:15<00:22, 7733.02 examples/s]
+Tokenizing (num_proc=8):  39%|███▉      | 103000/265661 [00:16<00:20, 8105.66 examples/s]
+Tokenizing (num_proc=8):  34%|███▍      | 90000/265661 [00:15<00:30, 5828.62 examples/s]
+Tokenizing (num_proc=8):  30%|███       | 81000/265661 [00:14<00:29, 6322.71 examples/s]
+Tokenizing (num_proc=8):  35%|███▌      | 93000/265661 [00:15<00:19, 8816.38 examples/s]
+Tokenizing (num_proc=8):  36%|███▌      | 95000/265661 [00:15<00:18, 9067.43 examples/s]
+Tokenizing (num_proc=8):  40%|███▉      | 105000/265661 [00:16<00:17, 9208.05 examples/s]
+Tokenizing (num_proc=8):  31%|███       | 83000/265661 [00:14<00:29, 6231.35 examples/s]
+Tokenizing (num_proc=8):  36%|███▌      | 95000/265661 [00:15<00:20, 8142.12 examples/s]
+Tokenizing (num_proc=8):  40%|███▉      | 106000/265661 [00:16<00:25, 6353.13 examples/s]
+Tokenizing (num_proc=8):  37%|███▋      | 97000/265661 [00:15<00:23, 7104.44 examples/s]
+Tokenizing (num_proc=8):  32%|███▏      | 86000/265661 [00:14<00:21, 8333.08 examples/s]
+Tokenizing (num_proc=8):  41%|████      | 108000/265661 [00:17<00:21, 7273.80 examples/s]
+Tokenizing (num_proc=8):  37%|███▋      | 98000/265661 [00:16<00:26, 6304.79 examples/s]
+Tokenizing (num_proc=8):  33%|███▎      | 87000/265661 [00:15<00:24, 7188.26 examples/s]
+Tokenizing (num_proc=8):  37%|███▋      | 97000/265661 [00:15<00:23, 7079.37 examples/s]
+Tokenizing (num_proc=8):  41%|████      | 109000/265661 [00:17<00:22, 7010.56 examples/s]
+Tokenizing (num_proc=8):  38%|███▊      | 100000/265661 [00:16<00:22, 7458.39 examples/s]
+Tokenizing (num_proc=8):  34%|███▎      | 89000/265661 [00:15<00:24, 7185.52 examples/s]
+Tokenizing (num_proc=8):  38%|███▊      | 102000/265661 [00:16<00:17, 9281.95 examples/s]
+Tokenizing (num_proc=8):  37%|███▋      | 98000/265661 [00:16<00:28, 5881.51 examples/s]
+Tokenizing (num_proc=8):  42%|████▏     | 111000/265661 [00:17<00:19, 7829.20 examples/s]
+Tokenizing (num_proc=8):  43%|████▎     | 113000/265661 [00:17<00:15, 9767.53 examples/s]
+Tokenizing (num_proc=8):  38%|███▊      | 100000/265661 [00:16<00:22, 7509.24 examples/s]
+Tokenizing (num_proc=8):  38%|███▊      | 102000/265661 [00:16<00:17, 9163.43 examples/s]
+Tokenizing (num_proc=8):  34%|███▍      | 91000/265661 [00:15<00:25, 6805.84 examples/s]
+Tokenizing (num_proc=8):  35%|███▌      | 93000/265661 [00:15<00:20, 8288.31 examples/s]
+Tokenizing (num_proc=8):  39%|███▉      | 104000/265661 [00:17<00:25, 6329.94 examples/s]
+Tokenizing (num_proc=8):  43%|████▎     | 115000/265661 [00:18<00:23, 6494.93 examples/s]
+Tokenizing (num_proc=8):  39%|███▉      | 104000/265661 [00:16<00:25, 6324.48 examples/s]
+Tokenizing (num_proc=8):  40%|███▉      | 106000/265661 [00:17<00:24, 6548.50 examples/s]
+Tokenizing (num_proc=8):  36%|███▌      | 95000/265661 [00:16<00:24, 6926.83 examples/s]
+Tokenizing (num_proc=8):  44%|████▍     | 117000/265661 [00:18<00:21, 6950.91 examples/s]
+Tokenizing (num_proc=8):  41%|████      | 108000/265661 [00:17<00:21, 7435.72 examples/s]
+Tokenizing (num_proc=8):  36%|███▌      | 96000/265661 [00:16<00:25, 6663.24 examples/s]
+Tokenizing (num_proc=8):  45%|████▍     | 119000/265661 [00:18<00:19, 7648.57 examples/s]
+Tokenizing (num_proc=8):  37%|███▋      | 98000/265661 [00:16<00:19, 8461.59 examples/s]
+Tokenizing (num_proc=8):  40%|███▉      | 106000/265661 [00:17<00:26, 6073.24 examples/s]
+Tokenizing (num_proc=8):  42%|████▏     | 111000/265661 [00:17<00:17, 8678.76 examples/s]
+Tokenizing (num_proc=8):  41%|████      | 108000/265661 [00:17<00:20, 7564.32 examples/s]
+Tokenizing (num_proc=8):  38%|███▊      | 100000/265661 [00:16<00:21, 7647.52 examples/s]
+Tokenizing (num_proc=8):  42%|████▏     | 111000/265661 [00:17<00:17, 8661.78 examples/s]
+Tokenizing (num_proc=8):  38%|███▊      | 102000/265661 [00:16<00:17, 9231.93 examples/s]
+Tokenizing (num_proc=8):  42%|████▏     | 112000/265661 [00:18<00:22, 6695.80 examples/s]
+Tokenizing (num_proc=8):  46%|████▌     | 122000/265661 [00:19<00:20, 6913.44 examples/s]
+Tokenizing (num_proc=8):  46%|████▋     | 123000/265661 [00:19<00:20, 6874.48 examples/s]
+Tokenizing (num_proc=8):  47%|████▋     | 124000/265661 [00:19<00:19, 7185.94 examples/s]
+Tokenizing (num_proc=8):  43%|████▎     | 114000/265661 [00:18<00:23, 6458.36 examples/s]
+Tokenizing (num_proc=8):  43%|████▎     | 113000/265661 [00:18<00:21, 7237.54 examples/s]
+Tokenizing (num_proc=8):  47%|████▋     | 125000/265661 [00:19<00:19, 7147.41 examples/s]
+Tokenizing (num_proc=8):  44%|████▎     | 116000/265661 [00:18<00:19, 7789.66 examples/s]
+Tokenizing (num_proc=8):  39%|███▉      | 104000/265661 [00:17<00:24, 6582.78 examples/s]
+Tokenizing (num_proc=8):  48%|████▊     | 127000/265661 [00:19<00:16, 8477.50 examples/s]
+Tokenizing (num_proc=8):  44%|████▍     | 118000/265661 [00:18<00:15, 9391.14 examples/s]
+Tokenizing (num_proc=8):  40%|███▉      | 106000/265661 [00:17<00:20, 7938.10 examples/s]
+Tokenizing (num_proc=8):  43%|████▎     | 114000/265661 [00:18<00:25, 5940.95 examples/s]
+Tokenizing (num_proc=8):  44%|████▎     | 116000/265661 [00:18<00:19, 7605.81 examples/s]
+Tokenizing (num_proc=8):  41%|████      | 108000/265661 [00:17<00:20, 7512.57 examples/s]
+Tokenizing (num_proc=8):  41%|████▏     | 110000/265661 [00:17<00:17, 8861.87 examples/s]
+Tokenizing (num_proc=8):  45%|████▍     | 119000/265661 [00:18<00:17, 8560.71 examples/s]
+Tokenizing (num_proc=8):  49%|████▉     | 130000/265661 [00:20<00:18, 7192.32 examples/s]
+Tokenizing (num_proc=8):  45%|████▌     | 120000/265661 [00:19<00:22, 6603.64 examples/s]
+Tokenizing (num_proc=8):  49%|████▉     | 131000/265661 [00:20<00:19, 7062.81 examples/s]
+Tokenizing (num_proc=8):  50%|████▉     | 132000/265661 [00:20<00:18, 7396.31 examples/s]
+Tokenizing (num_proc=8):  46%|████▌     | 121000/265661 [00:19<00:19, 7470.26 examples/s]
+Tokenizing (num_proc=8):  46%|████▌     | 122000/265661 [00:19<00:22, 6335.52 examples/s]
+Tokenizing (num_proc=8):  50%|█████     | 133000/265661 [00:20<00:17, 7590.08 examples/s]
+Tokenizing (num_proc=8):  42%|████▏     | 112000/265661 [00:18<00:23, 6599.44 examples/s]
+Tokenizing (num_proc=8):  47%|████▋     | 124000/265661 [00:19<00:18, 7665.68 examples/s]
+Tokenizing (num_proc=8):  43%|████▎     | 113000/265661 [00:18<00:21, 6998.67 examples/s]
+Tokenizing (num_proc=8):  51%|█████     | 135000/265661 [00:20<00:15, 8398.96 examples/s]
+Tokenizing (num_proc=8):  46%|████▌     | 122000/265661 [00:19<00:24, 5846.44 examples/s]
+Tokenizing (num_proc=8):  48%|████▊     | 127000/265661 [00:19<00:15, 8753.82 examples/s]
+Tokenizing (num_proc=8):  47%|████▋     | 125000/265661 [00:19<00:16, 8745.60 examples/s]
+Tokenizing (num_proc=8):  43%|████▎     | 115000/265661 [00:18<00:21, 7077.95 examples/s]
+Tokenizing (num_proc=8):  44%|████▍     | 117000/265661 [00:18<00:16, 8945.07 examples/s]
+Tokenizing (num_proc=8):  48%|████▊     | 127000/265661 [00:19<00:16, 8472.57 examples/s]
+Tokenizing (num_proc=8):  52%|█████▏    | 138000/265661 [00:21<00:17, 7285.03 examples/s]
+Tokenizing (num_proc=8):  49%|████▊     | 129000/265661 [00:20<00:19, 7137.07 examples/s]
+Tokenizing (num_proc=8):  52%|█████▏    | 139000/265661 [00:21<00:17, 7305.72 examples/s]
+Tokenizing (num_proc=8):  45%|████▍     | 119000/265661 [00:19<00:20, 7040.38 examples/s]
+Tokenizing (num_proc=8):  53%|█████▎    | 140000/265661 [00:21<00:18, 6980.59 examples/s]
+Tokenizing (num_proc=8):  49%|████▊     | 129000/265661 [00:20<00:18, 7262.33 examples/s]
+Tokenizing (num_proc=8):  49%|████▉     | 130000/265661 [00:20<00:22, 6023.54 examples/s]
+Tokenizing (num_proc=8):  45%|████▌     | 120000/265661 [00:19<00:21, 6892.57 examples/s]
+Tokenizing (num_proc=8):  53%|█████▎    | 142000/265661 [00:21<00:14, 8476.35 examples/s]
+Tokenizing (num_proc=8):  50%|█████     | 133000/265661 [00:20<00:14, 8855.31 examples/s]
+Tokenizing (num_proc=8):  46%|████▌     | 121000/265661 [00:19<00:20, 7131.07 examples/s]
+Tokenizing (num_proc=8):  54%|█████▍    | 143000/265661 [00:21<00:14, 8333.99 examples/s]
+Tokenizing (num_proc=8):  49%|████▉     | 131000/265661 [00:20<00:21, 6352.10 examples/s]
+Tokenizing (num_proc=8):  46%|████▌     | 122000/265661 [00:19<00:23, 6199.03 examples/s]
+Tokenizing (num_proc=8):  51%|█████     | 135000/265661 [00:21<00:15, 8468.22 examples/s]
+Tokenizing (num_proc=8):  50%|█████     | 134000/265661 [00:20<00:15, 8740.46 examples/s]
+Tokenizing (num_proc=8):  47%|████▋     | 125000/265661 [00:20<00:16, 8753.10 examples/s]
+Tokenizing (num_proc=8):  55%|█████▍    | 146000/265661 [00:22<00:16, 7174.98 examples/s]
+Tokenizing (num_proc=8):  55%|█████▌    | 147000/265661 [00:22<00:16, 7311.64 examples/s]
+Tokenizing (num_proc=8):  52%|█████▏    | 137000/265661 [00:21<00:18, 6979.12 examples/s]
+Tokenizing (num_proc=8):  48%|████▊     | 127000/265661 [00:20<00:18, 7496.97 examples/s]
+Tokenizing (num_proc=8):  56%|█████▌    | 148000/265661 [00:22<00:17, 6592.11 examples/s]
+Tokenizing (num_proc=8):  51%|█████     | 136000/265661 [00:21<00:19, 6529.66 examples/s]
+Tokenizing (num_proc=8):  52%|█████▏    | 138000/265661 [00:21<00:21, 5922.36 examples/s]
+Tokenizing (num_proc=8):  48%|████▊     | 128000/265661 [00:20<00:19, 7167.12 examples/s]
+Tokenizing (num_proc=8):  56%|█████▋    | 150000/265661 [00:22<00:13, 8376.94 examples/s]
+Tokenizing (num_proc=8):  57%|█████▋    | 151000/265661 [00:22<00:13, 8291.32 examples/s]
+Tokenizing (num_proc=8):  53%|█████▎    | 142000/265661 [00:21<00:13, 9381.11 examples/s]
+Tokenizing (num_proc=8):  58%|█████▊    | 153000/265661 [00:22<00:10, 10598.26 examples/s]
+Tokenizing (num_proc=8):  52%|█████▏    | 138000/265661 [00:21<00:21, 6040.50 examples/s]
+Tokenizing (num_proc=8):  49%|████▉     | 130000/265661 [00:20<00:20, 6525.92 examples/s]
+Tokenizing (num_proc=8):  53%|█████▎    | 142000/265661 [00:21<00:13, 9046.99 examples/s]
+Tokenizing (num_proc=8):  50%|█████     | 133000/265661 [00:21<00:15, 8816.69 examples/s]
+Tokenizing (num_proc=8):  54%|█████▍    | 144000/265661 [00:22<00:17, 7150.52 examples/s]
+Tokenizing (num_proc=8):  58%|█████▊    | 155000/265661 [00:23<00:17, 6463.46 examples/s] 
+Tokenizing (num_proc=8):  55%|█████▍    | 145000/265661 [00:22<00:17, 6917.40 examples/s]
+Tokenizing (num_proc=8):  50%|█████     | 134000/265661 [00:21<00:19, 6651.56 examples/s]
+Tokenizing (num_proc=8):  59%|█████▊    | 156000/265661 [00:23<00:18, 5858.79 examples/s]
+Tokenizing (num_proc=8):  51%|█████     | 135000/265661 [00:21<00:19, 6680.30 examples/s]
+Tokenizing (num_proc=8):  54%|█████▍    | 144000/265661 [00:22<00:18, 6691.01 examples/s]
+Tokenizing (num_proc=8):  55%|█████▍    | 146000/265661 [00:22<00:20, 5951.36 examples/s]
+Tokenizing (num_proc=8):  60%|█████▉    | 159000/265661 [00:23<00:12, 8454.05 examples/s]
+Tokenizing (num_proc=8):  56%|█████▋    | 150000/265661 [00:22<00:11, 9718.26 examples/s]
+Tokenizing (num_proc=8):  61%|██████    | 161000/265661 [00:24<00:10, 9589.90 examples/s]
+Tokenizing (num_proc=8):  52%|█████▏    | 137000/265661 [00:21<00:21, 6086.21 examples/s]
+Tokenizing (num_proc=8):  55%|█████▍    | 146000/265661 [00:22<00:19, 6227.49 examples/s]
+Tokenizing (num_proc=8):  56%|█████▋    | 150000/265661 [00:22<00:12, 9241.60 examples/s]
+Tokenizing (num_proc=8):  53%|█████▎    | 141000/265661 [00:22<00:13, 9413.69 examples/s]
+Tokenizing (num_proc=8):  57%|█████▋    | 152000/265661 [00:23<00:15, 7518.87 examples/s]
+Tokenizing (num_proc=8):  61%|██████▏   | 163000/265661 [00:24<00:15, 6605.72 examples/s]
+Tokenizing (num_proc=8):  54%|█████▍    | 143000/265661 [00:22<00:16, 7253.83 examples/s]
+Tokenizing (num_proc=8):  62%|██████▏   | 164000/265661 [00:24<00:16, 5983.63 examples/s]
+Tokenizing (num_proc=8):  57%|█████▋    | 152000/265661 [00:23<00:16, 6713.19 examples/s]
+Tokenizing (num_proc=8):  58%|█████▊    | 154000/265661 [00:23<00:18, 6010.47 examples/s]
+Tokenizing (num_proc=8):  63%|██████▎   | 167000/265661 [00:24<00:11, 8818.58 examples/s]
+Tokenizing (num_proc=8):  59%|█████▉    | 158000/265661 [00:24<00:11, 9250.09 examples/s]
+Tokenizing (num_proc=8):  64%|██████▎   | 169000/265661 [00:25<00:10, 9355.26 examples/s]
+Tokenizing (num_proc=8):  55%|█████▍    | 145000/265661 [00:23<00:18, 6443.74 examples/s]
+Tokenizing (num_proc=8):  58%|█████▊    | 154000/265661 [00:23<00:18, 6184.47 examples/s]
+Tokenizing (num_proc=8):  56%|█████▌    | 148000/265661 [00:23<00:14, 8222.99 examples/s]
+Tokenizing (num_proc=8):  59%|█████▉    | 158000/265661 [00:23<00:11, 9396.59 examples/s]
+Tokenizing (num_proc=8):  60%|██████    | 160000/265661 [00:24<00:14, 7382.98 examples/s]
+Tokenizing (num_proc=8):  56%|█████▋    | 150000/265661 [00:23<00:15, 7660.05 examples/s]
+Tokenizing (num_proc=8):  64%|██████▍   | 171000/265661 [00:25<00:15, 6264.45 examples/s]
+Tokenizing (num_proc=8):  57%|█████▋    | 151000/265661 [00:23<00:15, 7597.50 examples/s]
+Tokenizing (num_proc=8):  65%|██████▍   | 172000/265661 [00:25<00:15, 6014.17 examples/s]
+Tokenizing (num_proc=8):  57%|█████▋    | 152000/265661 [00:23<00:14, 7767.93 examples/s]
+Tokenizing (num_proc=8):  60%|██████    | 160000/265661 [00:24<00:15, 6795.14 examples/s]
+Tokenizing (num_proc=8):  61%|██████    | 162000/265661 [00:24<00:16, 6194.54 examples/s]
+Tokenizing (num_proc=8):  66%|██████▌   | 175000/265661 [00:25<00:10, 9014.85 examples/s]
+Tokenizing (num_proc=8):  62%|██████▏   | 166000/265661 [00:25<00:11, 9054.65 examples/s]
+Tokenizing (num_proc=8):  58%|█████▊    | 153000/265661 [00:24<00:18, 6169.60 examples/s]
+Tokenizing (num_proc=8):  67%|██████▋   | 177000/265661 [00:26<00:10, 8843.44 examples/s]
+Tokenizing (num_proc=8):  58%|█████▊    | 155000/265661 [00:24<00:13, 8259.18 examples/s]
+Tokenizing (num_proc=8):  61%|██████    | 162000/265661 [00:24<00:16, 6179.85 examples/s]
+Tokenizing (num_proc=8):  62%|██████▏   | 166000/265661 [00:25<00:10, 9296.58 examples/s]
+Tokenizing (num_proc=8):  63%|██████▎   | 168000/265661 [00:25<00:13, 7505.75 examples/s]
+Tokenizing (num_proc=8):  59%|█████▉    | 157000/265661 [00:24<00:14, 7298.81 examples/s]
+Tokenizing (num_proc=8):  67%|██████▋   | 179000/265661 [00:26<00:13, 6211.32 examples/s]
+Tokenizing (num_proc=8):  60%|█████▉    | 159000/265661 [00:24<00:13, 8102.54 examples/s]
+Tokenizing (num_proc=8):  68%|██████▊   | 180000/265661 [00:26<00:13, 6409.46 examples/s]
+Tokenizing (num_proc=8):  60%|██████    | 160000/265661 [00:24<00:12, 8176.53 examples/s]
+Tokenizing (num_proc=8):  63%|██████▎   | 168000/265661 [00:25<00:14, 6913.64 examples/s]
+Tokenizing (num_proc=8):  64%|██████▍   | 170000/265661 [00:26<00:15, 6176.56 examples/s]
+Tokenizing (num_proc=8):  69%|██████▉   | 183000/265661 [00:27<00:08, 9332.00 examples/s]
+Tokenizing (num_proc=8):  65%|██████▌   | 174000/265661 [00:26<00:10, 9113.46 examples/s]
+Tokenizing (num_proc=8):  61%|██████    | 161000/265661 [00:25<00:16, 6212.27 examples/s]
+Tokenizing (num_proc=8):  70%|██████▉   | 185000/265661 [00:27<00:09, 8854.39 examples/s]
+Tokenizing (num_proc=8):  62%|██████▏   | 164000/265661 [00:25<00:12, 8403.60 examples/s]
+Tokenizing (num_proc=8):  64%|██████▍   | 170000/265661 [00:26<00:16, 5968.62 examples/s]
+Tokenizing (num_proc=8):  66%|██████▌   | 176000/265661 [00:26<00:12, 7233.87 examples/s]
+Tokenizing (num_proc=8):  62%|██████▏   | 165000/265661 [00:25<00:14, 6854.74 examples/s]
+Tokenizing (num_proc=8):  66%|██████▌   | 175000/265661 [00:26<00:10, 8299.17 examples/s]
+Tokenizing (num_proc=8):  70%|███████   | 187000/265661 [00:27<00:13, 6008.49 examples/s]
+Tokenizing (num_proc=8):  63%|██████▎   | 167000/265661 [00:25<00:11, 8228.42 examples/s]
+Tokenizing (num_proc=8):  71%|███████   | 188000/265661 [00:27<00:12, 6302.74 examples/s]
+Tokenizing (num_proc=8):  63%|██████▎   | 168000/265661 [00:25<00:12, 7773.19 examples/s]
+Tokenizing (num_proc=8):  67%|██████▋   | 178000/265661 [00:27<00:13, 6358.01 examples/s]
+Tokenizing (num_proc=8):  67%|██████▋   | 177000/265661 [00:26<00:11, 7886.66 examples/s]
+Tokenizing (num_proc=8):  68%|██████▊   | 180000/265661 [00:27<00:11, 7562.05 examples/s]
+Tokenizing (num_proc=8):  72%|███████▏  | 192000/265661 [00:28<00:07, 9462.65 examples/s]
+Tokenizing (num_proc=8):  69%|██████▊   | 182000/265661 [00:27<00:09, 9074.55 examples/s]
+Tokenizing (num_proc=8):  64%|██████▎   | 169000/265661 [00:26<00:15, 6425.66 examples/s]
+Tokenizing (num_proc=8):  64%|██████▍   | 171000/265661 [00:26<00:11, 8307.24 examples/s]
+Tokenizing (num_proc=8):  65%|██████▍   | 172000/265661 [00:26<00:11, 8470.87 examples/s]
+Tokenizing (num_proc=8):  67%|██████▋   | 179000/265661 [00:27<00:13, 6495.61 examples/s]
+Tokenizing (num_proc=8):  69%|██████▉   | 184000/265661 [00:27<00:11, 7218.60 examples/s]
+Tokenizing (num_proc=8):  73%|███████▎  | 194000/265661 [00:28<00:10, 6767.37 examples/s]
+Tokenizing (num_proc=8):  65%|██████▌   | 173000/265661 [00:26<00:14, 6545.58 examples/s]
+Tokenizing (num_proc=8):  66%|██████▌   | 175000/265661 [00:26<00:10, 8649.98 examples/s]
+Tokenizing (num_proc=8):  69%|██████▉   | 183000/265661 [00:27<00:10, 7818.52 examples/s]
+Tokenizing (num_proc=8):  73%|███████▎  | 195000/265661 [00:28<00:11, 6279.47 examples/s]
+Tokenizing (num_proc=8):  74%|███████▍  | 196000/265661 [00:29<00:10, 6480.76 examples/s]
+Tokenizing (num_proc=8):  70%|███████   | 186000/265661 [00:28<00:12, 6318.02 examples/s]
+Tokenizing (num_proc=8):  69%|██████▉   | 184000/265661 [00:27<00:11, 7005.24 examples/s]
+Tokenizing (num_proc=8):  71%|███████   | 188000/265661 [00:28<00:10, 7458.03 examples/s]
+Tokenizing (num_proc=8):  75%|███████▌  | 200000/265661 [00:29<00:06, 10071.61 examples/s]
+Tokenizing (num_proc=8):  67%|██████▋   | 177000/265661 [00:27<00:13, 6546.92 examples/s]
+Tokenizing (num_proc=8):  67%|██████▋   | 179000/265661 [00:27<00:10, 8466.68 examples/s]
+Tokenizing (num_proc=8):  70%|███████   | 186000/265661 [00:28<00:13, 5941.34 examples/s]
+Tokenizing (num_proc=8):  72%|███████▏  | 191000/265661 [00:28<00:10, 7173.24 examples/s]
+Tokenizing (num_proc=8):  72%|███████▏  | 190000/265661 [00:28<00:08, 9169.02 examples/s]
+Tokenizing (num_proc=8):  76%|███████▌  | 202000/265661 [00:29<00:09, 6816.59 examples/s] 
+Tokenizing (num_proc=8):  68%|██████▊   | 181000/265661 [00:27<00:12, 6959.60 examples/s]
+Tokenizing (num_proc=8):  69%|██████▉   | 183000/265661 [00:27<00:09, 8663.60 examples/s]
+Tokenizing (num_proc=8):  76%|███████▋  | 203000/265661 [00:30<00:10, 6113.34 examples/s]
+Tokenizing (num_proc=8):  73%|███████▎  | 193000/265661 [00:29<00:11, 6211.50 examples/s]
+Tokenizing (num_proc=8):  77%|███████▋  | 205000/265661 [00:30<00:07, 7769.04 examples/s]
+Tokenizing (num_proc=8):  72%|███████▏  | 192000/265661 [00:28<00:10, 7073.58 examples/s]
+Tokenizing (num_proc=8):  78%|███████▊  | 208000/265661 [00:30<00:05, 9962.86 examples/s]
+Tokenizing (num_proc=8):  74%|███████▍  | 196000/265661 [00:29<00:09, 7604.16 examples/s]
+Tokenizing (num_proc=8):  70%|██████▉   | 185000/265661 [00:28<00:12, 6680.88 examples/s]
+Tokenizing (num_proc=8):  70%|███████   | 187000/265661 [00:28<00:09, 8366.54 examples/s]
+Tokenizing (num_proc=8):  73%|███████▎  | 194000/265661 [00:29<00:11, 6015.19 examples/s]
+Tokenizing (num_proc=8):  75%|███████▍  | 199000/265661 [00:29<00:09, 7367.45 examples/s]
+Tokenizing (num_proc=8):  75%|███████▍  | 198000/265661 [00:29<00:07, 9306.03 examples/s]
+Tokenizing (num_proc=8):  71%|███████   | 189000/265661 [00:28<00:10, 7052.36 examples/s]
+Tokenizing (num_proc=8):  79%|███████▉  | 210000/265661 [00:30<00:08, 6826.42 examples/s]
+Tokenizing (num_proc=8):  72%|███████▏  | 191000/265661 [00:28<00:08, 8509.20 examples/s]
+Tokenizing (num_proc=8):  80%|███████▉  | 212000/265661 [00:31<00:08, 6612.85 examples/s]
+Tokenizing (num_proc=8):  76%|███████▌  | 201000/265661 [00:30<00:09, 6503.68 examples/s]
+Tokenizing (num_proc=8):  81%|████████  | 214000/265661 [00:31<00:06, 8151.86 examples/s]
+Tokenizing (num_proc=8):  75%|███████▌  | 200000/265661 [00:29<00:09, 7013.44 examples/s]
+Tokenizing (num_proc=8):  73%|███████▎  | 193000/265661 [00:29<00:10, 6822.64 examples/s]
+Tokenizing (num_proc=8):  77%|███████▋  | 204000/265661 [00:30<00:07, 7789.82 examples/s]
+Tokenizing (num_proc=8):  73%|███████▎  | 195000/265661 [00:29<00:08, 8417.78 examples/s]
+Tokenizing (num_proc=8):  82%|████████▏ | 217000/265661 [00:31<00:05, 8829.86 examples/s]
+Tokenizing (num_proc=8):  76%|███████▌  | 202000/265661 [00:30<00:10, 6036.30 examples/s]
+Tokenizing (num_proc=8):  78%|███████▊  | 207000/265661 [00:30<00:07, 7463.31 examples/s]
+Tokenizing (num_proc=8):  74%|███████▍  | 197000/265661 [00:29<00:09, 6918.43 examples/s]
+Tokenizing (num_proc=8):  77%|███████▋  | 205000/265661 [00:30<00:07, 8307.46 examples/s]
+Tokenizing (num_proc=8):  82%|████████▏ | 219000/265661 [00:32<00:07, 6167.37 examples/s]
+Tokenizing (num_proc=8):  78%|███████▊  | 207000/265661 [00:30<00:07, 8007.62 examples/s]
+Tokenizing (num_proc=8):  83%|████████▎ | 221000/265661 [00:32<00:05, 7526.02 examples/s]
+Tokenizing (num_proc=8):  79%|███████▊  | 209000/265661 [00:31<00:08, 6627.21 examples/s]
+Tokenizing (num_proc=8):  75%|███████▌  | 200000/265661 [00:30<00:08, 7338.54 examples/s]
+Tokenizing (num_proc=8):  76%|███████▌  | 201000/265661 [00:30<00:08, 7304.93 examples/s]
+Tokenizing (num_proc=8):  84%|████████▍ | 224000/265661 [00:32<00:04, 9307.44 examples/s]
+Tokenizing (num_proc=8):  79%|███████▊  | 209000/265661 [00:31<00:07, 7740.33 examples/s]
+Tokenizing (num_proc=8):  80%|███████▉  | 212000/265661 [00:31<00:06, 7915.05 examples/s]
+Tokenizing (num_proc=8):  76%|███████▋  | 203000/265661 [00:30<00:07, 8831.43 examples/s]
+Tokenizing (num_proc=8):  77%|███████▋  | 205000/265661 [00:30<00:08, 7102.40 examples/s]
+Tokenizing (num_proc=8):  81%|████████  | 215000/265661 [00:32<00:06, 7519.73 examples/s]
+Tokenizing (num_proc=8):  79%|███████▉  | 211000/265661 [00:31<00:08, 6222.24 examples/s]
+Tokenizing (num_proc=8):  85%|████████▌ | 226000/265661 [00:33<00:05, 6787.83 examples/s]
+Tokenizing (num_proc=8):  78%|███████▊  | 207000/265661 [00:30<00:06, 8676.97 examples/s]
+Tokenizing (num_proc=8):  81%|████████  | 215000/265661 [00:31<00:06, 7860.89 examples/s]
+Tokenizing (num_proc=8):  86%|████████▌ | 228000/265661 [00:33<00:05, 6605.90 examples/s]
+Tokenizing (num_proc=8):  82%|████████▏ | 217000/265661 [00:32<00:07, 6600.30 examples/s]
+Tokenizing (num_proc=8):  87%|████████▋ | 230000/265661 [00:33<00:04, 8087.61 examples/s]
+Tokenizing (num_proc=8):  79%|███████▊  | 209000/265661 [00:31<00:08, 6915.38 examples/s]
+Tokenizing (num_proc=8):  87%|████████▋ | 232000/265661 [00:33<00:03, 9523.86 examples/s]
+Tokenizing (num_proc=8):  82%|████████▏ | 217000/265661 [00:32<00:06, 7616.15 examples/s]
+Tokenizing (num_proc=8):  79%|███████▉  | 211000/265661 [00:31<00:06, 8510.49 examples/s]
+Tokenizing (num_proc=8):  83%|████████▎ | 220000/265661 [00:32<00:05, 7938.23 examples/s]
+Tokenizing (num_proc=8):  82%|████████▏ | 218000/265661 [00:32<00:08, 5827.02 examples/s]
+Tokenizing (num_proc=8):  80%|████████  | 213000/265661 [00:31<00:07, 6868.51 examples/s]
+Tokenizing (num_proc=8):  84%|████████▍ | 223000/265661 [00:33<00:05, 7574.82 examples/s]
+Tokenizing (num_proc=8):  88%|████████▊ | 234000/265661 [00:34<00:04, 6501.19 examples/s]
+Tokenizing (num_proc=8):  81%|████████  | 215000/265661 [00:32<00:05, 8556.61 examples/s]
+Tokenizing (num_proc=8):  83%|████████▎ | 221000/265661 [00:32<00:05, 8283.23 examples/s]
+Tokenizing (num_proc=8):  89%|████████▉ | 236000/265661 [00:34<00:04, 6574.31 examples/s]
+Tokenizing (num_proc=8):  84%|████████▍ | 223000/265661 [00:33<00:05, 7699.65 examples/s]
+Tokenizing (num_proc=8):  85%|████████▍ | 225000/265661 [00:33<00:06, 6548.20 examples/s]
+Tokenizing (num_proc=8):  90%|████████▉ | 238000/265661 [00:34<00:03, 8154.29 examples/s]
+Tokenizing (num_proc=8):  82%|████████▏ | 217000/265661 [00:32<00:07, 6622.00 examples/s]
+Tokenizing (num_proc=8):  90%|█████████ | 240000/265661 [00:34<00:02, 9328.58 examples/s]
+Tokenizing (num_proc=8):  86%|████████▌ | 228000/265661 [00:33<00:04, 8153.85 examples/s]
+Tokenizing (num_proc=8):  85%|████████▍ | 225000/265661 [00:33<00:05, 7661.87 examples/s]
+Tokenizing (num_proc=8):  83%|████████▎ | 220000/265661 [00:32<00:04, 9338.81 examples/s]
+Tokenizing (num_proc=8):  87%|████████▋ | 230000/265661 [00:33<00:03, 9272.47 examples/s]
+Tokenizing (num_proc=8):  85%|████████▌ | 226000/265661 [00:33<00:06, 5705.41 examples/s]
+Tokenizing (num_proc=8):  91%|█████████ | 242000/265661 [00:35<00:03, 6495.65 examples/s]
+Tokenizing (num_proc=8):  84%|████████▎ | 222000/265661 [00:33<00:06, 7115.31 examples/s]
+Tokenizing (num_proc=8):  87%|████████▋ | 232000/265661 [00:34<00:04, 7748.01 examples/s]
+Tokenizing (num_proc=8):  86%|████████▌ | 229000/265661 [00:33<00:04, 8336.26 examples/s]
+Tokenizing (num_proc=8):  84%|████████▍ | 224000/265661 [00:33<00:05, 7390.16 examples/s]
+Tokenizing (num_proc=8):  92%|█████████▏| 244000/265661 [00:35<00:03, 6751.58 examples/s]
+Tokenizing (num_proc=8):  87%|████████▋ | 231000/265661 [00:34<00:04, 7961.64 examples/s]
+Tokenizing (num_proc=8):  88%|████████▊ | 233000/265661 [00:34<00:05, 5943.61 examples/s]
+Tokenizing (num_proc=8):  92%|█████████▏| 245000/265661 [00:35<00:02, 6901.67 examples/s]
+Tokenizing (num_proc=8):  85%|████████▌ | 226000/265661 [00:33<00:05, 7720.02 examples/s]
+Tokenizing (num_proc=8):  93%|█████████▎| 248000/265661 [00:35<00:01, 9728.88 examples/s]
+Tokenizing (num_proc=8):  86%|████████▌ | 228000/265661 [00:33<00:04, 9367.19 examples/s]
+Tokenizing (num_proc=8):  89%|████████▉ | 236000/265661 [00:34<00:03, 7910.75 examples/s]
+Tokenizing (num_proc=8):  88%|████████▊ | 233000/265661 [00:34<00:04, 7367.23 examples/s]
+Tokenizing (num_proc=8):  90%|████████▉ | 238000/265661 [00:34<00:03, 8987.14 examples/s]
+Tokenizing (num_proc=8):  88%|████████▊ | 234000/265661 [00:34<00:05, 5719.83 examples/s]
+Tokenizing (num_proc=8):  87%|████████▋ | 230000/265661 [00:34<00:05, 6849.95 examples/s]
+Tokenizing (num_proc=8):  94%|█████████▍| 250000/265661 [00:36<00:02, 6610.06 examples/s]
+Tokenizing (num_proc=8):  90%|█████████ | 240000/265661 [00:35<00:03, 7662.19 examples/s]
+Tokenizing (num_proc=8):  89%|████████▉ | 237000/265661 [00:34<00:03, 8284.91 examples/s]
+Tokenizing (num_proc=8):  87%|████████▋ | 232000/265661 [00:34<00:04, 7462.60 examples/s]
+Tokenizing (num_proc=8):  94%|█████████▍| 251000/265661 [00:36<00:02, 5995.12 examples/s]
+Tokenizing (num_proc=8):  95%|█████████▌| 253000/265661 [00:36<00:01, 7617.83 examples/s]
+Tokenizing (num_proc=8):  91%|█████████ | 241000/265661 [00:35<00:04, 5888.07 examples/s]
+Tokenizing (num_proc=8):  90%|████████▉ | 239000/265661 [00:35<00:03, 7936.15 examples/s]
+Tokenizing (num_proc=8):  96%|█████████▌| 255000/265661 [00:36<00:01, 9400.39 examples/s]
+Tokenizing (num_proc=8):  88%|████████▊ | 234000/265661 [00:34<00:04, 7244.39 examples/s]
+Tokenizing (num_proc=8):  91%|█████████▏| 243000/265661 [00:35<00:03, 7476.01 examples/s]
+Tokenizing (num_proc=8):  97%|█████████▋| 257207/265661 [00:36<00:00, 9852.88 examples/s]
+Tokenizing (num_proc=8):  91%|█████████ | 241000/265661 [00:35<00:03, 7291.22 examples/s]
+Tokenizing (num_proc=8):  92%|█████████▏| 245000/265661 [00:36<00:02, 7889.95 examples/s]
+Tokenizing (num_proc=8):  89%|████████▉ | 237000/265661 [00:35<00:04, 6938.14 examples/s]
+Tokenizing (num_proc=8):  93%|█████████▎| 247000/265661 [00:36<00:02, 7588.09 examples/s]
+Tokenizing (num_proc=8):  90%|████████▉ | 239000/265661 [00:35<00:03, 8390.45 examples/s]
+Tokenizing (num_proc=8):  91%|█████████ | 242000/265661 [00:35<00:04, 5647.90 examples/s]
+Tokenizing (num_proc=8):  97%|█████████▋| 258622/265661 [00:37<00:01, 6708.10 examples/s]
+Tokenizing (num_proc=8):  93%|█████████▎| 248000/265661 [00:36<00:02, 7567.99 examples/s]
+Tokenizing (num_proc=8):  92%|█████████▏| 245000/265661 [00:36<00:02, 8569.01 examples/s]
+Tokenizing (num_proc=8):  98%|█████████▊| 259622/265661 [00:37<00:00, 6355.30 examples/s]
+Tokenizing (num_proc=8):  94%|█████████▎| 249000/265661 [00:36<00:02, 5862.42 examples/s]
+Tokenizing (num_proc=8):  93%|█████████▎| 247000/265661 [00:36<00:02, 8126.83 examples/s]
+Tokenizing (num_proc=8):  98%|█████████▊| 261622/265661 [00:37<00:00, 7138.61 examples/s]
+Tokenizing (num_proc=8):  91%|█████████ | 241000/265661 [00:35<00:03, 6698.98 examples/s]
+Tokenizing (num_proc=8):  94%|█████████▍| 251000/265661 [00:36<00:01, 7560.33 examples/s]
+Tokenizing (num_proc=8):  91%|█████████▏| 243000/265661 [00:35<00:02, 8234.57 examples/s]
+Tokenizing (num_proc=8):  94%|█████████▎| 249000/265661 [00:36<00:02, 7298.16 examples/s]
+Tokenizing (num_proc=8):  95%|█████████▌| 253000/265661 [00:37<00:01, 8032.70 examples/s]
+Tokenizing (num_proc=8):  99%|█████████▉| 263246/265661 [00:38<00:00, 6303.13 examples/s]
+Tokenizing (num_proc=8):  92%|█████████▏| 245000/265661 [00:36<00:02, 6929.01 examples/s]
+Tokenizing (num_proc=8):  96%|█████████▌| 255000/265661 [00:37<00:01, 7502.04 examples/s]
+Tokenizing (num_proc=8):  93%|█████████▎| 247000/265661 [00:36<00:02, 8429.27 examples/s]
+Tokenizing (num_proc=8):  94%|█████████▍| 250000/265661 [00:37<00:02, 5829.34 examples/s]
+Tokenizing (num_proc=8):  99%|█████████▉| 264246/265661 [00:38<00:00, 5309.57 examples/s]
+Tokenizing (num_proc=8):  94%|█████████▍| 251000/265661 [00:37<00:02, 6266.19 examples/s]
+Tokenizing (num_proc=8):  96%|█████████▋| 256000/265661 [00:37<00:01, 7414.81 examples/s]
+Tokenizing (num_proc=8):  97%|█████████▋| 257000/265661 [00:37<00:01, 6220.44 examples/s]
+Tokenizing (num_proc=8):  96%|█████████▌| 255000/265661 [00:37<00:01, 8556.57 examples/s]
+Tokenizing (num_proc=8): 100%|█████████▉| 265453/265661 [00:38<00:00, 4347.34 examples/s]
+Tokenizing (num_proc=8):  94%|█████████▎| 249000/265661 [00:36<00:02, 6611.51 examples/s]
+Tokenizing (num_proc=8):  97%|█████████▋| 259000/265661 [00:37<00:00, 7810.95 examples/s]
+Tokenizing (num_proc=8):  96%|█████████▋| 256000/265661 [00:37<00:01, 7648.56 examples/s]
+Tokenizing (num_proc=8):  98%|█████████▊| 260207/265661 [00:38<00:00, 8255.96 examples/s]
+Tokenizing (num_proc=8):  97%|█████████▋| 257000/265661 [00:37<00:01, 7956.67 examples/s]
+Tokenizing (num_proc=8):  99%|█████████▉| 262415/265661 [00:38<00:00, 10543.32 examples/s]
+Tokenizing (num_proc=8):  95%|█████████▍| 252208/265661 [00:37<00:01, 7649.26 examples/s]
+Tokenizing (num_proc=8): 100%|██████████| 265661/265661 [00:39<00:00, 6772.17 examples/s]
+Tokenized dataset size: 265661
+
+Tokenizing (num_proc=8):  95%|█████████▌| 253415/265661 [00:37<00:01, 7667.73 examples/s]
+Tokenizing (num_proc=8):  96%|█████████▌| 254415/265661 [00:37<00:01, 7800.70 examples/s]
+Tokenizing (num_proc=8):  99%|█████████▉| 264038/265661 [00:38<00:00, 7819.75 examples/s] Creating trainer...
+
+Tokenizing (num_proc=8):  97%|█████████▋| 258415/265661 [00:38<00:01, 5991.79 examples/s]
+Tokenizing (num_proc=8):  98%|█████████▊| 259415/265661 [00:38<00:00, 6490.67 examples/s]
+Tokenizing (num_proc=8): 100%|█████████▉| 265246/265661 [00:38<00:00, 8028.58 examples/s]
+Tokenizing (num_proc=8):  96%|█████████▋| 255831/265661 [00:37<00:01, 6858.96 examples/s]
+Tokenizing (num_proc=8):  99%|█████████▉| 262623/265661 [00:38<00:00, 9779.58 examples/s]
+Tokenizing (num_proc=8):  97%|█████████▋| 256831/265661 [00:37<00:01, 7170.07 examples/s]
+Tokenizing (num_proc=8):  99%|█████████▉| 264039/265661 [00:38<00:00, 9946.91 examples/s]
+Tokenizing (num_proc=8):  97%|█████████▋| 258039/265661 [00:37<00:00, 7647.98 examples/s]
+Tokenizing (num_proc=8): 100%|██████████| 265661/265661 [00:39<00:00, 6795.72 examples/s]
+Tokenized dataset size: 265661
+
+Tokenizing (num_proc=8):  98%|█████████▊| 259246/265661 [00:38<00:00, 6740.16 examples/s]Creating trainer...
+Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+
+Tokenizing (num_proc=8): 100%|█████████▉| 265454/265661 [00:39<00:00, 4133.99 examples/s]Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+
+Tokenizing (num_proc=8): 100%|██████████| 265661/265661 [00:39<00:00, 6659.48 examples/s]
+Tokenized dataset size: 265661
+Creating trainer...
+
+Tokenizing (num_proc=8):  98%|█████████▊| 260454/265661 [00:39<00:02, 2257.21 examples/s]Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+
+Tokenizing (num_proc=8):  98%|█████████▊| 261454/265661 [00:40<00:02, 1677.02 examples/s]Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+
+Tokenizing (num_proc=8):  99%|█████████▉| 262454/265661 [00:41<00:02, 1388.87 examples/s]
+Tokenizing (num_proc=8):  99%|█████████▉| 263454/265661 [00:42<00:01, 1242.47 examples/s]
+Tokenizing (num_proc=8): 100%|█████████▉| 264454/265661 [00:43<00:01, 1159.60 examples/s]
+Tokenizing (num_proc=8): 100%|█████████▉| 265454/265661 [00:44<00:00, 1084.47 examples/s]
+Tokenizing (num_proc=8): 100%|██████████| 265661/265661 [00:45<00:00, 1055.86 examples/s]
+Tokenizing (num_proc=8): 100%|██████████| 265661/265661 [00:45<00:00, 5878.00 examples/s]
+Tokenized dataset size: 265661
+Creating trainer...
+Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+
+  0%|          | 0/4151 [00:00<?, ?it/s][rank2]: Traceback (most recent call last):
+[rank2]:   File "/home/ben/task/train_v2.py", line 110, in <module>
+[rank2]:     main()
+[rank2]:   File "/home/ben/task/train_v2.py", line 101, in main
+[rank2]:     trainer.train()
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 2325, in train
+[rank2]:     return inner_training_loop(
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 2618, in _inner_training_loop
+[rank2]:     batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 5654, in get_batch_samples
+[rank2]:     batch_samples.append(next(epoch_iterator))
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/accelerate/data_loader.py", line 567, in __iter__
+[rank2]:     current_batch = next(dataloader_iter)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 734, in __next__
+[rank2]:     data = self._next_data()
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 1516, in _next_data
+[rank2]:     return self._process_data(data, worker_id)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 1551, in _process_data
+[rank2]:     data.reraise()
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/torch/_utils.py", line 769, in reraise
+[rank2]:     raise exception
+[rank2]: ValueError: Caught ValueError in DataLoader worker process 0.
+[rank2]: Original Traceback (most recent call last):
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 796, in convert_to_tensors
+[rank2]:     tensor = as_tensor(value)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 743, in as_tensor
+[rank2]:     return torch.tensor(value, dtype=dtype)
+[rank2]: ValueError: expected sequence of length 487 at dim 1 (got 419)
+
+[rank2]: The above exception was the direct cause of the following exception:
+
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+[rank2]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+[rank2]:     return self.collate_fn(data)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 45, in __call__
+[rank2]:     return self.torch_call(features)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 1033, in torch_call
+[rank2]:     batch = pad_without_fast_tokenizer_warning(
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+[rank2]:     padded = tokenizer.pad(*pad_args, **pad_kwargs)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 3592, in pad
+[rank2]:     return BatchEncoding(batch_outputs, tensor_type=return_tensors)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 249, in __init__
+[rank2]:     self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+[rank2]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 812, in convert_to_tensors
+[rank2]:     raise ValueError(
+[rank2]: ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`labels` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
+
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/home/ben/task/train_v2.py", line 110, in <module>
+[rank3]:     main()
+[rank3]:   File "/home/ben/task/train_v2.py", line 101, in main
+[rank3]:     trainer.train()
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 2325, in train
+[rank3]:     return inner_training_loop(
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 2618, in _inner_training_loop
+[rank3]:     batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 5654, in get_batch_samples
+[rank3]:     batch_samples.append(next(epoch_iterator))
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/accelerate/data_loader.py", line 567, in __iter__
+[rank3]:     current_batch = next(dataloader_iter)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 734, in __next__
+[rank3]:     data = self._next_data()
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 1516, in _next_data
+[rank3]:     return self._process_data(data, worker_id)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 1551, in _process_data
+[rank3]:     data.reraise()
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/_utils.py", line 769, in reraise
+[rank3]:     raise exception
+[rank3]: ValueError: Caught ValueError in DataLoader worker process 0.
+[rank3]: Original Traceback (most recent call last):
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 796, in convert_to_tensors
+[rank3]:     tensor = as_tensor(value)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 743, in as_tensor
+[rank3]:     return torch.tensor(value, dtype=dtype)
+[rank3]: ValueError: expected sequence of length 687 at dim 1 (got 996)
+
+[rank3]: The above exception was the direct cause of the following exception:
+
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+[rank3]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+[rank3]:     return self.collate_fn(data)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 45, in __call__
+[rank3]:     return self.torch_call(features)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 1033, in torch_call
+[rank3]:     batch = pad_without_fast_tokenizer_warning(
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+[rank3]:     padded = tokenizer.pad(*pad_args, **pad_kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 3592, in pad
+[rank3]:     return BatchEncoding(batch_outputs, tensor_type=return_tensors)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 249, in __init__
+[rank3]:     self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 812, in convert_to_tensors
+[rank3]:     raise ValueError(
+[rank3]: ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`labels` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
+
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/ben/task/train_v2.py", line 110, in <module>
+[rank1]:     main()
+[rank1]:   File "/home/ben/task/train_v2.py", line 101, in main
+[rank1]:     trainer.train()
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 2325, in train
+[rank1]:     return inner_training_loop(
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 2618, in _inner_training_loop
+[rank1]:     batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 5654, in get_batch_samples
+[rank1]:     batch_samples.append(next(epoch_iterator))
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/accelerate/data_loader.py", line 567, in __iter__
+[rank1]:     current_batch = next(dataloader_iter)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 734, in __next__
+[rank1]:     data = self._next_data()
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 1516, in _next_data
+[rank1]:     return self._process_data(data, worker_id)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 1551, in _process_data
+[rank1]:     data.reraise()
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/torch/_utils.py", line 769, in reraise
+[rank1]:     raise exception
+[rank1]: ValueError: Caught ValueError in DataLoader worker process 0.
+[rank1]: Original Traceback (most recent call last):
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 796, in convert_to_tensors
+[rank1]:     tensor = as_tensor(value)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 743, in as_tensor
+[rank1]:     return torch.tensor(value, dtype=dtype)
+[rank1]: ValueError: expected sequence of length 908 at dim 1 (got 136)
+
+[rank1]: The above exception was the direct cause of the following exception:
+
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+[rank1]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+[rank1]:     return self.collate_fn(data)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 45, in __call__
+[rank1]:     return self.torch_call(features)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 1033, in torch_call
+[rank1]:     batch = pad_without_fast_tokenizer_warning(
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+[rank1]:     padded = tokenizer.pad(*pad_args, **pad_kwargs)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 3592, in pad
+[rank1]:     return BatchEncoding(batch_outputs, tensor_type=return_tensors)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 249, in __init__
+[rank1]:     self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+[rank1]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 812, in convert_to_tensors
+[rank1]:     raise ValueError(
+[rank1]: ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`labels` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/ben/task/train_v2.py", line 110, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/ben/task/train_v2.py", line 101, in main
+[rank0]:     trainer.train()
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 2325, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 2618, in _inner_training_loop
+[rank0]:     batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/trainer.py", line 5654, in get_batch_samples
+[rank0]:     batch_samples.append(next(epoch_iterator))
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/accelerate/data_loader.py", line 567, in __iter__
+[rank0]:     current_batch = next(dataloader_iter)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 734, in __next__
+[rank0]:     data = self._next_data()
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 1516, in _next_data
+[rank0]:     return self._process_data(data, worker_id)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py", line 1551, in _process_data
+[rank0]:     data.reraise()
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/_utils.py", line 769, in reraise
+[rank0]:     raise exception
+[rank0]: ValueError: Caught ValueError in DataLoader worker process 0.
+[rank0]: Original Traceback (most recent call last):
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 796, in convert_to_tensors
+[rank0]:     tensor = as_tensor(value)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 743, in as_tensor
+[rank0]:     return torch.tensor(value, dtype=dtype)
+[rank0]: ValueError: expected sequence of length 305 at dim 1 (got 591)
+
+[rank0]: The above exception was the direct cause of the following exception:
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+[rank0]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+[rank0]:     return self.collate_fn(data)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 45, in __call__
+[rank0]:     return self.torch_call(features)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 1033, in torch_call
+[rank0]:     batch = pad_without_fast_tokenizer_warning(
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/data/data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+[rank0]:     padded = tokenizer.pad(*pad_args, **pad_kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 3592, in pad
+[rank0]:     return BatchEncoding(batch_outputs, tensor_type=return_tensors)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 249, in __init__
+[rank0]:     self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py", line 812, in convert_to_tensors
+[rank0]:     raise ValueError(
+[rank0]: ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`labels` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
+
+
+  0%|          | 0/4151 [00:00<?, ?it/s]
+[rank0]:[W609 11:59:40.782801212 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W0609 11:59:40.928000 3890 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3957 closing signal SIGTERM
+W0609 11:59:40.929000 3890 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3960 closing signal SIGTERM
+E0609 11:59:41.145000 3890 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 1 (pid: 3958) of binary: /usr/bin/python
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 901, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 143, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 277, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_v2.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-06-09_11:59:40
+  host      : g54
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3959)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-06-09_11:59:40
+  host      : g54
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3958)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

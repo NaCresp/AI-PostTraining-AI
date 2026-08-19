@@ -1,0 +1,16 @@
+{
+  "pipeline_version": "pilot-pipeline-v1",
+  "canonical_task_depth": 2,
+  "source_priority": ["solve_out.txt", "trace.txt"],
+  "matched_cohort": {
+    "base_models": ["Qwen3-1.7B-Base", "Qwen3-4B-Base"],
+    "benchmarks": ["GSM8K", "HumanEval", "AIME 2025"]
+  },
+  "parser": {
+    "max_text_chars_per_event": 200000,
+    "allow_plain_trace_fallback": true
+  },
+  "outputs": {
+    "format": ["jsonl", "csv", "markdown", "json"]
+  }
+}

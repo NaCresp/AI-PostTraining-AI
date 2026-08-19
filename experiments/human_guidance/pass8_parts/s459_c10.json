@@ -1,0 +1,219 @@
+{
+  "samples": 8,
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "max_tokens": 32000,
+  "max_model_len": 32768,
+  "results": [
+    {
+      "name": "s459_c10",
+      "checkpoint": "/workspace/AI4AI/experiments/claude-code-human/workspace/checkpoints/grpo_s459/checkpoint-10",
+      "pass_at_8": 0.1,
+      "pass_at_8_correct": 3,
+      "total_problems": 30,
+      "sample_accuracy": 0.0208,
+      "sample_correct": 5,
+      "sample_total": 240,
+      "correct_ground_truths": [
+        "70",
+        "16",
+        "504"
+      ],
+      "per_problem": [
+        {
+          "index": 0,
+          "ground_truth": "70",
+          "num_correct_samples": 2,
+          "pass": true
+        },
+        {
+          "index": 1,
+          "ground_truth": "588",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 2,
+          "ground_truth": "16",
+          "num_correct_samples": 1,
+          "pass": true
+        },
+        {
+          "index": 3,
+          "ground_truth": "117",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 4,
+          "ground_truth": "279",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 5,
+          "ground_truth": "504",
+          "num_correct_samples": 2,
+          "pass": true
+        },
+        {
+          "index": 6,
+          "ground_truth": "821",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 7,
+          "ground_truth": "77",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 8,
+          "ground_truth": "62",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 9,
+          "ground_truth": "81",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 10,
+          "ground_truth": "259",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 11,
+          "ground_truth": "510",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 12,
+          "ground_truth": "204",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 13,
+          "ground_truth": "60",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 14,
+          "ground_truth": "735",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 15,
+          "ground_truth": "468",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 16,
+          "ground_truth": "49",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 17,
+          "ground_truth": "82",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 18,
+          "ground_truth": "106",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 19,
+          "ground_truth": "336",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 20,
+          "ground_truth": "293",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 21,
+          "ground_truth": "237",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 22,
+          "ground_truth": "610",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 23,
+          "ground_truth": "149",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 24,
+          "ground_truth": "907",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 25,
+          "ground_truth": "113",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 26,
+          "ground_truth": "19",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 27,
+          "ground_truth": "248",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 28,
+          "ground_truth": "104",
+          "num_correct_samples": 0,
+          "pass": false
+        },
+        {
+          "index": 29,
+          "ground_truth": "240",
+          "num_correct_samples": 0,
+          "pass": false
+        }
+      ],
+      "evaluator_sample_level_results": {
+        "aime_2025": {
+          "accuracy": 0.0208,
+          "correct": 5,
+          "total": 240
+        },
+        "overall": {
+          "accuracy": 0.0208,
+          "correct": 5,
+          "total": 240
+        }
+      },
+      "evaluator_stderr_tail": " 26.27it/s]\nCapturing CUDA graphs (decode, FULL):  18%|█▊        | 12/67 [00:00<00:02, 27.06it/s]\nCapturing CUDA graphs (decode, FULL):  22%|██▏       | 15/67 [00:00<00:01, 27.68it/s]\nCapturing CUDA graphs (decode, FULL):  28%|██▊       | 19/67 [00:00<00:01, 30.72it/s]\nCapturing CUDA graphs (decode, FULL):  36%|███▌      | 24/67 [00:00<00:01, 34.35it/s]\nCapturing CUDA graphs (decode, FULL):  43%|████▎     | 29/67 [00:00<00:01, 37.03it/s]\nCapturing CUDA graphs (decode, FULL):  51%|█████     | 34/67 [00:01<00:00, 39.03it/s]\nCapturing CUDA graphs (decode, FULL):  58%|█████▊    | 39/67 [00:01<00:00, 40.61it/s]\nCapturing CUDA graphs (decode, FULL):  66%|██████▌   | 44/67 [00:01<00:00, 41.97it/s]\nCapturing CUDA graphs (decode, FULL):  73%|███████▎  | 49/67 [00:01<00:00, 42.97it/s]\nCapturing CUDA graphs (decode, FULL):  81%|████████  | 54/67 [00:01<00:00, 43.80it/s]\nCapturing CUDA graphs (decode, FULL):  88%|████████▊ | 59/67 [00:01<00:00, 44.09it/s]\nCapturing CUDA graphs (decode, FULL):  96%|█████████▌| 64/67 [00:01<00:00, 44.84it/s]\nCapturing CUDA graphs (decode, FULL): 100%|██████████| 67/67 [00:01<00:00, 38.34it/s]\n\nAdding requests:   0%|          | 0/30 [00:00<?, ?it/s]\nAdding requests: 100%|██████████| 30/30 [00:00<00:00, 458.68it/s]\n\nProcessed prompts:   0%|          | 0/240 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]\nProcessed prompts:   3%|▎         | 8/240 [00:12<06:12,  1.60s/it, est. speed input: 72.28 toks/s, output: 246.59 toks/s]\nProcessed prompts:   7%|▋         | 16/240 [00:14<03:02,  1.22it/s, est. speed input: 252.37 toks/s, output: 542.84 toks/s]\nProcessed prompts:  10%|█         | 24/240 [00:16<01:52,  1.92it/s, est. speed input: 559.87 toks/s, output: 810.29 toks/s]\nProcessed prompts:  17%|█▋        | 40/240 [00:16<00:46,  4.29it/s, est. speed input: 807.06 toks/s, output: 1413.61 toks/s]\nProcessed prompts:  20%|██        | 48/240 [00:16<00:33,  5.68it/s, est. speed input: 858.24 toks/s, output: 1725.65 toks/s]\nProcessed prompts:  30%|███       | 72/240 [00:17<00:16, 10.10it/s, est. speed input: 1118.88 toks/s, output: 2318.15 toks/s]\nProcessed prompts:  33%|███▎      | 80/240 [00:29<01:01,  2.59it/s, est. speed input: 709.19 toks/s, output: 1722.45 toks/s] \nProcessed prompts:  37%|███▋      | 88/240 [00:44<01:52,  1.35it/s, est. speed input: 486.65 toks/s, output: 1321.80 toks/s]\nProcessed prompts:  40%|████      | 96/240 [01:01<02:33,  1.07s/it, est. speed input: 374.84 toks/s, output: 1137.39 toks/s]\nProcessed prompts:  43%|████▎     | 104/240 [02:18<07:27,  3.29s/it, est. speed input: 175.53 toks/s, output: 602.43 toks/s]\nProcessed prompts:  47%|████▋     | 112/240 [21:22<1:27:52, 41.19s/it, est. speed input: 19.48 toks/s, output: 93.70 toks/s]\nProcessed prompts:  83%|████████▎ | 200/240 [21:55<05:25,  8.13s/it, est. speed input: 39.80 toks/s, output: 633.45 toks/s] \nProcessed prompts:  87%|████████▋ | 208/240 [22:26<04:07,  7.73s/it, est. speed input: 39.78 toks/s, output: 646.53 toks/s]\nProcessed prompts:  90%|█████████ | 216/240 [23:36<03:08,  7.84s/it, est. speed input: 38.55 toks/s, output: 662.02 toks/s]\nProcessed prompts:  93%|█████████▎| 224/240 [24:07<01:56,  7.27s/it, est. speed input: 39.48 toks/s, output: 698.27 toks/s]\nProcessed prompts:  97%|█████████▋| 232/240 [24:25<00:51,  6.41s/it, est. speed input: 40.07 toks/s, output: 736.49 toks/s]\nProcessed prompts: 100%|██████████| 240/240 [24:31<00:00,  5.28s/it, est. speed input: 40.70 toks/s, output: 758.66 toks/s]\nProcessed prompts: 100%|██████████| 240/240 [24:31<00:00,  5.28s/it, est. speed input: 40.70 toks/s, output: 758.66 toks/s]\nProcessed prompts: 100%|██████████| 240/240 [24:31<00:00,  6.13s/it, est. speed input: 40.70 toks/s, output: 758.66 toks/s]\n[rank0]:[W622 23:59:44.261389566 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())\n"
+    }
+  ]
+}

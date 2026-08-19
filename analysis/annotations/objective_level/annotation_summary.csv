@@ -1,0 +1,2 @@
+n_trajectories,n_consistency_checked,consistency_check_coverage,n_with_correction,correction_rate,unknown_objective_rate,note
+1338,1338,1.0,0,0.0,0.08071748878923767,automatic objective extraction followed by deterministic consistency checks; not independent double annotation

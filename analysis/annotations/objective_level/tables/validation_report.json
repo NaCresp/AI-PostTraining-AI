@@ -1,0 +1,62 @@
+{
+  "annotation_check": {
+    "coverage": 1.0,
+    "n_checked": 1338,
+    "n_corrected": 0
+  },
+  "base_model_counts": {
+    "Gemma-3-4B-PT": 337,
+    "Qwen3-1.7B-Base": 328,
+    "Qwen3-4B-Base": 335,
+    "SmolLM3-3B-Base": 338
+  },
+  "benchmark_counts": {
+    "AIME 2025": 191,
+    "ArenaHardWriting": 193,
+    "BFCL": 191,
+    "GPQA Main": 191,
+    "GSM8K": 191,
+    "HealthBench": 191,
+    "HumanEval": 190
+  },
+  "cohort_counts": {
+    "all_inventory": 1338,
+    "artifact_ready": 992,
+    "behavior_cohort": 1300,
+    "matched_cell": 1338,
+    "objective_ready": 792,
+    "strategy_outcome_ready": 654,
+    "strategy_ready": 792
+  },
+  "duplicate_group_count": 85,
+  "duplicate_row_count": 178,
+  "evaluation_point_count": 2034,
+  "event_count": 847080,
+  "execution_call_count": 202795,
+  "harness_counts": {
+    "Claude": 463,
+    "Codex": 369,
+    "GLM-X": 84,
+    "OpenCode": 394,
+    "Qwen3Max": 28
+  },
+  "input": "data/PostTrainBench-Trajectories",
+  "n_batches": 47,
+  "n_cells": 28,
+  "n_trajectories": 1338,
+  "objective_experiment_count": 5111,
+  "objective_transition_count": 3557,
+  "parser_line_totals": {
+    "json_lines": 783222,
+    "malformed_json_lines": 122,
+    "parse_lines": 800735
+  },
+  "source_format_counts": {
+    "claude_jsonl": 567,
+    "codex_jsonl": 369,
+    "opencode_jsonl": 362,
+    "plain_trace": 2,
+    "unparsed": 38
+  },
+  "version": "pilot-study-v3-objective-2026-07-22"
+}

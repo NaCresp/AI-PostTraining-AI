@@ -1,0 +1,41 @@
+[06/09/26 18:36:02] WARNING  vLLM server config has missing          vllm.py:119
+                             prerequisites ERROR: Unable to                     
+                             initialise vLLM client                             
+                                                                                
+                             No                                                 
+                             [bold][blue]VLLM_BASE_URL[/blue][/bold]            
+                             defined in the environment.. Starting              
+                             new server for                                     
+                             /home/ben/task/final_model.                        
+[06/09/26 18:36:59] WARNING  vLLM server started at                  vllm.py:135
+                             http://localhost:32411/v1                          
+---------------------------------------------------------                       
+aime2025 (30 samples): vllm//home/ben/task/final_model                          
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 6, max_tokens:   
+16000, log_realtime: False, score_display: False, dataset: math-ai/aime25       
+---------------------------------------------------------                       
+                                                                                
+Steps:   4/30  13% | Samples:   4/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:   9/30  30% | Samples:   9/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  13/30  43% | Samples:  13/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  15/30  50% | Samples:  15/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  17/30  56% | Samples:  17/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  21/30  70% | Samples:  21/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  25/30  83% | Samples:  25/ 30 | vllm:  5/ 6 | HTTP retries: 0
+Steps:  28/30  93% | Samples:  28/ 30 | vllm:  2/ 6 | HTTP retries: 0
+Steps:  29/30  96% | Samples:  29/ 30 | vllm:  1/ 6 | HTTP retries: 0
+Steps:  30/30 100% | Samples:  30/ 30 | vllm:  0/ 6 | HTTP retries: 0
+
+---------------------------------------------------------                       
+aime2025 (30 samples): vllm//home/ben/task/final_model                          
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 6, max_tokens:   
+16000, log_realtime: False, score_display: False, dataset: math-ai/aime25       
+                                                                                
+total time:                            0:01:31                                  
+vllm//home/ben/task/final_model        62,130 tokens [I: 8,302, O: 53,828]      
+aime_scorer                                                                     
+accuracy     0.033                                                              
+stderr       0.033                                                              
+Log: logs/2026-06-09T18-36-59+00-00_aime2025_KvqH4D7TYvLmzEgpRq95ae.json        
+---------------------------------------------------------                       
+                                                                                

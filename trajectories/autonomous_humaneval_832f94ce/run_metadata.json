@@ -1,0 +1,19 @@
+{
+  "setting": "autonomous",
+  "benchmark": "HumanEval",
+  "scaffold": "codex",
+  "agent_model": "gpt-5.2",
+  "base_model": "Qwen3-1.7B-Base",
+  "num_gpus": 4,
+  "time_budget_hours": 10,
+  "elapsed": "05:33:00",
+  "elapsed_seconds": 19980,
+  "start": "2026-06-10T02:13:57Z",
+  "end": "2026-06-10T07:46:36Z",
+  "final_metrics": {
+    "accuracy": 0.13414634146341464,
+    "stderr": 0.0266942585375106
+  },
+  "source_run_id": "codex_humaneval_qwen3_1_7b_4gpu_v2",
+  "note": "Reconstructed from the PostTrainBench run record: elapsed from time_taken.txt, start/end from the first and last harness timestamp in trajectory.jsonl."
+}

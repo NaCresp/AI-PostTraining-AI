@@ -1,0 +1,15 @@
+{
+  "baseline": "claude-code-verl",
+  "start": "2026-06-07T09:45:03Z",
+  "end": "2026-06-07T15:53:48Z",
+  "elapsed_seconds": 22125,
+  "exit_code": 1,
+  "timed_out": false,
+  "config": {
+    "base_model_path": "/root/models/Qwen/Qwen3-1.7B-Base",
+    "num_gpus": 4,
+    "time_budget_hours": 10,
+    "claude_model": "claude-opus-4-6",
+    "verl_path": "/workspace/AI4AI/training/verl"
+  }
+}

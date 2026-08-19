@@ -1,0 +1,81 @@
+{
+  "Claude": {
+    "broad_change_rate": 0.04682,
+    "broad_changes_mechanical": 53,
+    "data_changes": 35,
+    "data_known_pairs": 740,
+    "pairs": 1132,
+    "paradigm_changes": 18,
+    "stage_candidates": 1,
+    "supervised_pairs": 1108,
+    "trajectories_with_broad_change": 32,
+    "trajectories_with_paradigm_change": 8
+  },
+  "Codex": {
+    "broad_change_rate": 0.01485,
+    "broad_changes_mechanical": 14,
+    "data_changes": 1,
+    "data_known_pairs": 56,
+    "pairs": 943,
+    "paradigm_changes": 13,
+    "stage_candidates": 1,
+    "supervised_pairs": 933,
+    "trajectories_with_broad_change": 6,
+    "trajectories_with_paradigm_change": 5
+  },
+  "GLM-X": {
+    "broad_change_rate": 0.33333,
+    "broad_changes_mechanical": 1,
+    "data_changes": 1,
+    "data_known_pairs": 2,
+    "pairs": 3,
+    "paradigm_changes": 0,
+    "stage_candidates": 0,
+    "supervised_pairs": 3,
+    "trajectories_with_broad_change": 1,
+    "trajectories_with_paradigm_change": 0
+  },
+  "OpenCode": {
+    "broad_change_rate": 0.00354,
+    "broad_changes_mechanical": 5,
+    "data_changes": 1,
+    "data_known_pairs": 581,
+    "pairs": 1411,
+    "paradigm_changes": 4,
+    "stage_candidates": 0,
+    "supervised_pairs": 1406,
+    "trajectories_with_broad_change": 4,
+    "trajectories_with_paradigm_change": 3
+  },
+  "Qwen3Max": {
+    "broad_change_rate": 0.0,
+    "broad_changes_mechanical": 0,
+    "data_changes": 0,
+    "data_known_pairs": 22,
+    "pairs": 68,
+    "paradigm_changes": 0,
+    "stage_candidates": 0,
+    "supervised_pairs": 68,
+    "trajectories_with_broad_change": 0,
+    "trajectories_with_paradigm_change": 0
+  },
+  "corpus": {
+    "broad_change_rate": 0.02052,
+    "broad_changes_mechanical": 73,
+    "data_changes": 38,
+    "data_known_pairs": 1401,
+    "pairs": 3557,
+    "paradigm_changes": 35,
+    "stage_candidates": 2,
+    "supervised_pairs": 3518,
+    "trajectories_with_broad_change": 43,
+    "trajectories_with_paradigm_change": 16
+  },
+  "episode_label_coverage": {
+    "curated": 1327,
+    "mixed": 50,
+    "self_generated": 424,
+    "supervised_episodes": 4344,
+    "unknown": 2543
+  }
+}

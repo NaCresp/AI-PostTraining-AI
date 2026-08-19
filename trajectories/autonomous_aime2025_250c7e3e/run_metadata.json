@@ -1,0 +1,18 @@
+{
+  "setting": "autonomous",
+  "benchmark": "AIME 2025",
+  "scaffold": "claude-code",
+  "agent_model": "claude-opus-4-6",
+  "base_model": "Qwen3-1.7B-Base",
+  "num_gpus": 4,
+  "time_budget_hours": 10,
+  "elapsed": "08:52:38",
+  "elapsed_seconds": 31958,
+  "start": "2026-06-09T11:27:01Z",
+  "end": "2026-06-09T20:19:33Z",
+  "termination": "agent API quota exhausted (403)",
+  "final_metrics": null,
+  "final_metrics_note": "The harness's final evaluation did not run for this batch, so no official score was recorded. The agent's own in-run evaluations are summarized in evals/eval_log_summary.json.",
+  "source_run_id": "baseline_claude_aime2025_20260609_192658",
+  "note": "Reconstructed from the run record: elapsed from time_taken.txt, start/end from the first and last harness timestamp in trajectory.jsonl."
+}

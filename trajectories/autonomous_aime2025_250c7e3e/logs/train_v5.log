@@ -1,0 +1,1275 @@
+Loading tokenizer...
+<|im_end|> token ID: 151645
+Loading datasets...
+Loading tokenizer...
+Loading tokenizer...
+<|im_end|> token ID: 151645
+Loading datasets...
+<|im_end|> token ID: 151645
+Loading datasets...
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 3982 examples [00:00, 33962.74 examples/s]
+Generating train split: 7960 examples [00:00, 36256.07 examples/s]
+Generating train split: 11880 examples [00:00, 36942.47 examples/s]
+Generating train split: 15841 examples [00:00, 37413.36 examples/s]
+Generating train split: 19818 examples [00:00, 38177.55 examples/s]
+Generating train split: 23766 examples [00:00, 38176.58 examples/s]
+Generating train split: 27692 examples [00:00, 38506.73 examples/s]
+Generating train split: 31633 examples [00:00, 38670.79 examples/s]
+Generating train split: 35625 examples [00:00, 38671.26 examples/s]
+Generating train split: 39564 examples [00:01, 38769.17 examples/s]
+Generating train split: 42195 examples [00:01, 37978.99 examples/s]
+
+Generating validation split: 0 examples [00:00, ? examples/s]
+Generating validation split: 200 examples [00:00, 8961.52 examples/s]
+Train size: 42195
+Val size: 200
+
+Sample formatted text (first 500 chars):
+<|im_start|>user
+Solve the following math problem step by step.
+The last line of your response should be of the form "ANSWER: $ANSWER" (without quotes) where $ANSWER is the answer to the problem.
+
+Zhenya drew a square with sides of 3 cm and then erased one of these sides. The resulting figure looks like the letter "P". The teacher asked Zhenya to place points along this "P" shape, starting from the edge, so that the next point is 1 cm from the previous one, as shown in the picture, and then coun
+
+Last 200 chars:
+nt subtracted for the double-count): 
+     \[
+     33 \text{ points} - 2 \text{ extra counts} = 31 \text{ points}.
+     \]
+
+5. **Conclusion:**
+   \[
+   \boxed{31}
+   \]
+</think>
+
+ANSWER: 31<|im_end|>
+
+Train size: 42195
+Val size: 200
+
+<|im_end|> appears 2 times in tokenized sample
+Total tokens: 586
+
+Loading model...
+
+Sample formatted text (first 500 chars):
+<|im_start|>user
+Solve the following math problem step by step.
+The last line of your response should be of the form "ANSWER: $ANSWER" (without quotes) where $ANSWER is the answer to the problem.
+
+Zhenya drew a square with sides of 3 cm and then erased one of these sides. The resulting figure looks like the letter "P". The teacher asked Zhenya to place points along this "P" shape, starting from the edge, so that the next point is 1 cm from the previous one, as shown in the picture, and then coun
+
+Last 200 chars:
+nt subtracted for the double-count): 
+     \[
+     33 \text{ points} - 2 \text{ extra counts} = 31 \text{ points}.
+     \]
+
+5. **Conclusion:**
+   \[
+   \boxed{31}
+   \]
+</think>
+
+ANSWER: 31<|im_end|>
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+<|im_end|> appears 2 times in tokenized sample
+Total tokens: 586
+
+Loading model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Train size: 42195
+Val size: 200
+
+Sample formatted text (first 500 chars):
+<|im_start|>user
+Solve the following math problem step by step.
+The last line of your response should be of the form "ANSWER: $ANSWER" (without quotes) where $ANSWER is the answer to the problem.
+
+Zhenya drew a square with sides of 3 cm and then erased one of these sides. The resulting figure looks like the letter "P". The teacher asked Zhenya to place points along this "P" shape, starting from the edge, so that the next point is 1 cm from the previous one, as shown in the picture, and then coun
+
+Last 200 chars:
+nt subtracted for the double-count): 
+     \[
+     33 \text{ points} - 2 \text{ extra counts} = 31 \text{ points}.
+     \]
+
+5. **Conclusion:**
+   \[
+   \boxed{31}
+   \]
+</think>
+
+ANSWER: 31<|im_end|>
+
+
+<|im_end|> appears 2 times in tokenized sample
+Total tokens: 586
+
+Loading model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading tokenizer...
+<|im_end|> token ID: 151645
+Loading datasets...
+Train size: 42195
+Val size: 200
+
+Sample formatted text (first 500 chars):
+<|im_start|>user
+Solve the following math problem step by step.
+The last line of your response should be of the form "ANSWER: $ANSWER" (without quotes) where $ANSWER is the answer to the problem.
+
+Zhenya drew a square with sides of 3 cm and then erased one of these sides. The resulting figure looks like the letter "P". The teacher asked Zhenya to place points along this "P" shape, starting from the edge, so that the next point is 1 cm from the previous one, as shown in the picture, and then coun
+
+Last 200 chars:
+nt subtracted for the double-count): 
+     \[
+     33 \text{ points} - 2 \text{ extra counts} = 31 \text{ points}.
+     \]
+
+5. **Conclusion:**
+   \[
+   \boxed{31}
+   \]
+</think>
+
+ANSWER: 31<|im_end|>
+
+
+<|im_end|> appears 2 times in tokenized sample
+Total tokens: 586
+
+Loading model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Tokenizing train dataset:   0%|          | 0/42195 [00:00<?, ? examples/s]
+Tokenizing train dataset:   0%|          | 31/42195 [00:00<02:25, 290.76 examples/s]
+Tokenizing train dataset:   0%|          | 72/42195 [00:00<02:00, 350.88 examples/s]
+Tokenizing train dataset:   0%|          | 114/42195 [00:00<01:50, 379.76 examples/s]
+Tokenizing train dataset:   0%|          | 159/42195 [00:00<01:43, 404.35 examples/s]
+Tokenizing train dataset:   0%|          | 203/42195 [00:00<01:41, 415.28 examples/s]
+Tokenizing train dataset:   1%|          | 246/42195 [00:00<01:39, 419.56 examples/s]
+Tokenizing train dataset:   1%|          | 294/42195 [00:00<01:36, 435.07 examples/s]
+Tokenizing train dataset:   1%|          | 338/42195 [00:00<01:37, 428.87 examples/s]
+Tokenizing train dataset:   1%|          | 384/42195 [00:00<01:35, 437.37 examples/s]
+Tokenizing train dataset:   1%|          | 429/42195 [00:01<01:35, 438.86 examples/s]
+Tokenizing train dataset:   1%|          | 492/42195 [00:01<01:37, 429.08 examples/s]
+Tokenizing train dataset:   1%|▏         | 552/42195 [00:01<01:39, 416.48 examples/s]
+Tokenizing train dataset:   1%|▏         | 597/42195 [00:01<01:38, 422.11 examples/s]
+Tokenizing train dataset:   2%|▏         | 643/42195 [00:01<01:36, 430.29 examples/s]
+Tokenizing train dataset:   2%|▏         | 689/42195 [00:01<01:35, 435.35 examples/s]
+Tokenizing train dataset:   2%|▏         | 735/42195 [00:01<01:34, 439.48 examples/s]
+Tokenizing train dataset:   2%|▏         | 780/42195 [00:01<01:34, 436.93 examples/s]
+Tokenizing train dataset:   2%|▏         | 825/42195 [00:01<01:34, 438.36 examples/s]
+Tokenizing train dataset:   2%|▏         | 886/42195 [00:02<01:38, 421.24 examples/s]
+Tokenizing train dataset:   2%|▏         | 930/42195 [00:02<01:37, 423.65 examples/s]
+Tokenizing train dataset:   2%|▏         | 973/42195 [00:02<01:37, 424.83 examples/s]
+Tokenizing train dataset:   2%|▏         | 1020/42195 [00:02<02:16, 302.03 examples/s]
+Tokenizing train dataset:   3%|▎         | 1057/42195 [00:02<02:10, 315.16 examples/s]
+Tokenizing train dataset:   3%|▎         | 1098/42195 [00:02<02:02, 335.37 examples/s]
+Tokenizing train dataset:   3%|▎         | 1140/42195 [00:02<01:56, 353.89 examples/s]
+Tokenizing train dataset:   3%|▎         | 1181/42195 [00:02<01:52, 365.42 examples/s]
+Tokenizing train dataset:   3%|▎         | 1222/42195 [00:03<01:48, 375.98 examples/s]
+Tokenizing train dataset:   3%|▎         | 1282/42195 [00:03<01:47, 380.74 examples/s]
+Tokenizing train dataset:   3%|▎         | 1342/42195 [00:03<01:47, 381.33 examples/s]
+Tokenizing train dataset:   3%|▎         | 1394/42195 [00:03<01:50, 368.12 examples/s]
+Tokenizing train dataset:   3%|▎         | 1436/42195 [00:03<01:47, 379.76 examples/s]
+Tokenizing train dataset:   4%|▎         | 1477/42195 [00:03<01:45, 386.00 examples/s]
+Tokenizing train dataset:   4%|▎         | 1519/42195 [00:03<01:44, 390.94 examples/s]
+Tokenizing train dataset:   4%|▎         | 1562/42195 [00:03<01:42, 397.71 examples/s]
+Tokenizing train dataset:   4%|▍         | 1607/42195 [00:04<01:39, 409.96 examples/s]
+Tokenizing train dataset:   4%|▍         | 1680/42195 [00:04<01:21, 497.81 examples/s]
+Tokenizing train dataset:   4%|▍         | 1764/42195 [00:04<01:08, 593.21 examples/s]
+Tokenizing train dataset:   4%|▍         | 1848/42195 [00:04<01:00, 661.48 examples/s]
+Tokenizing train dataset:   5%|▍         | 1933/42195 [00:04<00:56, 715.48 examples/s]
+Tokenizing train dataset:   5%|▍         | 2040/42195 [00:04<01:03, 631.60 examples/s]
+Tokenizing train dataset:   5%|▌         | 2123/42195 [00:04<00:59, 677.36 examples/s]
+Tokenizing train dataset:   5%|▌         | 2205/42195 [00:04<00:56, 711.81 examples/s]
+Tokenizing train dataset:   5%|▌         | 2283/42195 [00:04<00:54, 729.47 examples/s]
+Tokenizing train dataset:   6%|▌         | 2364/42195 [00:05<00:53, 747.69 examples/s]
+Tokenizing train dataset:   6%|▌         | 2444/42195 [00:05<00:52, 760.44 examples/s]
+Tokenizing train dataset:   6%|▌         | 2523/42195 [00:05<00:51, 768.12 examples/s]
+Tokenizing train dataset:   6%|▌         | 2613/42195 [00:05<00:49, 804.68 examples/s]
+Tokenizing train dataset:   6%|▋         | 2699/42195 [00:05<00:48, 819.27 examples/s]
+Tokenizing train dataset:   7%|▋         | 2782/42195 [00:05<00:48, 818.62 examples/s]
+Tokenizing train dataset:   7%|▋         | 2866/42195 [00:05<00:47, 823.09 examples/s]
+Tokenizing train dataset:   7%|▋         | 2953/42195 [00:05<00:47, 834.44 examples/s]
+Tokenizing train dataset:   7%|▋         | 3041/42195 [00:05<00:56, 689.34 examples/s]
+Tokenizing train dataset:   7%|▋         | 3124/42195 [00:06<00:53, 723.78 examples/s]
+Tokenizing train dataset:   8%|▊         | 3209/42195 [00:06<00:51, 754.01 examples/s]
+Tokenizing train dataset:   8%|▊         | 3291/42195 [00:06<00:50, 771.04 examples/s]
+Tokenizing train dataset:   8%|▊         | 3375/42195 [00:06<00:49, 786.42 examples/s]
+Tokenizing train dataset:   8%|▊         | 3496/42195 [00:06<00:49, 788.58 examples/s]
+Tokenizing train dataset:   8%|▊         | 3581/42195 [00:06<00:48, 800.84 examples/s]
+Tokenizing train dataset:   9%|▊         | 3668/42195 [00:06<00:47, 816.26 examples/s]
+Tokenizing train dataset:   9%|▉         | 3790/42195 [00:06<00:47, 810.72 examples/s]
+Tokenizing train dataset:   9%|▉         | 3912/42195 [00:07<00:47, 808.13 examples/s]
+Tokenizing train dataset:   9%|▉         | 4000/42195 [00:07<00:54, 695.49 examples/s]
+Tokenizing train dataset:  10%|▉         | 4080/42195 [00:07<00:53, 717.95 examples/s]
+Tokenizing train dataset:  10%|▉         | 4165/42195 [00:07<00:50, 749.67 examples/s]
+Tokenizing train dataset:  10%|█         | 4246/42195 [00:07<00:49, 762.76 examples/s]
+Tokenizing train dataset:  10%|█         | 4330/42195 [00:07<00:48, 780.40 examples/s]
+Tokenizing train dataset:  10%|█         | 4414/42195 [00:07<00:47, 795.08 examples/s]
+Tokenizing train dataset:  11%|█         | 4497/42195 [00:07<00:46, 802.83 examples/s]
+Tokenizing train dataset:  11%|█         | 4581/42195 [00:07<00:46, 811.31 examples/s]
+Tokenizing train dataset:  11%|█         | 4668/42195 [00:07<00:45, 826.23 examples/s]
+Tokenizing train dataset:  11%|█▏        | 4791/42195 [00:08<00:45, 821.04 examples/s]
+Tokenizing train dataset:  12%|█▏        | 4879/42195 [00:08<00:44, 833.55 examples/s]
+Tokenizing train dataset:  12%|█▏        | 4966/42195 [00:08<00:44, 840.81 examples/s]
+Tokenizing train dataset:  12%|█▏        | 5082/42195 [00:08<00:51, 720.42 examples/s]
+Tokenizing train dataset:  12%|█▏        | 5169/42195 [00:08<00:49, 753.66 examples/s]
+Tokenizing train dataset:  12%|█▏        | 5253/42195 [00:08<00:47, 773.41 examples/s]
+Tokenizing train dataset:  13%|█▎        | 5334/42195 [00:08<00:47, 781.27 examples/s]
+Tokenizing train dataset:  13%|█▎        | 5455/42195 [00:09<00:46, 785.86 examples/s]
+Tokenizing train dataset:  13%|█▎        | 5537/42195 [00:09<00:46, 791.89 examples/s]
+Tokenizing train dataset:  13%|█▎        | 5624/42195 [00:09<00:45, 812.25 examples/s]
+Tokenizing train dataset:  14%|█▎        | 5748/42195 [00:09<00:44, 815.26 examples/s]
+Tokenizing train dataset:  14%|█▍        | 5832/42195 [00:09<00:44, 817.42 examples/s]
+Tokenizing train dataset:  14%|█▍        | 5917/42195 [00:09<00:43, 824.53 examples/s]
+Tokenizing train dataset:  14%|█▍        | 6000/42195 [00:09<00:51, 702.49 examples/s]
+Tokenizing train dataset:  14%|█▍        | 6084/42195 [00:09<00:49, 735.10 examples/s]
+Tokenizing train dataset:  15%|█▍        | 6164/42195 [00:09<00:48, 749.04 examples/s]
+Tokenizing train dataset:  15%|█▍        | 6247/42195 [00:10<00:46, 770.63 examples/s]
+Tokenizing train dataset:  15%|█▍        | 6327/42195 [00:10<00:46, 777.28 examples/s]
+Tokenizing train dataset:  15%|█▌        | 6408/42195 [00:10<00:45, 784.52 examples/s]
+Tokenizing train dataset:  15%|█▌        | 6492/42195 [00:10<00:44, 796.21 examples/s]
+Tokenizing train dataset:  16%|█▌        | 6575/42195 [00:10<00:44, 803.96 examples/s]
+Tokenizing train dataset:  16%|█▌        | 6659/42195 [00:10<00:43, 811.70 examples/s]
+Tokenizing train dataset:  16%|█▌        | 6742/42195 [00:10<00:43, 812.36 examples/s]
+Tokenizing train dataset:  16%|█▌        | 6826/42195 [00:10<00:43, 817.67 examples/s]
+Tokenizing train dataset:  16%|█▋        | 6910/42195 [00:10<00:42, 820.66 examples/s]
+Tokenizing train dataset:  17%|█▋        | 6993/42195 [00:10<00:42, 819.78 examples/s]
+Tokenizing train dataset:  17%|█▋        | 7083/42195 [00:11<00:51, 688.14 examples/s]
+Tokenizing train dataset:  17%|█▋        | 7168/42195 [00:11<00:48, 727.94 examples/s]
+Tokenizing train dataset:  17%|█▋        | 7251/42195 [00:11<00:46, 753.79 examples/s]
+Tokenizing train dataset:  17%|█▋        | 7333/42195 [00:11<00:45, 770.57 examples/s]
+Tokenizing train dataset:  18%|█▊        | 7417/42195 [00:11<00:44, 787.03 examples/s]
+Tokenizing train dataset:  18%|█▊        | 7537/42195 [00:11<00:44, 787.58 examples/s]
+Tokenizing train dataset:  18%|█▊        | 7620/42195 [00:11<00:43, 795.57 examples/s]
+Tokenizing train dataset:  18%|█▊        | 7704/42195 [00:11<00:42, 803.55 examples/s]
+Tokenizing train dataset:  18%|█▊        | 7788/42195 [00:11<00:42, 811.04 examples/s]
+Tokenizing train dataset:  19%|█▊        | 7873/42195 [00:12<00:41, 819.96 examples/s]
+Tokenizing train dataset:  19%|█▉        | 7958/42195 [00:12<00:41, 824.79 examples/s]
+Tokenizing train dataset:  19%|█▉        | 8042/42195 [00:12<00:48, 703.34 examples/s]
+Tokenizing train dataset:  19%|█▉        | 8127/42195 [00:12<00:46, 737.66 examples/s]
+Tokenizing train dataset:  19%|█▉        | 8207/42195 [00:12<00:45, 752.55 examples/s]
+Tokenizing train dataset:  20%|█▉        | 8286/42195 [00:12<00:44, 758.79 examples/s]
+Tokenizing train dataset:  20%|█▉        | 8404/42195 [00:12<00:44, 762.10 examples/s]
+Tokenizing train dataset:  20%|██        | 8483/42195 [00:12<00:43, 767.55 examples/s]
+Tokenizing train dataset:  20%|██        | 8567/42195 [00:13<00:42, 783.42 examples/s]
+Tokenizing train dataset:  21%|██        | 8651/42195 [00:13<00:42, 797.43 examples/s]
+Tokenizing train dataset:  21%|██        | 8732/42195 [00:13<00:41, 797.74 examples/s]
+Tokenizing train dataset:  21%|██        | 8817/42195 [00:13<00:41, 808.48 examples/s]
+Tokenizing train dataset:  21%|██        | 8901/42195 [00:13<00:40, 813.47 examples/s]
+Tokenizing train dataset:  21%|██▏       | 8983/42195 [00:13<00:40, 812.94 examples/s]
+Tokenizing train dataset:  22%|██▏       | 9080/42195 [00:13<00:48, 681.23 examples/s]
+Tokenizing train dataset:  22%|██▏       | 9163/42195 [00:13<00:46, 715.78 examples/s]
+Tokenizing train dataset:  22%|██▏       | 9242/42195 [00:13<00:44, 732.95 examples/s]
+Tokenizing train dataset:  22%|██▏       | 9324/42195 [00:14<00:43, 753.56 examples/s]
+Tokenizing train dataset:  22%|██▏       | 9404/42195 [00:14<00:42, 765.09 examples/s]
+Tokenizing train dataset:  23%|██▎       | 9519/42195 [00:14<00:42, 764.08 examples/s]
+Tokenizing train dataset:  23%|██▎       | 9602/42195 [00:14<00:41, 777.89 examples/s]
+Tokenizing train dataset:  23%|██▎       | 9684/42195 [00:14<00:41, 786.63 examples/s]
+Tokenizing train dataset:  23%|██▎       | 9769/42195 [00:14<00:40, 798.61 examples/s]
+Tokenizing train dataset:  23%|██▎       | 9851/42195 [00:14<00:40, 799.70 examples/s]
+Tokenizing train dataset:  24%|██▎       | 9939/42195 [00:14<00:39, 819.02 examples/s]
+Tokenizing train dataset:  24%|██▍       | 10038/42195 [00:14<00:46, 698.25 examples/s]
+Tokenizing train dataset:  24%|██▍       | 10122/42195 [00:15<00:43, 729.67 examples/s]
+Tokenizing train dataset:  24%|██▍       | 10207/42195 [00:15<00:42, 756.87 examples/s]
+Tokenizing train dataset:  24%|██▍       | 10291/42195 [00:15<00:41, 777.09 examples/s]
+Tokenizing train dataset:  25%|██▍       | 10373/42195 [00:15<00:40, 786.40 examples/s]
+Tokenizing train dataset:  25%|██▍       | 10454/42195 [00:15<00:40, 791.81 examples/s]
+Tokenizing train dataset:  25%|██▍       | 10538/42195 [00:15<00:39, 803.63 examples/s]
+Tokenizing train dataset:  25%|██▌       | 10659/42195 [00:15<00:39, 802.29 examples/s]
+Tokenizing train dataset:  25%|██▌       | 10746/42195 [00:15<00:38, 815.29 examples/s]
+Tokenizing train dataset:  26%|██▌       | 10833/42195 [00:15<00:37, 827.38 examples/s]
+Tokenizing train dataset:  26%|██▌       | 10917/42195 [00:16<00:37, 829.42 examples/s]
+Tokenizing train dataset:  26%|██▌       | 11040/42195 [00:16<00:43, 719.11 examples/s]
+Tokenizing train dataset:  26%|██▋       | 11120/42195 [00:16<00:42, 736.70 examples/s]
+Tokenizing train dataset:  27%|██▋       | 11201/42195 [00:16<00:41, 754.61 examples/s]
+Tokenizing train dataset:  27%|██▋       | 11315/42195 [00:16<00:40, 753.64 examples/s]
+Tokenizing train dataset:  27%|██▋       | 11432/42195 [00:16<00:40, 757.94 examples/s]
+Tokenizing train dataset:  27%|██▋       | 11512/42195 [00:16<00:40, 764.63 examples/s]
+Tokenizing train dataset:  27%|██▋       | 11595/42195 [00:16<00:39, 777.77 examples/s]
+Tokenizing train dataset:  28%|██▊       | 11678/42195 [00:17<00:38, 787.47 examples/s]
+Tokenizing train dataset:  28%|██▊       | 11764/42195 [00:17<00:37, 805.48 examples/s]
+Tokenizing train dataset:  28%|██▊       | 11846/42195 [00:17<00:37, 805.28 examples/s]
+Tokenizing train dataset:  28%|██▊       | 11929/42195 [00:17<00:37, 806.87 examples/s]
+Tokenizing train dataset:  29%|██▊       | 12039/42195 [00:17<00:44, 682.10 examples/s]
+Tokenizing train dataset:  29%|██▊       | 12124/42195 [00:17<00:41, 720.47 examples/s]
+Tokenizing train dataset:  29%|██▉       | 12206/42195 [00:17<00:40, 743.85 examples/s]
+Tokenizing train dataset:  29%|██▉       | 12293/42195 [00:17<00:38, 772.72 examples/s]
+Tokenizing train dataset:  29%|██▉       | 12377/42195 [00:17<00:37, 788.96 examples/s]
+Tokenizing train dataset:  30%|██▉       | 12494/42195 [00:18<00:37, 784.94 examples/s]
+Tokenizing train dataset:  30%|██▉       | 12580/42195 [00:18<00:36, 803.96 examples/s]
+Tokenizing train dataset:  30%|███       | 12662/42195 [00:18<00:36, 803.22 examples/s]
+Tokenizing train dataset:  30%|███       | 12748/42195 [00:18<00:36, 816.96 examples/s]
+Tokenizing train dataset:  31%|███       | 12873/42195 [00:18<00:35, 818.83 examples/s]
+Tokenizing train dataset:  31%|███       | 13000/42195 [00:18<00:40, 716.96 examples/s]
+Tokenizing train dataset:  31%|███       | 13079/42195 [00:18<00:39, 731.42 examples/s]
+Tokenizing train dataset:  31%|███       | 13164/42195 [00:18<00:38, 757.02 examples/s]
+Tokenizing train dataset:  31%|███▏      | 13249/42195 [00:19<00:37, 779.41 examples/s]
+Tokenizing train dataset:  32%|███▏      | 13332/42195 [00:19<00:36, 789.41 examples/s]
+Tokenizing train dataset:  32%|███▏      | 13451/42195 [00:19<00:36, 787.69 examples/s]
+Tokenizing train dataset:  32%|███▏      | 13535/42195 [00:19<00:35, 799.07 examples/s]
+Tokenizing train dataset:  32%|███▏      | 13621/42195 [00:19<00:35, 810.64 examples/s]
+Tokenizing train dataset:  32%|███▏      | 13704/42195 [00:19<00:34, 814.82 examples/s]
+Tokenizing train dataset:  33%|███▎      | 13787/42195 [00:19<00:34, 817.04 examples/s]
+Tokenizing train dataset:  33%|███▎      | 13874/42195 [00:19<00:34, 827.69 examples/s]
+Tokenizing train dataset:  33%|███▎      | 13958/42195 [00:19<00:33, 830.97 examples/s]
+Tokenizing train dataset:  33%|███▎      | 14082/42195 [00:20<00:39, 715.61 examples/s]
+Tokenizing train dataset:  34%|███▎      | 14165/42195 [00:20<00:37, 739.28 examples/s]
+Tokenizing train dataset:  34%|███▍      | 14245/42195 [00:20<00:37, 751.46 examples/s]
+Tokenizing train dataset:  34%|███▍      | 14328/42195 [00:20<00:36, 770.38 examples/s]
+Tokenizing train dataset:  34%|███▍      | 14410/42195 [00:20<00:35, 779.41 examples/s]
+Tokenizing train dataset:  34%|███▍      | 14495/42195 [00:20<00:34, 798.12 examples/s]
+Tokenizing train dataset:  35%|███▍      | 14618/42195 [00:20<00:34, 802.85 examples/s]
+Tokenizing train dataset:  35%|███▍      | 14704/42195 [00:20<00:33, 815.08 examples/s]
+Tokenizing train dataset:  35%|███▌      | 14826/42195 [00:21<00:33, 809.34 examples/s]
+Tokenizing train dataset:  35%|███▌      | 14911/42195 [00:21<00:33, 816.29 examples/s]
+Tokenizing train dataset:  36%|███▌      | 14997/42195 [00:21<00:32, 825.07 examples/s]
+Tokenizing train dataset:  36%|███▌      | 15120/42195 [00:21<00:38, 705.81 examples/s]
+Tokenizing train dataset:  36%|███▌      | 15203/42195 [00:21<00:36, 731.91 examples/s]
+Tokenizing train dataset:  36%|███▌      | 15284/42195 [00:21<00:35, 748.53 examples/s]
+Tokenizing train dataset:  36%|███▋      | 15367/42195 [00:21<00:34, 766.82 examples/s]
+Tokenizing train dataset:  37%|███▋      | 15449/42195 [00:21<00:34, 779.93 examples/s]
+Tokenizing train dataset:  37%|███▋      | 15534/42195 [00:21<00:33, 797.89 examples/s]
+Tokenizing train dataset:  37%|███▋      | 15617/42195 [00:22<00:33, 804.04 examples/s]
+Tokenizing train dataset:  37%|███▋      | 15702/42195 [00:22<00:32, 814.50 examples/s]
+Tokenizing train dataset:  37%|███▋      | 15790/42195 [00:22<00:31, 826.58 examples/s]
+Tokenizing train dataset:  38%|███▊      | 15911/42195 [00:22<00:32, 816.40 examples/s]
+Tokenizing train dataset:  38%|███▊      | 15997/42195 [00:22<00:31, 825.63 examples/s]
+Tokenizing train dataset:  38%|███▊      | 16084/42195 [00:22<00:36, 706.53 examples/s]
+Tokenizing train dataset:  38%|███▊      | 16170/42195 [00:22<00:35, 742.77 examples/s]
+Tokenizing train dataset:  39%|███▊      | 16254/42195 [00:22<00:33, 763.96 examples/s]
+Tokenizing train dataset:  39%|███▊      | 16343/42195 [00:23<00:32, 795.88 examples/s]
+Tokenizing train dataset:  39%|███▉      | 16467/42195 [00:23<00:32, 802.95 examples/s]
+Tokenizing train dataset:  39%|███▉      | 16588/42195 [00:23<00:32, 799.57 examples/s]
+Tokenizing train dataset:  40%|███▉      | 16674/42195 [00:23<00:31, 810.93 examples/s]
+Tokenizing train dataset:  40%|███▉      | 16757/42195 [00:23<00:31, 811.72 examples/s]
+Tokenizing train dataset:  40%|███▉      | 16844/42195 [00:23<00:30, 823.76 examples/s]
+Tokenizing train dataset:  40%|████      | 16932/42195 [00:23<00:30, 838.49 examples/s]
+Tokenizing train dataset:  40%|████      | 17043/42195 [00:23<00:34, 729.52 examples/s]
+Tokenizing train dataset:  41%|████      | 17126/42195 [00:24<00:33, 750.91 examples/s]
+Tokenizing train dataset:  41%|████      | 17207/42195 [00:24<00:32, 763.75 examples/s]
+Tokenizing train dataset:  41%|████      | 17324/42195 [00:24<00:32, 766.05 examples/s]
+Tokenizing train dataset:  41%|████▏     | 17409/42195 [00:24<00:31, 785.20 examples/s]
+Tokenizing train dataset:  42%|████▏     | 17527/42195 [00:24<00:31, 783.10 examples/s]
+Tokenizing train dataset:  42%|████▏     | 17607/42195 [00:24<00:31, 786.77 examples/s]
+Tokenizing train dataset:  42%|████▏     | 17688/42195 [00:24<00:30, 790.94 examples/s]
+Tokenizing train dataset:  42%|████▏     | 17771/42195 [00:24<00:30, 800.13 examples/s]
+Tokenizing train dataset:  42%|████▏     | 17855/42195 [00:24<00:30, 806.92 examples/s]
+Tokenizing train dataset:  43%|████▎     | 17979/42195 [00:25<00:29, 809.28 examples/s]
+Tokenizing train dataset:  43%|████▎     | 18080/42195 [00:25<00:34, 693.01 examples/s]
+Tokenizing train dataset:  43%|████▎     | 18164/42195 [00:25<00:33, 725.32 examples/s]
+Tokenizing train dataset:  43%|████▎     | 18248/42195 [00:25<00:31, 751.15 examples/s]
+Tokenizing train dataset:  43%|████▎     | 18331/42195 [00:25<00:31, 768.14 examples/s]
+Tokenizing train dataset:  44%|████▎     | 18416/42195 [00:25<00:30, 785.92 examples/s]
+Tokenizing train dataset:  44%|████▍     | 18497/42195 [00:25<00:30, 788.87 examples/s]
+Tokenizing train dataset:  44%|████▍     | 18579/42195 [00:25<00:29, 795.75 examples/s]
+Tokenizing train dataset:  44%|████▍     | 18666/42195 [00:25<00:28, 814.81 examples/s]
+Tokenizing train dataset:  45%|████▍     | 18788/42195 [00:26<00:28, 810.44 examples/s]
+Tokenizing train dataset:  45%|████▍     | 18873/42195 [00:26<00:28, 816.67 examples/s]
+Tokenizing train dataset:  45%|████▍     | 18961/42195 [00:26<00:27, 831.24 examples/s]
+Tokenizing train dataset:  45%|████▌     | 19080/42195 [00:26<00:32, 710.70 examples/s]
+Tokenizing train dataset:  45%|████▌     | 19160/42195 [00:26<00:31, 729.70 examples/s]
+Tokenizing train dataset:  46%|████▌     | 19241/42195 [00:26<00:30, 746.51 examples/s]
+Tokenizing train dataset:  46%|████▌     | 19324/42195 [00:26<00:29, 764.62 examples/s]
+Tokenizing train dataset:  46%|████▌     | 19410/42195 [00:26<00:28, 786.37 examples/s]
+Tokenizing train dataset:  46%|████▌     | 19493/42195 [00:27<00:28, 797.23 examples/s]
+Tokenizing train dataset:  46%|████▋     | 19578/42195 [00:27<00:27, 809.96 examples/s]
+Tokenizing train dataset:  47%|████▋     | 19661/42195 [00:27<00:27, 814.21 examples/s]
+Tokenizing train dataset:  47%|████▋     | 19753/42195 [00:27<00:26, 840.45 examples/s]
+Tokenizing train dataset:  47%|████▋     | 19838/42195 [00:27<00:26, 841.55 examples/s]
+Tokenizing train dataset:  47%|████▋     | 19925/42195 [00:27<00:26, 845.84 examples/s]
+Tokenizing train dataset:  47%|████▋     | 20040/42195 [00:27<00:30, 721.29 examples/s]
+Tokenizing train dataset:  48%|████▊     | 20124/42195 [00:27<00:29, 748.68 examples/s]
+Tokenizing train dataset:  48%|████▊     | 20243/42195 [00:28<00:28, 758.88 examples/s]
+Tokenizing train dataset:  48%|████▊     | 20326/42195 [00:28<00:28, 773.14 examples/s]
+Tokenizing train dataset:  48%|████▊     | 20412/42195 [00:28<00:27, 793.65 examples/s]
+Tokenizing train dataset:  49%|████▊     | 20496/42195 [00:28<00:27, 803.62 examples/s]
+Tokenizing train dataset:  49%|████▉     | 20614/42195 [00:28<00:27, 790.22 examples/s]
+Tokenizing train dataset:  49%|████▉     | 20695/42195 [00:28<00:27, 789.14 examples/s]
+Tokenizing train dataset:  49%|████▉     | 20781/42195 [00:28<00:26, 804.87 examples/s]
+Tokenizing train dataset:  49%|████▉     | 20868/42195 [00:28<00:25, 821.23 examples/s]
+Tokenizing train dataset:  50%|████▉     | 20989/42195 [00:28<00:26, 809.48 examples/s]
+Tokenizing train dataset:  50%|████▉     | 21082/42195 [00:29<00:30, 693.22 examples/s]
+Tokenizing train dataset:  50%|█████     | 21164/42195 [00:29<00:29, 721.29 examples/s]
+Tokenizing train dataset:  50%|█████     | 21249/42195 [00:29<00:27, 750.26 examples/s]
+Tokenizing train dataset:  51%|█████     | 21329/42195 [00:29<00:27, 761.49 examples/s]
+Tokenizing train dataset:  51%|█████     | 21411/42195 [00:29<00:26, 775.47 examples/s]
+Tokenizing train dataset:  51%|█████     | 21495/42195 [00:29<00:26, 791.06 examples/s]
+Tokenizing train dataset:  51%|█████     | 21577/42195 [00:29<00:25, 797.76 examples/s]
+Tokenizing train dataset:  51%|█████▏    | 21662/42195 [00:29<00:25, 810.25 examples/s]
+Tokenizing train dataset:  52%|█████▏    | 21784/42195 [00:29<00:25, 807.24 examples/s]
+Tokenizing train dataset:  52%|█████▏    | 21869/42195 [00:30<00:24, 817.23 examples/s]
+Tokenizing train dataset:  52%|█████▏    | 21956/42195 [00:30<00:24, 830.65 examples/s]
+Tokenizing train dataset:  52%|█████▏    | 22041/42195 [00:30<00:28, 703.62 examples/s]
+Tokenizing train dataset:  52%|█████▏    | 22119/42195 [00:30<00:27, 722.31 examples/s]
+Tokenizing train dataset:  53%|█████▎    | 22200/42195 [00:30<00:26, 743.83 examples/s]
+Tokenizing train dataset:  53%|█████▎    | 22280/42195 [00:30<00:26, 755.47 examples/s]
+Tokenizing train dataset:  53%|█████▎    | 22362/42195 [00:30<00:25, 771.47 examples/s]
+Tokenizing train dataset:  53%|█████▎    | 22446/42195 [00:30<00:25, 788.26 examples/s]
+Tokenizing train dataset:  53%|█████▎    | 22529/42195 [00:30<00:24, 798.11 examples/s]
+Tokenizing train dataset:  54%|█████▎    | 22612/42195 [00:31<00:24, 805.40 examples/s]
+Tokenizing train dataset:  54%|█████▍    | 22694/42195 [00:31<00:24, 807.69 examples/s]
+Tokenizing train dataset:  54%|█████▍    | 22780/42195 [00:31<00:23, 821.03 examples/s]
+Tokenizing train dataset:  54%|█████▍    | 22863/42195 [00:31<00:23, 821.68 examples/s]
+Tokenizing train dataset:  54%|█████▍    | 22949/42195 [00:31<00:23, 831.07 examples/s]
+Tokenizing train dataset:  55%|█████▍    | 23042/42195 [00:31<00:27, 708.81 examples/s]
+Tokenizing train dataset:  55%|█████▍    | 23129/42195 [00:31<00:25, 747.63 examples/s]
+Tokenizing train dataset:  55%|█████▌    | 23216/42195 [00:31<00:24, 776.83 examples/s]
+Tokenizing train dataset:  55%|█████▌    | 23336/42195 [00:31<00:24, 782.09 examples/s]
+Tokenizing train dataset:  56%|█████▌    | 23457/42195 [00:32<00:23, 788.66 examples/s]
+Tokenizing train dataset:  56%|█████▌    | 23538/42195 [00:32<00:23, 790.24 examples/s]
+Tokenizing train dataset:  56%|█████▌    | 23659/42195 [00:32<00:23, 792.09 examples/s]
+Tokenizing train dataset:  56%|█████▋    | 23744/42195 [00:32<00:22, 803.83 examples/s]
+Tokenizing train dataset:  56%|█████▋    | 23828/42195 [00:32<00:22, 807.95 examples/s]
+Tokenizing train dataset:  57%|█████▋    | 23913/42195 [00:32<00:22, 815.12 examples/s]
+Tokenizing train dataset:  57%|█████▋    | 23999/42195 [00:32<00:22, 824.54 examples/s]
+Tokenizing train dataset:  57%|█████▋    | 24087/42195 [00:32<00:25, 709.20 examples/s]
+Tokenizing train dataset:  57%|█████▋    | 24167/42195 [00:33<00:24, 729.39 examples/s]
+Tokenizing train dataset:  57%|█████▋    | 24254/42195 [00:33<00:23, 764.06 examples/s]
+Tokenizing train dataset:  58%|█████▊    | 24333/42195 [00:33<00:23, 769.25 examples/s]
+Tokenizing train dataset:  58%|█████▊    | 24415/42195 [00:33<00:22, 779.76 examples/s]
+Tokenizing train dataset:  58%|█████▊    | 24534/42195 [00:33<00:22, 780.72 examples/s]
+Tokenizing train dataset:  58%|█████▊    | 24615/42195 [00:33<00:22, 786.08 examples/s]
+Tokenizing train dataset:  59%|█████▊    | 24699/42195 [00:33<00:21, 797.63 examples/s]
+Tokenizing train dataset:  59%|█████▊    | 24780/42195 [00:33<00:21, 798.72 examples/s]
+Tokenizing train dataset:  59%|█████▉    | 24864/42195 [00:33<00:21, 808.32 examples/s]
+Tokenizing train dataset:  59%|█████▉    | 24951/42195 [00:34<00:20, 822.60 examples/s]
+Tokenizing train dataset:  59%|█████▉    | 25041/42195 [00:34<00:24, 705.35 examples/s]
+Tokenizing train dataset:  60%|█████▉    | 25125/42195 [00:34<00:23, 738.52 examples/s]
+Tokenizing train dataset:  60%|█████▉    | 25208/42195 [00:34<00:22, 759.10 examples/s]
+Tokenizing train dataset:  60%|█████▉    | 25292/42195 [00:34<00:21, 778.87 examples/s]
+Tokenizing train dataset:  60%|██████    | 25378/42195 [00:34<00:21, 798.23 examples/s]
+Tokenizing train dataset:  60%|██████    | 25500/42195 [00:34<00:20, 795.43 examples/s]
+Tokenizing train dataset:  61%|██████    | 25622/42195 [00:34<00:20, 798.09 examples/s]
+Tokenizing train dataset:  61%|██████    | 25704/42195 [00:35<00:20, 801.52 examples/s]
+Tokenizing train dataset:  61%|██████    | 25790/42195 [00:35<00:20, 815.50 examples/s]
+Tokenizing train dataset:  61%|██████▏   | 25873/42195 [00:35<00:20, 815.03 examples/s]
+Tokenizing train dataset:  62%|██████▏   | 25955/42195 [00:35<00:19, 814.84 examples/s]
+Tokenizing train dataset:  62%|██████▏   | 26039/42195 [00:35<00:23, 686.15 examples/s]
+Tokenizing train dataset:  62%|██████▏   | 26125/42195 [00:35<00:22, 726.98 examples/s]
+Tokenizing train dataset:  62%|██████▏   | 26208/42195 [00:35<00:21, 751.16 examples/s]
+Tokenizing train dataset:  62%|██████▏   | 26291/42195 [00:35<00:20, 770.04 examples/s]
+Tokenizing train dataset:  63%|██████▎   | 26377/42195 [00:35<00:19, 793.08 examples/s]
+Tokenizing train dataset:  63%|██████▎   | 26461/42195 [00:35<00:19, 803.30 examples/s]
+Tokenizing train dataset:  63%|██████▎   | 26544/42195 [00:36<00:19, 808.64 examples/s]
+Tokenizing train dataset:  63%|██████▎   | 26626/42195 [00:36<00:19, 806.06 examples/s]
+Tokenizing train dataset:  63%|██████▎   | 26746/42195 [00:36<00:19, 798.98 examples/s]
+Tokenizing train dataset:  64%|██████▎   | 26829/42195 [00:36<00:19, 804.02 examples/s]
+Tokenizing train dataset:  64%|██████▍   | 26916/42195 [00:36<00:18, 820.63 examples/s]
+Tokenizing train dataset:  64%|██████▍   | 27000/42195 [00:36<00:22, 688.49 examples/s]
+Tokenizing train dataset:  64%|██████▍   | 27083/42195 [00:36<00:20, 723.36 examples/s]
+Tokenizing train dataset:  64%|██████▍   | 27168/42195 [00:36<00:19, 756.41 examples/s]
+Tokenizing train dataset:  65%|██████▍   | 27247/42195 [00:37<00:19, 763.88 examples/s]
+Tokenizing train dataset:  65%|██████▍   | 27327/42195 [00:37<00:19, 771.10 examples/s]
+Tokenizing train dataset:  65%|██████▍   | 27411/42195 [00:37<00:18, 788.68 examples/s]
+Tokenizing train dataset:  65%|██████▌   | 27528/42195 [00:37<00:18, 778.88 examples/s]
+Tokenizing train dataset:  65%|██████▌   | 27612/42195 [00:37<00:18, 792.99 examples/s]
+Tokenizing train dataset:  66%|██████▌   | 27696/42195 [00:37<00:18, 802.84 examples/s]
+Tokenizing train dataset:  66%|██████▌   | 27783/42195 [00:37<00:17, 819.58 examples/s]
+Tokenizing train dataset:  66%|██████▌   | 27870/42195 [00:37<00:17, 832.83 examples/s]
+Tokenizing train dataset:  66%|██████▋   | 27957/42195 [00:37<00:16, 841.70 examples/s]
+Tokenizing train dataset:  67%|██████▋   | 28082/42195 [00:38<00:19, 720.25 examples/s]
+Tokenizing train dataset:  67%|██████▋   | 28160/42195 [00:38<00:19, 731.79 examples/s]
+Tokenizing train dataset:  67%|██████▋   | 28245/42195 [00:38<00:18, 760.71 examples/s]
+Tokenizing train dataset:  67%|██████▋   | 28330/42195 [00:38<00:17, 780.82 examples/s]
+Tokenizing train dataset:  67%|██████▋   | 28412/42195 [00:38<00:17, 787.14 examples/s]
+Tokenizing train dataset:  68%|██████▊   | 28495/42195 [00:38<00:17, 798.48 examples/s]
+Tokenizing train dataset:  68%|██████▊   | 28615/42195 [00:38<00:17, 796.61 examples/s]
+Tokenizing train dataset:  68%|██████▊   | 28698/42195 [00:38<00:16, 801.77 examples/s]
+Tokenizing train dataset:  68%|██████▊   | 28782/42195 [00:38<00:16, 810.01 examples/s]
+Tokenizing train dataset:  68%|██████▊   | 28868/42195 [00:39<00:16, 819.39 examples/s]
+Tokenizing train dataset:  69%|██████▊   | 28954/42195 [00:39<00:15, 828.07 examples/s]
+Tokenizing train dataset:  69%|██████▉   | 29041/42195 [00:39<00:18, 702.44 examples/s]
+Tokenizing train dataset:  69%|██████▉   | 29128/42195 [00:39<00:17, 741.86 examples/s]
+Tokenizing train dataset:  69%|██████▉   | 29213/42195 [00:39<00:16, 767.91 examples/s]
+Tokenizing train dataset:  69%|██████▉   | 29297/42195 [00:39<00:16, 784.32 examples/s]
+Tokenizing train dataset:  70%|██████▉   | 29379/42195 [00:39<00:16, 791.04 examples/s]
+Tokenizing train dataset:  70%|██████▉   | 29462/42195 [00:39<00:15, 800.86 examples/s]
+Tokenizing train dataset:  70%|███████   | 29547/42195 [00:39<00:15, 812.23 examples/s]
+Tokenizing train dataset:  70%|███████   | 29632/42195 [00:40<00:15, 820.34 examples/s]
+Tokenizing train dataset:  71%|███████   | 29754/42195 [00:40<00:15, 813.64 examples/s]
+Tokenizing train dataset:  71%|███████   | 29838/42195 [00:40<00:15, 816.64 examples/s]
+Tokenizing train dataset:  71%|███████   | 29961/42195 [00:40<00:15, 813.08 examples/s]
+Tokenizing train dataset:  71%|███████▏  | 30083/42195 [00:40<00:16, 715.47 examples/s]
+Tokenizing train dataset:  71%|███████▏  | 30168/42195 [00:40<00:16, 743.52 examples/s]
+Tokenizing train dataset:  72%|███████▏  | 30250/42195 [00:40<00:15, 758.98 examples/s]
+Tokenizing train dataset:  72%|███████▏  | 30334/42195 [00:40<00:15, 778.80 examples/s]
+Tokenizing train dataset:  72%|███████▏  | 30414/42195 [00:41<00:15, 783.14 examples/s]
+Tokenizing train dataset:  72%|███████▏  | 30537/42195 [00:41<00:14, 792.77 examples/s]
+Tokenizing train dataset:  73%|███████▎  | 30621/42195 [00:41<00:14, 799.77 examples/s]
+Tokenizing train dataset:  73%|███████▎  | 30743/42195 [00:41<00:14, 801.58 examples/s]
+Tokenizing train dataset:  73%|███████▎  | 30861/42195 [00:41<00:14, 795.17 examples/s]
+Tokenizing train dataset:  73%|███████▎  | 30945/42195 [00:41<00:14, 802.86 examples/s]
+Tokenizing train dataset:  74%|███████▎  | 31039/42195 [00:41<00:16, 697.22 examples/s]
+Tokenizing train dataset:  74%|███████▍  | 31123/42195 [00:41<00:15, 728.81 examples/s]
+Tokenizing train dataset:  74%|███████▍  | 31208/42195 [00:42<00:14, 755.30 examples/s]
+Tokenizing train dataset:  74%|███████▍  | 31292/42195 [00:42<00:14, 775.76 examples/s]
+Tokenizing train dataset:  74%|███████▍  | 31373/42195 [00:42<00:13, 783.68 examples/s]
+Tokenizing train dataset:  75%|███████▍  | 31457/42195 [00:42<00:13, 794.26 examples/s]
+Tokenizing train dataset:  75%|███████▍  | 31575/42195 [00:42<00:13, 787.58 examples/s]
+Tokenizing train dataset:  75%|███████▌  | 31659/42195 [00:42<00:13, 798.96 examples/s]
+Tokenizing train dataset:  75%|███████▌  | 31745/42195 [00:42<00:12, 811.41 examples/s]
+Tokenizing train dataset:  75%|███████▌  | 31828/42195 [00:42<00:12, 814.72 examples/s]
+Tokenizing train dataset:  76%|███████▌  | 31911/42195 [00:42<00:12, 814.04 examples/s]
+Tokenizing train dataset:  76%|███████▌  | 31999/42195 [00:43<00:12, 830.58 examples/s]
+Tokenizing train dataset:  76%|███████▌  | 32084/42195 [00:43<00:14, 701.83 examples/s]
+Tokenizing train dataset:  76%|███████▌  | 32171/42195 [00:43<00:13, 742.37 examples/s]
+Tokenizing train dataset:  76%|███████▋  | 32254/42195 [00:43<00:13, 760.19 examples/s]
+Tokenizing train dataset:  77%|███████▋  | 32336/42195 [00:43<00:12, 770.77 examples/s]
+Tokenizing train dataset:  77%|███████▋  | 32418/42195 [00:43<00:12, 783.85 examples/s]
+Tokenizing train dataset:  77%|███████▋  | 32503/42195 [00:43<00:12, 800.70 examples/s]
+Tokenizing train dataset:  77%|███████▋  | 32589/42195 [00:43<00:11, 817.27 examples/s]
+Tokenizing train dataset:  77%|███████▋  | 32676/42195 [00:43<00:11, 830.16 examples/s]
+Tokenizing train dataset:  78%|███████▊  | 32760/42195 [00:44<00:11, 830.58 examples/s]
+Tokenizing train dataset:  78%|███████▊  | 32845/42195 [00:44<00:11, 833.72 examples/s]
+Tokenizing train dataset:  78%|███████▊  | 32929/42195 [00:44<00:11, 832.17 examples/s]
+Tokenizing train dataset:  78%|███████▊  | 33042/42195 [00:44<00:12, 720.74 examples/s]
+Tokenizing train dataset:  78%|███████▊  | 33122/42195 [00:44<00:12, 738.38 examples/s]
+Tokenizing train dataset:  79%|███████▊  | 33199/42195 [00:44<00:12, 741.81 examples/s]
+Tokenizing train dataset:  79%|███████▉  | 33284/42195 [00:44<00:11, 767.04 examples/s]
+Tokenizing train dataset:  79%|███████▉  | 33366/42195 [00:44<00:11, 779.11 examples/s]
+Tokenizing train dataset:  79%|███████▉  | 33448/42195 [00:44<00:11, 788.76 examples/s]
+Tokenizing train dataset:  79%|███████▉  | 33530/42195 [00:45<00:10, 793.82 examples/s]
+Tokenizing train dataset:  80%|███████▉  | 33616/42195 [00:45<00:10, 810.85 examples/s]
+Tokenizing train dataset:  80%|███████▉  | 33700/42195 [00:45<00:10, 818.05 examples/s]
+Tokenizing train dataset:  80%|████████  | 33827/42195 [00:45<00:10, 826.04 examples/s]
+Tokenizing train dataset:  80%|████████  | 33913/42195 [00:45<00:09, 833.11 examples/s]
+Tokenizing train dataset:  81%|████████  | 34000/42195 [00:45<00:11, 709.70 examples/s]
+Tokenizing train dataset:  81%|████████  | 34083/42195 [00:45<00:10, 738.50 examples/s]
+Tokenizing train dataset:  81%|████████  | 34168/42195 [00:45<00:10, 766.89 examples/s]
+Tokenizing train dataset:  81%|████████  | 34255/42195 [00:45<00:10, 792.06 examples/s]
+Tokenizing train dataset:  81%|████████▏ | 34344/42195 [00:46<00:09, 817.10 examples/s]
+Tokenizing train dataset:  82%|████████▏ | 34464/42195 [00:46<00:09, 806.94 examples/s]
+Tokenizing train dataset:  82%|████████▏ | 34546/42195 [00:46<00:09, 810.14 examples/s]
+Tokenizing train dataset:  82%|████████▏ | 34634/42195 [00:46<00:09, 828.56 examples/s]
+Tokenizing train dataset:  82%|████████▏ | 34752/42195 [00:46<00:09, 808.33 examples/s]
+Tokenizing train dataset:  83%|████████▎ | 34835/42195 [00:46<00:09, 811.88 examples/s]
+Tokenizing train dataset:  83%|████████▎ | 34921/42195 [00:46<00:08, 822.49 examples/s]
+Tokenizing train dataset:  83%|████████▎ | 35039/42195 [00:46<00:09, 720.26 examples/s]
+Tokenizing train dataset:  83%|████████▎ | 35122/42195 [00:47<00:09, 745.53 examples/s]
+Tokenizing train dataset:  83%|████████▎ | 35205/42195 [00:47<00:09, 764.80 examples/s]
+Tokenizing train dataset:  84%|████████▎ | 35285/42195 [00:47<00:08, 773.65 examples/s]
+Tokenizing train dataset:  84%|████████▍ | 35367/42195 [00:47<00:08, 782.75 examples/s]
+Tokenizing train dataset:  84%|████████▍ | 35451/42195 [00:47<00:08, 795.92 examples/s]
+Tokenizing train dataset:  84%|████████▍ | 35537/42195 [00:47<00:08, 810.43 examples/s]
+Tokenizing train dataset:  84%|████████▍ | 35622/42195 [00:47<00:08, 819.44 examples/s]
+Tokenizing train dataset:  85%|████████▍ | 35743/42195 [00:47<00:07, 812.14 examples/s]
+Tokenizing train dataset:  85%|████████▍ | 35828/42195 [00:47<00:07, 818.60 examples/s]
+Tokenizing train dataset:  85%|████████▌ | 35912/42195 [00:48<00:07, 821.50 examples/s]
+Tokenizing train dataset:  85%|████████▌ | 35998/42195 [00:48<00:07, 829.74 examples/s]
+Tokenizing train dataset:  86%|████████▌ | 36084/42195 [00:48<00:08, 704.29 examples/s]
+Tokenizing train dataset:  86%|████████▌ | 36168/42195 [00:48<00:08, 734.46 examples/s]
+Tokenizing train dataset:  86%|████████▌ | 36250/42195 [00:48<00:07, 752.84 examples/s]
+Tokenizing train dataset:  86%|████████▌ | 36367/42195 [00:48<00:07, 759.92 examples/s]
+Tokenizing train dataset:  86%|████████▋ | 36448/42195 [00:48<00:07, 769.65 examples/s]
+Tokenizing train dataset:  87%|████████▋ | 36528/42195 [00:48<00:07, 775.28 examples/s]
+Tokenizing train dataset:  87%|████████▋ | 36610/42195 [00:48<00:07, 785.62 examples/s]
+Tokenizing train dataset:  87%|████████▋ | 36692/42195 [00:49<00:06, 792.29 examples/s]
+Tokenizing train dataset:  87%|████████▋ | 36776/42195 [00:49<00:06, 805.27 examples/s]
+Tokenizing train dataset:  87%|████████▋ | 36861/42195 [00:49<00:06, 815.26 examples/s]
+Tokenizing train dataset:  88%|████████▊ | 36944/42195 [00:49<00:06, 817.52 examples/s]
+Tokenizing train dataset:  88%|████████▊ | 37040/42195 [00:49<00:07, 690.84 examples/s]
+Tokenizing train dataset:  88%|████████▊ | 37119/42195 [00:49<00:07, 713.01 examples/s]
+Tokenizing train dataset:  88%|████████▊ | 37200/42195 [00:49<00:06, 738.06 examples/s]
+Tokenizing train dataset:  88%|████████▊ | 37282/42195 [00:49<00:06, 759.44 examples/s]
+Tokenizing train dataset:  89%|████████▊ | 37369/42195 [00:49<00:06, 787.34 examples/s]
+Tokenizing train dataset:  89%|████████▉ | 37451/42195 [00:50<00:05, 795.52 examples/s]
+Tokenizing train dataset:  89%|████████▉ | 37537/42195 [00:50<00:05, 808.99 examples/s]
+Tokenizing train dataset:  89%|████████▉ | 37622/42195 [00:50<00:05, 818.34 examples/s]
+Tokenizing train dataset:  89%|████████▉ | 37744/42195 [00:50<00:05, 815.21 examples/s]
+Tokenizing train dataset:  90%|████████▉ | 37832/42195 [00:50<00:05, 829.83 examples/s]
+Tokenizing train dataset:  90%|████████▉ | 37916/42195 [00:50<00:05, 830.54 examples/s]
+Tokenizing train dataset:  90%|█████████ | 38000/42195 [00:50<00:05, 717.90 examples/s]
+Tokenizing train dataset:  90%|█████████ | 38081/42195 [00:50<00:05, 739.07 examples/s]
+Tokenizing train dataset:  90%|█████████ | 38168/42195 [00:50<00:05, 771.45 examples/s]
+Tokenizing train dataset:  91%|█████████ | 38250/42195 [00:51<00:05, 782.53 examples/s]
+Tokenizing train dataset:  91%|█████████ | 38336/42195 [00:51<00:04, 801.17 examples/s]
+Tokenizing train dataset:  91%|█████████ | 38455/42195 [00:51<00:04, 796.73 examples/s]
+Tokenizing train dataset:  91%|█████████▏| 38541/42195 [00:51<00:04, 811.86 examples/s]
+Tokenizing train dataset:  92%|█████████▏| 38624/42195 [00:51<00:04, 812.95 examples/s]
+Tokenizing train dataset:  92%|█████████▏| 38708/42195 [00:51<00:04, 818.15 examples/s]
+Tokenizing train dataset:  92%|█████████▏| 38794/42195 [00:51<00:04, 825.50 examples/s]
+Tokenizing train dataset:  92%|█████████▏| 38918/42195 [00:51<00:03, 823.32 examples/s]
+Tokenizing train dataset:  93%|█████████▎| 39039/42195 [00:52<00:04, 700.35 examples/s]
+Tokenizing train dataset:  93%|█████████▎| 39124/42195 [00:52<00:04, 730.35 examples/s]
+Tokenizing train dataset:  93%|█████████▎| 39209/42195 [00:52<00:03, 756.16 examples/s]
+Tokenizing train dataset:  93%|█████████▎| 39290/42195 [00:52<00:03, 768.91 examples/s]
+Tokenizing train dataset:  93%|█████████▎| 39373/42195 [00:52<00:03, 781.67 examples/s]
+Tokenizing train dataset:  94%|█████████▎| 39454/42195 [00:52<00:03, 786.55 examples/s]
+Tokenizing train dataset:  94%|█████████▎| 39537/42195 [00:52<00:03, 797.86 examples/s]
+Tokenizing train dataset:  94%|█████████▍| 39621/42195 [00:52<00:03, 804.62 examples/s]
+Tokenizing train dataset:  94%|█████████▍| 39746/42195 [00:52<00:03, 810.00 examples/s]
+Tokenizing train dataset:  94%|█████████▍| 39832/42195 [00:53<00:02, 821.09 examples/s]
+Tokenizing train dataset:  95%|█████████▍| 39917/42195 [00:53<00:02, 825.95 examples/s]
+Tokenizing train dataset:  95%|█████████▍| 40000/42195 [00:53<00:03, 715.94 examples/s]
+Tokenizing train dataset:  95%|█████████▍| 40077/42195 [00:53<00:02, 729.37 examples/s]
+Tokenizing train dataset:  95%|█████████▌| 40160/42195 [00:53<00:02, 753.18 examples/s]
+Tokenizing train dataset:  95%|█████████▌| 40242/42195 [00:53<00:02, 771.16 examples/s]
+Tokenizing train dataset:  96%|█████████▌| 40327/42195 [00:53<00:02, 789.53 examples/s]
+Tokenizing train dataset:  96%|█████████▌| 40412/42195 [00:53<00:02, 804.30 examples/s]
+Tokenizing train dataset:  96%|█████████▌| 40494/42195 [00:53<00:02, 806.29 examples/s]
+Tokenizing train dataset:  96%|█████████▌| 40585/42195 [00:54<00:01, 831.97 examples/s]
+Tokenizing train dataset:  96%|█████████▋| 40710/42195 [00:54<00:01, 828.06 examples/s]
+Tokenizing train dataset:  97%|█████████▋| 40831/42195 [00:54<00:01, 816.56 examples/s]
+Tokenizing train dataset:  97%|█████████▋| 40918/42195 [00:54<00:01, 826.41 examples/s]
+Tokenizing train dataset:  97%|█████████▋| 41041/42195 [00:54<00:01, 723.17 examples/s]
+Tokenizing train dataset:  97%|█████████▋| 41124/42195 [00:54<00:01, 745.54 examples/s]
+Tokenizing train dataset:  98%|█████████▊| 41207/42195 [00:54<00:01, 763.23 examples/s]
+Tokenizing train dataset:  98%|█████████▊| 41325/42195 [00:54<00:01, 768.09 examples/s]
+Tokenizing train dataset:  98%|█████████▊| 41408/42195 [00:55<00:01, 780.87 examples/s]
+Tokenizing train dataset:  98%|█████████▊| 41489/42195 [00:55<00:00, 786.04 examples/s]
+Tokenizing train dataset:  99%|█████████▊| 41574/42195 [00:55<00:00, 800.37 examples/s]
+Tokenizing train dataset:  99%|█████████▊| 41656/42195 [00:55<00:00, 803.18 examples/s]
+Tokenizing train dataset:  99%|█████████▉| 41742/42195 [00:55<00:00, 817.99 examples/s]
+Tokenizing train dataset:  99%|█████████▉| 41825/42195 [00:55<00:00, 817.79 examples/s]
+Tokenizing train dataset:  99%|█████████▉| 41909/42195 [00:55<00:00, 819.78 examples/s]
+Tokenizing train dataset: 100%|█████████▉| 42000/42195 [00:55<00:00, 688.31 examples/s]
+Tokenizing train dataset: 100%|█████████▉| 42076/42195 [00:55<00:00, 703.92 examples/s]
+Tokenizing train dataset: 100%|█████████▉| 42157/42195 [00:56<00:00, 731.27 examples/s]
+Tokenizing train dataset: 100%|██████████| 42195/42195 [00:56<00:00, 751.40 examples/s]
+
+Packing train dataset:   0%|          | 0/42195 [00:00<?, ? examples/s]
+Packing train dataset:  14%|█▍        | 6000/42195 [00:00<00:00, 43887.78 examples/s]
+Packing train dataset:  28%|██▊       | 12000/42195 [00:00<00:00, 44865.78 examples/s]
+Packing train dataset:  43%|████▎     | 18000/42195 [00:00<00:00, 45402.32 examples/s]
+Packing train dataset:  57%|█████▋    | 24000/42195 [00:00<00:00, 45290.90 examples/s]
+Packing train dataset:  71%|███████   | 30000/42195 [00:00<00:00, 45542.29 examples/s]
+Packing train dataset:  85%|████████▌ | 36000/42195 [00:00<00:00, 45756.19 examples/s]
+Packing train dataset: 100%|█████████▉| 42000/42195 [00:00<00:00, 45746.65 examples/s]
+Packing train dataset: 100%|██████████| 42195/42195 [00:00<00:00, 45108.77 examples/s]
+
+Tokenizing eval dataset:   0%|          | 0/200 [00:00<?, ? examples/s]
+Tokenizing eval dataset:  20%|██        | 40/200 [00:00<00:00, 386.77 examples/s]
+Tokenizing eval dataset:  42%|████▏     | 83/200 [00:00<00:00, 406.10 examples/s]
+Tokenizing eval dataset:  62%|██████▏   | 124/200 [00:00<00:00, 405.02 examples/s]
+Tokenizing eval dataset:  84%|████████▎ | 167/200 [00:00<00:00, 411.81 examples/s]
+Tokenizing eval dataset: 100%|██████████| 200/200 [00:00<00:00, 379.55 examples/s]
+
+Packing eval dataset:   0%|          | 0/200 [00:00<?, ? examples/s]
+Packing eval dataset: 100%|██████████| 200/200 [00:00<00:00, 7308.49 examples/s]
+Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+Starting training...
+Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+
+  0%|          | 0/420 [00:00<?, ?it/s]
+  0%|          | 1/420 [00:07<54:30,  7.81s/it]
+  0%|          | 2/420 [00:14<51:04,  7.33s/it]
+  1%|          | 3/420 [00:21<49:59,  7.19s/it]
+  1%|          | 4/420 [00:28<49:30,  7.14s/it]
+  1%|          | 5/420 [00:36<50:56,  7.36s/it]
+  1%|▏         | 6/420 [00:43<50:14,  7.28s/it]
+  2%|▏         | 7/420 [00:50<49:27,  7.19s/it]
+  2%|▏         | 8/420 [00:57<48:57,  7.13s/it]
+  2%|▏         | 9/420 [01:05<49:33,  7.23s/it]
+  2%|▏         | 10/420 [01:12<49:05,  7.19s/it]
+  3%|▎         | 11/420 [01:19<48:40,  7.14s/it]
+  3%|▎         | 12/420 [01:26<48:18,  7.10s/it]
+  3%|▎         | 13/420 [01:33<49:04,  7.23s/it]
+  3%|▎         | 14/420 [01:40<48:31,  7.17s/it]
+  4%|▎         | 15/420 [01:48<48:15,  7.15s/it]
+  4%|▍         | 16/420 [01:55<48:01,  7.13s/it]
+  4%|▍         | 17/420 [02:02<47:58,  7.14s/it]
+  4%|▍         | 18/420 [02:09<48:55,  7.30s/it]
+  5%|▍         | 19/420 [02:17<48:26,  7.25s/it]
+  5%|▍         | 20/420 [02:24<48:10,  7.23s/it]
+  5%|▌         | 21/420 [02:31<48:23,  7.28s/it]
+  5%|▌         | 22/420 [02:38<47:53,  7.22s/it]
+  5%|▌         | 23/420 [02:45<47:28,  7.18s/it]
+  6%|▌         | 24/420 [02:52<47:07,  7.14s/it]
+  6%|▌         | 25/420 [02:59<46:50,  7.11s/it]
+                                                
+{'loss': 0.721, 'grad_norm': 0.6640625, 'learning_rate': 2.999581555818041e-05, 'entropy': 0.6625849714875222, 'num_tokens': 6475201.0, 'mean_token_accuracy': 0.8303882774710655, 'epoch': 0.18}
+
+  6%|▌         | 25/420 [02:59<46:50,  7.11s/it]
+  6%|▌         | 26/420 [03:07<47:16,  7.20s/it]
+  6%|▋         | 27/420 [03:14<46:56,  7.17s/it]
+  7%|▋         | 28/420 [03:21<46:35,  7.13s/it]
+  7%|▋         | 29/420 [03:28<46:19,  7.11s/it]
+  7%|▋         | 30/420 [03:35<46:47,  7.20s/it]
+  7%|▋         | 31/420 [03:43<46:29,  7.17s/it]
+  8%|▊         | 32/420 [03:50<46:09,  7.14s/it]
+  8%|▊         | 33/420 [03:57<45:53,  7.12s/it]
+  8%|▊         | 34/420 [04:04<46:18,  7.20s/it]
+  8%|▊         | 35/420 [04:11<46:05,  7.18s/it]
+  9%|▊         | 36/420 [04:18<45:48,  7.16s/it]
+  9%|▉         | 37/420 [04:25<45:32,  7.13s/it]
+  9%|▉         | 38/420 [04:32<45:16,  7.11s/it]
+  9%|▉         | 39/420 [04:40<45:37,  7.19s/it]
+ 10%|▉         | 40/420 [04:47<45:17,  7.15s/it]
+ 10%|▉         | 41/420 [04:54<44:58,  7.12s/it]
+ 10%|█         | 42/420 [05:01<44:36,  7.08s/it]
+ 10%|█         | 43/420 [05:09<45:57,  7.32s/it]
+ 10%|█         | 44/420 [05:16<45:24,  7.25s/it]
+ 11%|█         | 45/420 [05:23<44:54,  7.19s/it]
+ 11%|█         | 46/420 [05:30<44:31,  7.14s/it]
+ 11%|█         | 47/420 [05:37<44:47,  7.21s/it]
+ 11%|█▏        | 48/420 [05:44<44:31,  7.18s/it]
+ 12%|█▏        | 49/420 [05:51<44:11,  7.15s/it]
+ 12%|█▏        | 50/420 [05:59<44:02,  7.14s/it]
+                                                
+{'loss': 0.5556, 'grad_norm': 0.53515625, 'learning_rate': 2.9636945739411533e-05, 'entropy': 0.5796742740273476, 'num_tokens': 12966453.0, 'mean_token_accuracy': 0.8493722504377366, 'epoch': 0.36}
+
+ 12%|█▏        | 50/420 [05:59<44:02,  7.14s/it]
+ 12%|█▏        | 51/420 [06:06<43:48,  7.12s/it]
+ 12%|█▏        | 52/420 [06:13<44:13,  7.21s/it]
+ 13%|█▎        | 53/420 [06:20<43:49,  7.16s/it]
+ 13%|█▎        | 54/420 [06:27<43:28,  7.13s/it]
+ 13%|█▎        | 55/420 [06:34<43:18,  7.12s/it]
+ 13%|█▎        | 56/420 [06:42<43:48,  7.22s/it]
+ 14%|█▎        | 57/420 [06:49<43:22,  7.17s/it]
+ 14%|█▍        | 58/420 [06:56<42:59,  7.13s/it]
+ 14%|█▍        | 59/420 [07:03<42:42,  7.10s/it]
+ 14%|█▍        | 60/420 [07:10<43:04,  7.18s/it]
+ 15%|█▍        | 61/420 [07:17<42:40,  7.13s/it]
+ 15%|█▍        | 62/420 [07:24<42:22,  7.10s/it]
+ 15%|█▌        | 63/420 [07:31<42:05,  7.07s/it]
+ 15%|█▌        | 64/420 [07:38<41:49,  7.05s/it]
+ 15%|█▌        | 65/420 [07:46<42:13,  7.14s/it]
+ 16%|█▌        | 66/420 [07:53<41:52,  7.10s/it]
+ 16%|█▌        | 67/420 [08:00<41:38,  7.08s/it]
+ 16%|█▌        | 68/420 [08:07<41:27,  7.07s/it]
+ 16%|█▋        | 69/420 [08:14<41:53,  7.16s/it]
+ 17%|█▋        | 70/420 [08:21<41:34,  7.13s/it]
+ 17%|█▋        | 71/420 [08:28<41:22,  7.11s/it]
+ 17%|█▋        | 72/420 [08:35<41:03,  7.08s/it]
+ 17%|█▋        | 73/420 [08:43<41:49,  7.23s/it]
+ 18%|█▊        | 74/420 [08:50<41:21,  7.17s/it]
+ 18%|█▊        | 75/420 [08:57<40:58,  7.13s/it]
+                                                
+{'loss': 0.5344, 'grad_norm': 0.45703125, 'learning_rate': 2.8712772395389312e-05, 'entropy': 0.5529735085368156, 'num_tokens': 19470726.0, 'mean_token_accuracy': 0.8514370727539062, 'epoch': 0.54}
+
+ 18%|█▊        | 75/420 [08:57<40:58,  7.13s/it]
+ 18%|█▊        | 76/420 [09:04<40:44,  7.11s/it]
+ 18%|█▊        | 77/420 [09:11<40:37,  7.11s/it]
+ 19%|█▊        | 78/420 [09:18<40:53,  7.17s/it]
+ 19%|█▉        | 79/420 [09:25<40:29,  7.12s/it]
+ 19%|█▉        | 80/420 [09:32<40:11,  7.09s/it]
+ 19%|█▉        | 81/420 [09:39<39:56,  7.07s/it]
+ 20%|█▉        | 82/420 [09:47<40:26,  7.18s/it]
+ 20%|█▉        | 83/420 [09:54<40:02,  7.13s/it]
+ 20%|██        | 84/420 [10:01<39:43,  7.09s/it]
+ 20%|██        | 85/420 [10:08<39:29,  7.07s/it]
+ 20%|██        | 86/420 [10:15<39:51,  7.16s/it]
+ 21%|██        | 87/420 [10:22<39:28,  7.11s/it]
+ 21%|██        | 88/420 [10:29<39:10,  7.08s/it]
+ 21%|██        | 89/420 [10:36<39:03,  7.08s/it]
+ 21%|██▏       | 90/420 [10:43<39:03,  7.10s/it]
+ 22%|██▏       | 91/420 [10:51<39:48,  7.26s/it]
+ 22%|██▏       | 92/420 [10:58<39:30,  7.23s/it]
+ 22%|██▏       | 93/420 [11:05<39:16,  7.21s/it]
+ 22%|██▏       | 94/420 [11:13<39:03,  7.19s/it]
+ 23%|██▎       | 95/420 [11:20<39:42,  7.33s/it]
+ 23%|██▎       | 96/420 [11:27<39:17,  7.28s/it]
+ 23%|██▎       | 97/420 [11:35<38:57,  7.24s/it]
+ 23%|██▎       | 98/420 [11:42<38:33,  7.19s/it]
+ 24%|██▎       | 99/420 [11:49<39:07,  7.31s/it]
+ 24%|██▍       | 100/420 [11:56<38:40,  7.25s/it]
+                                                 
+{'loss': 0.5133, 'grad_norm': 0.484375, 'learning_rate': 2.725898865899967e-05, 'entropy': 0.5256305174529552, 'num_tokens': 25952932.0, 'mean_token_accuracy': 0.8561070948839188, 'epoch': 0.72}
+
+ 24%|██▍       | 100/420 [11:56<38:40,  7.25s/it]
+ 24%|██▍       | 101/420 [12:03<38:20,  7.21s/it]
+ 24%|██▍       | 102/420 [12:11<38:01,  7.17s/it]
+ 25%|██▍       | 103/420 [12:18<39:02,  7.39s/it]
+ 25%|██▍       | 104/420 [12:26<38:27,  7.30s/it]
+ 25%|██▌       | 105/420 [12:33<38:31,  7.34s/it]
+ 25%|██▌       | 106/420 [12:40<38:09,  7.29s/it]
+ 25%|██▌       | 107/420 [12:47<37:41,  7.22s/it]
+ 26%|██▌       | 108/420 [12:55<38:10,  7.34s/it]
+ 26%|██▌       | 109/420 [13:02<37:38,  7.26s/it]
+ 26%|██▌       | 110/420 [13:09<37:10,  7.20s/it]
+ 26%|██▋       | 111/420 [13:16<36:51,  7.16s/it]
+ 27%|██▋       | 112/420 [13:24<37:39,  7.34s/it]
+ 27%|██▋       | 113/420 [13:31<37:13,  7.28s/it]
+ 27%|██▋       | 114/420 [13:38<36:51,  7.23s/it]
+ 27%|██▋       | 115/420 [13:45<36:37,  7.21s/it]
+ 28%|██▊       | 116/420 [13:53<37:15,  7.35s/it]
+ 28%|██▊       | 117/420 [14:00<36:49,  7.29s/it]
+ 28%|██▊       | 118/420 [14:07<36:26,  7.24s/it]
+ 28%|██▊       | 119/420 [14:14<36:10,  7.21s/it]
+ 29%|██▊       | 120/420 [14:21<35:55,  7.19s/it]
+ 29%|██▉       | 121/420 [14:29<36:28,  7.32s/it]
+ 29%|██▉       | 122/420 [14:36<36:03,  7.26s/it]
+ 29%|██▉       | 123/420 [14:43<35:42,  7.21s/it]
+ 30%|██▉       | 124/420 [14:51<36:13,  7.34s/it]
+ 30%|██▉       | 125/420 [14:58<35:43,  7.26s/it]
+                                                 
+{'loss': 0.5155, 'grad_norm': 0.42578125, 'learning_rate': 2.533174210951007e-05, 'entropy': 0.5269488798081875, 'num_tokens': 32397898.0, 'mean_token_accuracy': 0.8560352259874344, 'epoch': 0.9}
+
+ 30%|██▉       | 125/420 [14:58<35:43,  7.26s/it]
+ 30%|███       | 126/420 [15:05<35:26,  7.23s/it]
+ 30%|███       | 127/420 [15:12<35:10,  7.20s/it]
+ 30%|███       | 128/420 [15:19<34:58,  7.19s/it]
+ 31%|███       | 129/420 [15:27<35:34,  7.34s/it]
+ 31%|███       | 130/420 [15:34<35:02,  7.25s/it]
+ 31%|███       | 131/420 [15:41<34:35,  7.18s/it]
+ 31%|███▏      | 132/420 [15:48<34:18,  7.15s/it]
+ 32%|███▏      | 133/420 [15:56<34:32,  7.22s/it]
+ 32%|███▏      | 134/420 [16:03<34:10,  7.17s/it]
+ 32%|███▏      | 135/420 [16:10<33:52,  7.13s/it]
+ 32%|███▏      | 136/420 [16:17<33:35,  7.10s/it]
+ 33%|███▎      | 137/420 [16:24<34:07,  7.24s/it]
+ 33%|███▎      | 138/420 [16:31<33:45,  7.18s/it]
+ 33%|███▎      | 139/420 [16:38<33:25,  7.14s/it]
+ 33%|███▎      | 140/420 [16:43<29:36,  6.35s/it]
+ 34%|███▎      | 141/420 [16:50<30:54,  6.65s/it]
+ 34%|███▍      | 142/420 [16:58<32:15,  6.96s/it]
+ 34%|███▍      | 143/420 [17:05<32:16,  6.99s/it]
+ 34%|███▍      | 144/420 [17:12<32:15,  7.01s/it]
+ 35%|███▍      | 145/420 [17:19<32:14,  7.04s/it]
+ 35%|███▍      | 146/420 [17:26<32:11,  7.05s/it]
+ 35%|███▌      | 147/420 [17:34<32:47,  7.21s/it]
+ 35%|███▌      | 148/420 [17:41<32:26,  7.16s/it]
+ 35%|███▌      | 149/420 [17:48<32:09,  7.12s/it]
+ 36%|███▌      | 150/420 [17:55<31:55,  7.09s/it]
+                                                 
+{'loss': 0.5097, 'grad_norm': 0.4453125, 'learning_rate': 2.3005466258382202e-05, 'entropy': 0.5199499555348139, 'num_tokens': 38797072.0, 'mean_token_accuracy': 0.8572512961886256, 'epoch': 1.07}
+
+ 36%|███▌      | 150/420 [17:55<31:55,  7.09s/it]
+ 36%|███▌      | 151/420 [18:02<32:15,  7.19s/it]
+ 36%|███▌      | 152/420 [18:09<31:54,  7.14s/it]
+ 36%|███▋      | 153/420 [18:16<31:41,  7.12s/it]
+ 37%|███▋      | 154/420 [18:23<31:28,  7.10s/it]
+ 37%|███▋      | 155/420 [18:31<32:05,  7.27s/it]
+ 37%|███▋      | 156/420 [18:38<31:39,  7.19s/it]
+ 37%|███▋      | 157/420 [18:45<31:23,  7.16s/it]
+ 38%|███▊      | 158/420 [18:52<31:07,  7.13s/it]
+ 38%|███▊      | 159/420 [18:59<30:55,  7.11s/it]
+ 38%|███▊      | 160/420 [19:07<31:22,  7.24s/it]
+ 38%|███▊      | 161/420 [19:14<31:03,  7.19s/it]
+ 39%|███▊      | 162/420 [19:21<30:40,  7.14s/it]
+ 39%|███▉      | 163/420 [19:28<30:27,  7.11s/it]
+ 39%|███▉      | 164/420 [19:36<31:23,  7.36s/it]
+ 39%|███▉      | 165/420 [19:43<30:55,  7.28s/it]
+ 40%|███▉      | 166/420 [19:50<30:31,  7.21s/it]
+ 40%|███▉      | 167/420 [19:57<30:09,  7.15s/it]
+ 40%|████      | 168/420 [20:05<30:58,  7.37s/it]
+ 40%|████      | 169/420 [20:12<30:25,  7.27s/it]
+ 40%|████      | 170/420 [20:19<29:58,  7.19s/it]
+ 41%|████      | 171/420 [20:26<29:40,  7.15s/it]
+ 41%|████      | 172/420 [20:33<29:27,  7.13s/it]
+ 41%|████      | 173/420 [20:41<29:56,  7.27s/it]
+ 41%|████▏     | 174/420 [20:48<29:40,  7.24s/it]
+ 42%|████▏     | 175/420 [20:55<29:31,  7.23s/it]
+                                                 
+{'loss': 0.5075, 'grad_norm': 0.40234375, 'learning_rate': 2.03700058015497e-05, 'entropy': 0.5152190966904163, 'num_tokens': 45263806.0, 'mean_token_accuracy': 0.8572191023826599, 'epoch': 1.25}
+
+ 42%|████▏     | 175/420 [20:55<29:31,  7.23s/it]
+ 42%|████▏     | 176/420 [21:02<29:18,  7.21s/it]
+ 42%|████▏     | 177/420 [21:10<29:51,  7.37s/it]
+ 42%|████▏     | 178/420 [21:17<29:26,  7.30s/it]
+ 43%|████▎     | 179/420 [21:24<29:03,  7.23s/it]
+ 43%|████▎     | 180/420 [21:31<28:48,  7.20s/it]
+ 43%|████▎     | 181/420 [21:39<29:10,  7.32s/it]
+ 43%|████▎     | 182/420 [21:46<28:47,  7.26s/it]
+ 44%|████▎     | 183/420 [21:53<28:29,  7.21s/it]
+ 44%|████▍     | 184/420 [22:00<28:16,  7.19s/it]
+ 44%|████▍     | 185/420 [22:07<27:59,  7.15s/it]
+ 44%|████▍     | 186/420 [22:15<28:21,  7.27s/it]
+ 45%|████▍     | 187/420 [22:22<28:05,  7.23s/it]
+ 45%|████▍     | 188/420 [22:29<27:53,  7.22s/it]
+ 45%|████▌     | 189/420 [22:36<27:41,  7.19s/it]
+ 45%|████▌     | 190/420 [22:44<28:04,  7.33s/it]
+ 45%|████▌     | 191/420 [22:51<27:39,  7.25s/it]
+ 46%|████▌     | 192/420 [22:58<27:18,  7.19s/it]
+ 46%|████▌     | 193/420 [23:05<27:01,  7.14s/it]
+ 46%|████▌     | 194/420 [23:13<27:09,  7.21s/it]
+ 46%|████▋     | 195/420 [23:20<26:53,  7.17s/it]
+ 47%|████▋     | 196/420 [23:27<26:39,  7.14s/it]
+ 47%|████▋     | 197/420 [23:34<26:30,  7.13s/it]
+ 47%|████▋     | 198/420 [23:41<26:37,  7.20s/it]
+ 47%|████▋     | 199/420 [23:48<26:20,  7.15s/it]
+ 48%|████▊     | 200/420 [23:55<26:06,  7.12s/it]
+                                                 
+{'loss': 0.4984, 'grad_norm': 0.416015625, 'learning_rate': 1.752714666576513e-05, 'entropy': 0.5060607965290547, 'num_tokens': 51762478.0, 'mean_token_accuracy': 0.859604064822197, 'epoch': 1.43}
+
+ 48%|████▊     | 200/420 [23:55<26:06,  7.12s/it]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A
+
+ 33%|███▎      | 2/6 [00:00<00:00,  7.57it/s][A
+
+ 50%|█████     | 3/6 [00:00<00:00,  5.32it/s][A
+
+ 67%|██████▋   | 4/6 [00:00<00:00,  4.63it/s][A
+
+ 83%|████████▎ | 5/6 [00:01<00:00,  4.31it/s][A
+
+100%|██████████| 6/6 [00:01<00:00,  3.87it/s][A
+                                                 
+
+                                             
+[A{'eval_loss': 0.4938196837902069, 'eval_runtime': 1.8082, 'eval_samples_per_second': 11.613, 'eval_steps_per_second': 3.318, 'eval_entropy': 0.5119533042112986, 'eval_num_tokens': 51762478.0, 'eval_mean_token_accuracy': 0.8589220941066742, 'epoch': 1.43}
+
+ 48%|████▊     | 200/420 [23:57<26:06,  7.12s/it]
+
+100%|██████████| 6/6 [00:01<00:00,  3.87it/s][A
+
+                                             [A/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+
+ 48%|████▊     | 201/420 [24:15<39:22, 10.79s/it]
+ 48%|████▊     | 202/420 [24:22<35:25,  9.75s/it]
+ 48%|████▊     | 203/420 [24:29<32:41,  9.04s/it]
+ 49%|████▊     | 204/420 [24:36<30:21,  8.43s/it]
+ 49%|████▉     | 205/420 [24:43<28:41,  8.01s/it]
+ 49%|████▉     | 206/420 [24:50<27:27,  7.70s/it]
+ 49%|████▉     | 207/420 [24:58<27:09,  7.65s/it]
+ 50%|████▉     | 208/420 [25:05<26:18,  7.45s/it]
+ 50%|████▉     | 209/420 [25:12<25:43,  7.31s/it]
+ 50%|█████     | 210/420 [25:19<25:17,  7.23s/it]
+ 50%|█████     | 211/420 [25:26<25:17,  7.26s/it]
+ 50%|█████     | 212/420 [25:33<25:07,  7.25s/it]
+ 51%|█████     | 213/420 [25:40<24:44,  7.17s/it]
+ 51%|█████     | 214/420 [25:47<24:26,  7.12s/it]
+ 51%|█████     | 215/420 [25:55<24:20,  7.12s/it]
+ 51%|█████▏    | 216/420 [26:02<24:24,  7.18s/it]
+ 52%|█████▏    | 217/420 [26:09<24:06,  7.13s/it]
+ 52%|█████▏    | 218/420 [26:16<23:51,  7.08s/it]
+ 52%|█████▏    | 219/420 [26:23<23:41,  7.07s/it]
+ 52%|█████▏    | 220/420 [26:30<24:01,  7.21s/it]
+ 53%|█████▎    | 221/420 [26:37<23:41,  7.14s/it]
+ 53%|█████▎    | 222/420 [26:44<23:26,  7.10s/it]
+ 53%|█████▎    | 223/420 [26:51<23:13,  7.08s/it]
+ 53%|█████▎    | 224/420 [26:59<23:37,  7.23s/it]
+ 54%|█████▎    | 225/420 [27:06<23:18,  7.17s/it]
+                                                 
+{'loss': 0.5028, 'grad_norm': 0.404296875, 'learning_rate': 1.4586684864477572e-05, 'entropy': 0.5096727575361729, 'num_tokens': 58244388.0, 'mean_token_accuracy': 0.8586052796244621, 'epoch': 1.61}
+
+ 54%|█████▎    | 225/420 [27:06<23:18,  7.17s/it]
+ 54%|█████▍    | 226/420 [27:13<23:00,  7.12s/it]
+ 54%|█████▍    | 227/420 [27:20<22:47,  7.09s/it]
+ 54%|█████▍    | 228/420 [27:27<22:52,  7.15s/it]
+ 55%|█████▍    | 229/420 [27:35<22:53,  7.19s/it]
+ 55%|█████▍    | 230/420 [27:42<22:36,  7.14s/it]
+ 55%|█████▌    | 231/420 [27:49<22:20,  7.09s/it]
+ 55%|█████▌    | 232/420 [27:56<22:09,  7.07s/it]
+ 55%|█████▌    | 233/420 [28:03<22:30,  7.22s/it]
+ 56%|█████▌    | 234/420 [28:10<22:10,  7.16s/it]
+ 56%|█████▌    | 235/420 [28:17<22:00,  7.14s/it]
+ 56%|█████▌    | 236/420 [28:24<21:44,  7.09s/it]
+ 56%|█████▋    | 237/420 [28:32<22:01,  7.22s/it]
+ 57%|█████▋    | 238/420 [28:39<21:42,  7.16s/it]
+ 57%|█████▋    | 239/420 [28:46<21:29,  7.13s/it]
+ 57%|█████▋    | 240/420 [28:53<21:17,  7.10s/it]
+ 57%|█████▋    | 241/420 [29:00<21:23,  7.17s/it]
+ 58%|█████▊    | 242/420 [29:08<21:26,  7.23s/it]
+ 58%|█████▊    | 243/420 [29:15<21:09,  7.17s/it]
+ 58%|█████▊    | 244/420 [29:22<20:55,  7.13s/it]
+ 58%|█████▊    | 245/420 [29:29<20:44,  7.11s/it]
+ 59%|█████▊    | 246/420 [29:36<21:02,  7.25s/it]
+ 59%|█████▉    | 247/420 [29:43<20:40,  7.17s/it]
+ 59%|█████▉    | 248/420 [29:50<20:25,  7.12s/it]
+ 59%|█████▉    | 249/420 [29:57<20:11,  7.09s/it]
+ 60%|█████▉    | 250/420 [30:05<20:30,  7.24s/it]
+                                                 
+{'loss': 0.4953, 'grad_norm': 0.40625, 'learning_rate': 1.1662185990655285e-05, 'entropy': 0.5021840235590935, 'num_tokens': 64732962.0, 'mean_token_accuracy': 0.860044183731079, 'epoch': 1.79}
+
+ 60%|█████▉    | 250/420 [30:05<20:30,  7.24s/it]
+ 60%|█████▉    | 251/420 [30:12<20:11,  7.17s/it]
+ 60%|██████    | 252/420 [30:19<19:55,  7.12s/it]
+ 60%|██████    | 253/420 [30:26<19:41,  7.08s/it]
+ 60%|██████    | 254/420 [30:34<20:02,  7.24s/it]
+ 61%|██████    | 255/420 [30:41<19:46,  7.19s/it]
+ 61%|██████    | 256/420 [30:48<19:29,  7.13s/it]
+ 61%|██████    | 257/420 [30:55<19:16,  7.10s/it]
+ 61%|██████▏   | 258/420 [31:02<19:05,  7.07s/it]
+ 62%|██████▏   | 259/420 [31:09<19:23,  7.23s/it]
+ 62%|██████▏   | 260/420 [31:16<19:05,  7.16s/it]
+ 62%|██████▏   | 261/420 [31:23<18:52,  7.12s/it]
+ 62%|██████▏   | 262/420 [31:30<18:39,  7.09s/it]
+ 63%|██████▎   | 263/420 [31:38<18:57,  7.24s/it]
+ 63%|██████▎   | 264/420 [31:45<18:38,  7.17s/it]
+ 63%|██████▎   | 265/420 [31:52<18:23,  7.12s/it]
+ 63%|██████▎   | 266/420 [31:59<18:10,  7.08s/it]
+ 64%|██████▎   | 267/420 [32:07<18:27,  7.24s/it]
+ 64%|██████▍   | 268/420 [32:14<18:10,  7.18s/it]
+ 64%|██████▍   | 269/420 [32:21<17:57,  7.13s/it]
+ 64%|██████▍   | 270/420 [32:28<17:44,  7.10s/it]
+ 65%|██████▍   | 271/420 [32:35<17:34,  7.07s/it]
+ 65%|██████▍   | 272/420 [32:42<17:50,  7.23s/it]
+ 65%|██████▌   | 273/420 [32:49<17:33,  7.17s/it]
+ 65%|██████▌   | 274/420 [32:56<17:20,  7.13s/it]
+ 65%|██████▌   | 275/420 [33:03<17:09,  7.10s/it]
+                                                 
+{'loss': 0.5021, 'grad_norm': 0.40625, 'learning_rate': 8.86659912209117e-06, 'entropy': 0.5081088531017304, 'num_tokens': 71206565.0, 'mean_token_accuracy': 0.8586842840909958, 'epoch': 1.97}
+
+ 65%|██████▌   | 275/420 [33:03<17:09,  7.10s/it]
+ 66%|██████▌   | 276/420 [33:11<17:25,  7.26s/it]
+ 66%|██████▌   | 277/420 [33:18<17:06,  7.18s/it]
+ 66%|██████▌   | 278/420 [33:25<16:52,  7.13s/it]
+ 66%|██████▋   | 279/420 [33:32<16:39,  7.09s/it]
+ 67%|██████▋   | 280/420 [33:37<14:52,  6.38s/it]
+ 67%|██████▋   | 281/420 [33:45<15:54,  6.86s/it]
+ 67%|██████▋   | 282/420 [33:52<15:51,  6.89s/it]
+ 67%|██████▋   | 283/420 [33:59<15:50,  6.94s/it]
+ 68%|██████▊   | 284/420 [34:06<16:06,  7.11s/it]
+ 68%|██████▊   | 285/420 [34:13<16:09,  7.18s/it]
+ 68%|██████▊   | 286/420 [34:21<15:56,  7.14s/it]
+ 68%|██████▊   | 287/420 [34:28<15:43,  7.10s/it]
+ 69%|██████▊   | 288/420 [34:35<15:35,  7.08s/it]
+ 69%|██████▉   | 289/420 [34:42<15:37,  7.16s/it]
+ 69%|██████▉   | 290/420 [34:49<15:37,  7.21s/it]
+ 69%|██████▉   | 291/420 [34:56<15:24,  7.17s/it]
+ 70%|██████▉   | 292/420 [35:03<15:11,  7.12s/it]
+ 70%|██████▉   | 293/420 [35:10<15:02,  7.10s/it]
+ 70%|███████   | 294/420 [35:18<15:05,  7.18s/it]
+ 70%|███████   | 295/420 [35:25<14:54,  7.15s/it]
+ 70%|███████   | 296/420 [35:32<14:40,  7.10s/it]
+ 71%|███████   | 297/420 [35:40<14:55,  7.28s/it]
+ 71%|███████   | 298/420 [35:47<14:40,  7.21s/it]
+ 71%|███████   | 299/420 [35:54<14:27,  7.17s/it]
+ 71%|███████▏  | 300/420 [36:01<14:16,  7.14s/it]
+                                                 
+{'loss': 0.4976, 'grad_norm': 0.369140625, 'learning_rate': 6.307894537563807e-06, 'entropy': 0.5030992624118243, 'num_tokens': 77571826.0, 'mean_token_accuracy': 0.859982765870651, 'epoch': 2.14}
+
+ 71%|███████▏  | 300/420 [36:01<14:16,  7.14s/it]
+ 72%|███████▏  | 301/420 [36:08<14:06,  7.11s/it]
+ 72%|███████▏  | 302/420 [36:15<14:15,  7.25s/it]
+ 72%|███████▏  | 303/420 [36:22<14:02,  7.20s/it]
+ 72%|███████▏  | 304/420 [36:29<13:47,  7.13s/it]
+ 73%|███████▎  | 305/420 [36:36<13:34,  7.09s/it]
+ 73%|███████▎  | 306/420 [36:44<13:43,  7.22s/it]
+ 73%|███████▎  | 307/420 [36:51<13:29,  7.17s/it]
+ 73%|███████▎  | 308/420 [36:58<13:17,  7.12s/it]
+ 74%|███████▎  | 309/420 [37:05<13:06,  7.09s/it]
+ 74%|███████▍  | 310/420 [37:13<13:17,  7.25s/it]
+ 74%|███████▍  | 311/420 [37:20<13:00,  7.16s/it]
+ 74%|███████▍  | 312/420 [37:27<12:48,  7.12s/it]
+ 75%|███████▍  | 313/420 [37:34<12:38,  7.09s/it]
+ 75%|███████▍  | 314/420 [37:41<12:29,  7.07s/it]
+ 75%|███████▌  | 315/420 [37:48<12:38,  7.22s/it]
+ 75%|███████▌  | 316/420 [37:55<12:25,  7.16s/it]
+ 75%|███████▌  | 317/420 [38:02<12:13,  7.12s/it]
+ 76%|███████▌  | 318/420 [38:09<12:02,  7.08s/it]
+ 76%|███████▌  | 319/420 [38:17<12:10,  7.23s/it]
+ 76%|███████▌  | 320/420 [38:24<11:57,  7.17s/it]
+ 76%|███████▋  | 321/420 [38:31<11:45,  7.13s/it]
+ 77%|███████▋  | 322/420 [38:38<11:34,  7.09s/it]
+ 77%|███████▋  | 323/420 [38:45<11:40,  7.23s/it]
+ 77%|███████▋  | 324/420 [38:53<11:29,  7.19s/it]
+ 77%|███████▋  | 325/420 [39:00<11:17,  7.14s/it]
+                                                 
+{'loss': 0.4974, 'grad_norm': 0.37109375, 'learning_rate': 4.084893722611706e-06, 'entropy': 0.5041993804275989, 'num_tokens': 84053327.0, 'mean_token_accuracy': 0.8599085295200348, 'epoch': 2.32}
+
+ 77%|███████▋  | 325/420 [39:00<11:17,  7.14s/it]
+ 78%|███████▊  | 326/420 [39:07<11:07,  7.10s/it]
+ 78%|███████▊  | 327/420 [39:14<10:56,  7.06s/it]
+ 78%|███████▊  | 328/420 [39:21<11:01,  7.19s/it]
+ 78%|███████▊  | 329/420 [39:28<10:49,  7.14s/it]
+ 79%|███████▊  | 330/420 [39:35<10:38,  7.10s/it]
+ 79%|███████▉  | 331/420 [39:42<10:29,  7.07s/it]
+ 79%|███████▉  | 332/420 [39:50<10:35,  7.23s/it]
+ 79%|███████▉  | 333/420 [39:57<10:23,  7.17s/it]
+ 80%|███████▉  | 334/420 [40:04<10:12,  7.13s/it]
+ 80%|███████▉  | 335/420 [40:11<10:03,  7.10s/it]
+ 80%|████████  | 336/420 [40:18<10:08,  7.24s/it]
+ 80%|████████  | 337/420 [40:25<09:55,  7.18s/it]
+ 80%|████████  | 338/420 [40:32<09:45,  7.14s/it]
+ 81%|████████  | 339/420 [40:39<09:36,  7.11s/it]
+ 81%|████████  | 340/420 [40:47<09:32,  7.16s/it]
+ 81%|████████  | 341/420 [40:54<09:29,  7.20s/it]
+ 81%|████████▏ | 342/420 [41:01<09:16,  7.14s/it]
+ 82%|████████▏ | 343/420 [41:08<09:06,  7.10s/it]
+ 82%|████████▏ | 344/420 [41:15<08:57,  7.07s/it]
+ 82%|████████▏ | 345/420 [41:23<09:11,  7.35s/it]
+ 82%|████████▏ | 346/420 [41:30<08:56,  7.25s/it]
+ 83%|████████▎ | 347/420 [41:37<08:44,  7.19s/it]
+ 83%|████████▎ | 348/420 [41:44<08:34,  7.14s/it]
+ 83%|████████▎ | 349/420 [41:52<08:38,  7.31s/it]
+ 83%|████████▎ | 350/420 [41:59<08:26,  7.23s/it]
+                                                 
+{'loss': 0.5039, 'grad_norm': 0.38671875, 'learning_rate': 2.283452717129163e-06, 'entropy': 0.5107893215119839, 'num_tokens': 90556000.0, 'mean_token_accuracy': 0.8577445790171623, 'epoch': 2.5}
+
+ 83%|████████▎ | 350/420 [41:59<08:26,  7.23s/it]
+ 84%|████████▎ | 351/420 [42:06<08:14,  7.17s/it]
+ 84%|████████▍ | 352/420 [42:13<08:04,  7.13s/it]
+ 84%|████████▍ | 353/420 [42:20<08:01,  7.19s/it]
+ 84%|████████▍ | 354/420 [42:28<07:57,  7.24s/it]
+ 85%|████████▍ | 355/420 [42:35<07:45,  7.17s/it]
+ 85%|████████▍ | 356/420 [42:42<07:36,  7.14s/it]
+ 85%|████████▌ | 357/420 [42:49<07:28,  7.12s/it]
+ 85%|████████▌ | 358/420 [42:57<07:34,  7.33s/it]
+ 85%|████████▌ | 359/420 [43:04<07:21,  7.24s/it]
+ 86%|████████▌ | 360/420 [43:11<07:10,  7.18s/it]
+ 86%|████████▌ | 361/420 [43:18<07:00,  7.13s/it]
+ 86%|████████▌ | 362/420 [43:25<07:03,  7.31s/it]
+ 86%|████████▋ | 363/420 [43:32<06:50,  7.21s/it]
+ 87%|████████▋ | 364/420 [43:39<06:40,  7.15s/it]
+ 87%|████████▋ | 365/420 [43:46<06:31,  7.12s/it]
+ 87%|████████▋ | 366/420 [43:54<06:27,  7.18s/it]
+ 87%|████████▋ | 367/420 [44:01<06:27,  7.32s/it]
+ 88%|████████▊ | 368/420 [44:08<06:15,  7.22s/it]
+ 88%|████████▊ | 369/420 [44:15<06:05,  7.17s/it]
+ 88%|████████▊ | 370/420 [44:23<06:00,  7.21s/it]
+ 88%|████████▊ | 371/420 [44:30<05:59,  7.35s/it]
+ 89%|████████▊ | 372/420 [44:37<05:48,  7.25s/it]
+ 89%|████████▉ | 373/420 [44:44<05:37,  7.19s/it]
+ 89%|████████▉ | 374/420 [44:52<05:33,  7.25s/it]
+ 89%|████████▉ | 375/420 [44:59<05:29,  7.32s/it]
+                                                 
+{'loss': 0.4954, 'grad_norm': 0.37890625, 'learning_rate': 9.731462103351919e-07, 'entropy': 0.5018439236283302, 'num_tokens': 97047112.0, 'mean_token_accuracy': 0.8601474362611771, 'epoch': 2.68}
+
+ 89%|████████▉ | 375/420 [44:59<05:29,  7.32s/it]
+ 90%|████████▉ | 376/420 [45:06<05:18,  7.23s/it]
+ 90%|████████▉ | 377/420 [45:13<05:08,  7.18s/it]
+ 90%|█████████ | 378/420 [45:20<04:59,  7.13s/it]
+ 90%|█████████ | 379/420 [45:28<05:00,  7.33s/it]
+ 90%|█████████ | 380/420 [45:35<04:49,  7.24s/it]
+ 91%|█████████ | 381/420 [45:42<04:39,  7.17s/it]
+ 91%|█████████ | 382/420 [45:49<04:31,  7.13s/it]
+ 91%|█████████ | 383/420 [45:57<04:26,  7.20s/it]
+ 91%|█████████▏| 384/420 [46:04<04:20,  7.24s/it]
+ 92%|█████████▏| 385/420 [46:11<04:11,  7.18s/it]
+ 92%|█████████▏| 386/420 [46:18<04:01,  7.12s/it]
+ 92%|█████████▏| 387/420 [46:25<03:55,  7.15s/it]
+ 92%|█████████▏| 388/420 [46:33<03:51,  7.22s/it]
+ 93%|█████████▎| 389/420 [46:40<03:41,  7.16s/it]
+ 93%|█████████▎| 390/420 [46:47<03:33,  7.11s/it]
+ 93%|█████████▎| 391/420 [46:54<03:25,  7.08s/it]
+ 93%|█████████▎| 392/420 [47:01<03:22,  7.23s/it]
+ 94%|█████████▎| 393/420 [47:08<03:13,  7.17s/it]
+ 94%|█████████▍| 394/420 [47:15<03:05,  7.14s/it]
+ 94%|█████████▍| 395/420 [47:22<02:57,  7.09s/it]
+ 94%|█████████▍| 396/420 [47:30<02:51,  7.14s/it]
+ 95%|█████████▍| 397/420 [47:37<02:45,  7.22s/it]
+ 95%|█████████▍| 398/420 [47:44<02:37,  7.15s/it]
+ 95%|█████████▌| 399/420 [47:51<02:29,  7.10s/it]
+ 95%|█████████▌| 400/420 [47:58<02:23,  7.18s/it]
+                                                 
+{'loss': 0.4919, 'grad_norm': 0.353515625, 'learning_rate': 2.0458044895916516e-07, 'entropy': 0.4981739991903305, 'num_tokens': 103530732.0, 'mean_token_accuracy': 0.8612400114536285, 'epoch': 2.86}
+
+ 95%|█████████▌| 400/420 [47:58<02:23,  7.18s/it]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A
+
+ 33%|███▎      | 2/6 [00:00<00:00,  7.56it/s][A
+
+ 50%|█████     | 3/6 [00:00<00:00,  5.33it/s][A
+
+ 67%|██████▋   | 4/6 [00:00<00:00,  4.62it/s][A
+
+ 83%|████████▎ | 5/6 [00:01<00:00,  4.30it/s][A
+
+100%|██████████| 6/6 [00:01<00:00,  3.86it/s][A
+                                                 
+
+                                             
+[A{'eval_loss': 0.4925099313259125, 'eval_runtime': 1.8356, 'eval_samples_per_second': 11.44, 'eval_steps_per_second': 3.269, 'eval_entropy': 0.5050263454516729, 'eval_num_tokens': 103530732.0, 'eval_mean_token_accuracy': 0.8592676122983297, 'epoch': 2.86}
+
+ 95%|█████████▌| 400/420 [48:00<02:23,  7.18s/it]
+
+100%|██████████| 6/6 [00:01<00:00,  3.86it/s][A
+
+                                             [A/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+
+ 95%|█████████▌| 401/420 [48:18<03:30, 11.06s/it]
+ 96%|█████████▌| 402/420 [48:25<02:56,  9.83s/it]
+ 96%|█████████▌| 403/420 [48:32<02:32,  8.98s/it]
+ 96%|█████████▌| 404/420 [48:40<02:15,  8.45s/it]
+ 96%|█████████▋| 405/420 [48:47<02:01,  8.13s/it]
+ 97%|█████████▋| 406/420 [48:54<01:49,  7.79s/it]
+ 97%|█████████▋| 407/420 [49:01<01:38,  7.56s/it]
+ 97%|█████████▋| 408/420 [49:08<01:29,  7.49s/it]
+ 97%|█████████▋| 409/420 [49:16<01:22,  7.48s/it]
+ 98%|█████████▊| 410/420 [49:23<01:13,  7.34s/it]
+ 98%|█████████▊| 411/420 [49:30<01:05,  7.24s/it]
+ 98%|█████████▊| 412/420 [49:37<00:57,  7.17s/it]
+ 98%|█████████▊| 413/420 [49:44<00:51,  7.29s/it]
+ 99%|█████████▊| 414/420 [49:51<00:43,  7.19s/it]
+ 99%|█████████▉| 415/420 [49:58<00:35,  7.14s/it]
+ 99%|█████████▉| 416/420 [50:05<00:28,  7.10s/it]
+ 99%|█████████▉| 417/420 [50:13<00:21,  7.31s/it]
+100%|█████████▉| 418/420 [50:20<00:14,  7.23s/it]
+100%|█████████▉| 419/420 [50:27<00:07,  7.18s/it]
+100%|██████████| 420/420 [50:32<00:00,  6.38s/it]/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+There were missing keys in the checkpoint model loaded: ['lm_head.weight'].
+There were missing keys in the checkpoint model loaded: ['lm_head.weight'].
+There were missing keys in the checkpoint model loaded: ['lm_head.weight'].
+There were missing keys in the checkpoint model loaded: ['lm_head.weight'].
+
+                                                 
+{'train_runtime': 3045.2002, 'train_samples_per_second': 4.402, 'train_steps_per_second': 0.138, 'train_loss': 0.5200716540926978, 'entropy': 0.5026775757977917, 'num_tokens': 108608541.0, 'mean_token_accuracy': 0.8603285775063144, 'epoch': 3.0}
+
+100%|██████████| 420/420 [50:45<00:00,  6.38s/it]
+100%|██████████| 420/420 [50:45<00:00,  7.25s/it]
+Saving best model...
+Saving best model...
+Saving best model...
+Saving best model...
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/home/ben/task/train_v5.py", line 163, in <module>
+[rank2]:     main()
+[rank2]:   File "/home/ben/task/train_v5.py", line 136, in main
+[rank2]:     with open(gen_config_path, 'r') as f:
+[rank2]: FileNotFoundError: [Errno 2] No such file or directory: '/home/ben/task/sft_output_v5/final/generation_config.json'
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/home/ben/task/train_v5.py", line 163, in <module>
+[rank3]:     main()
+[rank3]:   File "/home/ben/task/train_v5.py", line 136, in main
+[rank3]:     with open(gen_config_path, 'r') as f:
+[rank3]: FileNotFoundError: [Errno 2] No such file or directory: '/home/ben/task/sft_output_v5/final/generation_config.json'
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/ben/task/train_v5.py", line 163, in <module>
+[rank1]:     main()
+[rank1]:   File "/home/ben/task/train_v5.py", line 136, in main
+[rank1]:     with open(gen_config_path, 'r') as f:
+[rank1]: FileNotFoundError: [Errno 2] No such file or directory: '/home/ben/task/sft_output_v5/final/generation_config.json'
+W0609 20:17:48.443000 20470 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 20603 closing signal SIGTERM
+W0609 20:17:48.444000 20470 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 20604 closing signal SIGTERM
+W0609 20:17:48.445000 20470 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 20606 closing signal SIGTERM
+E0609 20:17:48.760000 20470 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 2 (pid: 20605) of binary: /usr/bin/python
+Traceback (most recent call last):
+  File "/usr/local/bin/accelerate", line 10, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+  File "/usr/local/lib/python3.10/dist-packages/accelerate/commands/launch.py", line 1272, in launch_command
+    multi_gpu_launcher(args)
+  File "/usr/local/lib/python3.10/dist-packages/accelerate/commands/launch.py", line 899, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 143, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 277, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/home/ben/task/train_v5.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-06-09_20:17:48
+  host      : g54
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 20605)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

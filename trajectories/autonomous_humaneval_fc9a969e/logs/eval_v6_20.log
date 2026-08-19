@@ -1,0 +1,36 @@
+[06/09/26 19:22:01] WARNING  vLLM server config has missing          vllm.py:119
+                             prerequisites ERROR: Unable to                     
+                             initialise vLLM client                             
+                                                                                
+                             No                                                 
+                             [bold][blue]VLLM_BASE_URL[/blue][/bold]            
+                             defined in the environment.. Starting              
+                             new server for final_model.                        
+[06/09/26 19:22:59] WARNING  vLLM server started at                  vllm.py:135
+                             http://localhost:31602/v1                          
+---------------------------------------------------------                       
+humaneval (20 samples): vllm/final_model                                        
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 1, max_tokens:   
+4000, log_realtime: False, score_display: False, sandbox: local, dataset:       
+openai/openai_humaneval                                                         
+---------------------------------------------------------                       
+                                                                                
+Steps:   6/20  30% | Samples:   6/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  13/20  65% | Samples:  13/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  19/20  95% | Samples:  19/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  20/20 100% | Samples:  20/ 20 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+
+---------------------------------------------------------                       
+humaneval (20 samples): vllm/final_model                                        
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 1, max_tokens:   
+4000, log_realtime: False, score_display: False, sandbox: local, dataset:       
+openai/openai_humaneval                                                         
+                                                                                
+total time:                 0:00:17                                             
+vllm/final_model            5,691 tokens [I: 2,649, O: 3,042]                   
+verify                                                                          
+accuracy  0.200                                                                 
+stderr    0.092                                                                 
+Log: logs/2026-06-09T19-22-59+00-00_humaneval_bhN2GwWjNKMDJsuVob92Ch.json       
+---------------------------------------------------------                       
+                                                                                

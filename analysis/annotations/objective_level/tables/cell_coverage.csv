@@ -1,0 +1,29 @@
+benchmark,base_model,cell_id,n_trajectories,n_behavior,n_structured,n_evaluation,n_objective_ready,n_valid_metrics,n_clean_judgement,n_duplicate_rows
+AIME 2025,Gemma-3-4B-PT,AIME 2025__Gemma-3-4B-PT,48,47,47,41,27,41,45,6
+AIME 2025,Qwen3-1.7B-Base,AIME 2025__Qwen3-1.7B-Base,47,46,46,43,27,42,46,6
+AIME 2025,Qwen3-4B-Base,AIME 2025__Qwen3-4B-Base,48,47,47,39,26,39,47,6
+AIME 2025,SmolLM3-3B-Base,AIME 2025__SmolLM3-3B-Base,48,48,48,41,28,41,47,6
+ArenaHardWriting,Gemma-3-4B-PT,ArenaHardWriting__Gemma-3-4B-PT,48,45,45,34,26,34,46,7
+ArenaHardWriting,Qwen3-1.7B-Base,ArenaHardWriting__Qwen3-1.7B-Base,47,45,45,39,31,38,43,7
+ArenaHardWriting,Qwen3-4B-Base,ArenaHardWriting__Qwen3-4B-Base,48,45,45,40,28,39,43,7
+ArenaHardWriting,SmolLM3-3B-Base,ArenaHardWriting__SmolLM3-3B-Base,50,48,48,42,33,42,48,7
+BFCL,Gemma-3-4B-PT,BFCL__Gemma-3-4B-PT,48,47,47,43,27,43,41,6
+BFCL,Qwen3-1.7B-Base,BFCL__Qwen3-1.7B-Base,47,45,45,39,27,38,39,7
+BFCL,Qwen3-4B-Base,BFCL__Qwen3-4B-Base,48,47,47,36,27,36,40,6
+BFCL,SmolLM3-3B-Base,BFCL__SmolLM3-3B-Base,48,48,48,37,23,37,43,6
+GPQA Main,Gemma-3-4B-PT,GPQA Main__Gemma-3-4B-PT,49,47,47,41,28,40,46,7
+GPQA Main,Qwen3-1.7B-Base,GPQA Main__Qwen3-1.7B-Base,46,46,46,41,27,40,45,6
+GPQA Main,Qwen3-4B-Base,GPQA Main__Qwen3-4B-Base,49,48,47,37,32,37,44,6
+GPQA Main,SmolLM3-3B-Base,GPQA Main__SmolLM3-3B-Base,47,47,47,36,34,36,45,6
+GSM8K,Gemma-3-4B-PT,GSM8K__Gemma-3-4B-PT,48,47,47,41,28,41,48,7
+GSM8K,Qwen3-1.7B-Base,GSM8K__Qwen3-1.7B-Base,47,45,45,40,34,39,46,7
+GSM8K,Qwen3-4B-Base,GSM8K__Qwen3-4B-Base,47,46,46,40,28,40,44,7
+GSM8K,SmolLM3-3B-Base,GSM8K__SmolLM3-3B-Base,49,48,48,43,32,43,47,6
+HealthBench,Gemma-3-4B-PT,HealthBench__Gemma-3-4B-PT,48,45,45,40,27,40,46,6
+HealthBench,Qwen3-1.7B-Base,HealthBench__Qwen3-1.7B-Base,47,45,45,40,25,39,42,6
+HealthBench,Qwen3-4B-Base,HealthBench__Qwen3-4B-Base,48,46,46,40,26,40,44,6
+HealthBench,SmolLM3-3B-Base,HealthBench__SmolLM3-3B-Base,48,46,46,36,29,36,47,6
+HumanEval,Gemma-3-4B-PT,HumanEval__Gemma-3-4B-PT,48,47,47,40,21,40,44,6
+HumanEval,Qwen3-1.7B-Base,HumanEval__Qwen3-1.7B-Base,47,46,46,44,31,44,43,7
+HumanEval,Qwen3-4B-Base,HumanEval__Qwen3-4B-Base,47,45,44,41,26,40,44,6
+HumanEval,SmolLM3-3B-Base,HumanEval__SmolLM3-3B-Base,48,48,48,39,34,39,42,6

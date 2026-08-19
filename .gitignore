@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets and local environment
+.env
+.env.*
+*.key
+credentials.json
+
+# Training artifacts — never commit these, they are what made the raw corpus
+# terabyte-scale in the first place.
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+wandb/
+
+# Generated data and intermediate pipeline output
+intermediate/
+train_data*.jsonl
+*.parquet
+
+# Agent run scratch state
+.eval_session_id
+nohup.out
+
+# OS
+.DS_Store
+Thumbs.db

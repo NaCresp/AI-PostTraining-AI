@@ -1,0 +1,75 @@
+[06/09/26 18:39:05] WARNING  vLLM server config has missing          vllm.py:119
+                             prerequisites ERROR: Unable to                     
+                             initialise vLLM client                             
+                                                                                
+                             No                                                 
+                             [bold][blue]VLLM_BASE_URL[/blue][/bold]            
+                             defined in the environment.. Starting              
+                             new server for final_model.                        
+[06/09/26 18:39:56] WARNING  vLLM server started at                  vllm.py:135
+                             http://localhost:31586/v1                          
+---------------------------------------------------------                       
+humaneval (150 samples): vllm/final_model                                       
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 1, max_tokens:   
+4000, log_realtime: False, score_display: False, sandbox: local, dataset:       
+openai/openai_humaneval                                                         
+---------------------------------------------------------                       
+                                                                                
+Steps:   8/150   5% | Samples:   8/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  10/150   6% | Samples:  10/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  13/150   8% | Samples:  13/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  19/150  12% | Samples:  19/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  26/150  17% | Samples:  26/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  29/150  19% | Samples:  29/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  33/150  22% | Samples:  33/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  38/150  25% | Samples:  38/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  40/150  26% | Samples:  40/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  42/150  28% | Samples:  42/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  48/150  32% | Samples:  48/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  53/150  35% | Samples:  53/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  58/150  38% | Samples:  58/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  61/150  40% | Samples:  61/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  64/150  42% | Samples:  64/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  67/150  44% | Samples:  67/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  69/150  46% | Samples:  69/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  71/150  47% | Samples:  71/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  74/150  49% | Samples:  74/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  77/150  51% | Samples:  77/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  79/150  52% | Samples:  79/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  81/150  54% | Samples:  81/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  84/150  56% | Samples:  84/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  86/150  57% | Samples:  86/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  90/150  60% | Samples:  90/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  92/150  61% | Samples:  92/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  95/150  63% | Samples:  95/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps:  98/150  65% | Samples:  98/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 103/150  68% | Samples: 103/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 107/150  71% | Samples: 107/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 110/150  73% | Samples: 110/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 113/150  75% | Samples: 113/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 116/150  77% | Samples: 116/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 120/150  80% | Samples: 120/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 124/150  82% | Samples: 124/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 128/150  85% | Samples: 128/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 132/150  88% | Samples: 132/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 136/150  90% | Samples: 136/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 138/150  92% | Samples: 138/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 141/150  94% | Samples: 141/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 144/150  96% | Samples: 144/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 148/150  98% | Samples: 148/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+Steps: 150/150 100% | Samples: 150/150 | vllm:  0/ 1, subprocesses:  0/104 | HTTP retries: 0
+
+---------------------------------------------------------                       
+humaneval (150 samples): vllm/final_model                                       
+timeout: 18000000, attempt_timeout: 18000000, max_connections: 1, max_tokens:   
+4000, log_realtime: False, score_display: False, sandbox: local, dataset:       
+openai/openai_humaneval                                                         
+                                                                                
+total time:               0:04:45                                               
+vllm/final_model          83,139 tokens [I: 25,413, O: 57,726]                  
+verify                                                                          
+accuracy  0.220                                                                 
+stderr    0.034                                                                 
+Log: logs/2026-06-09T18-39-56+00-00_humaneval_cRuVQnNaidwCAfqQEWNU3m.json       
+---------------------------------------------------------                       
+                                                                                

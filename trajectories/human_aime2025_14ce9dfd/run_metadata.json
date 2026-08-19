@@ -1,0 +1,26 @@
+{
+  "baseline": "claude-code-human",
+  "condition": "human_guidance_initial_plan",
+  "start": "2026-06-17T08:05:28Z",
+  "autonomous_start": "2026-06-17T08:26:22Z",
+  "end": "2026-06-17T17:23:31Z",
+  "elapsed_seconds": 32229,
+  "autonomous_elapsed_seconds": 32229,
+  "total_wall_seconds": 33483,
+  "planning_agent_seconds": 460,
+  "human_wait_seconds": 793,
+  "planning_iterations": 2,
+  "accepted_plan_path": "/workspace/AI4AI/experiments/claude-code-human/workspace/human_plan_iteration_2.md",
+  "planning_trajectory": "/workspace/AI4AI/experiments/claude-code-human/workspace/planning_trajectory.jsonl",
+  "trajectory": "/workspace/AI4AI/experiments/claude-code-human/workspace/trajectory.jsonl",
+  "exit_code": 137,
+  "timed_out": false,
+  "timer_semantics": "10h timeout starts after human keep decision; human wait is excluded",
+  "config": {
+    "base_model_path": "/root/models/Qwen/Qwen3-1.7B-Base",
+    "num_gpus": 4,
+    "time_budget_hours": 10,
+    "claude_model": "claude-opus-4-6",
+    "verl_path": "/workspace/AI4AI/training/verl"
+  }
+}

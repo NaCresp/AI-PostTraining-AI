@@ -1,0 +1,34 @@
+# ============================================================
+# Baseline B: claude-code-aime — Configuration
+# ============================================================
+# Edit this file to adjust experiment settings before launch.
+# All paths assume execution inside the docker container.
+
+# --- Base Model ---
+base_model_path: "/root/models/Qwen/Qwen3-1.7B-Base"
+
+# --- Workspace ---
+workspace: "/workspace/AI4AI/experiments/claude-code-aime/workspace"
+repo_root: "/workspace/AI4AI"
+
+# --- verl framework package (read-only, under training/) ---
+verl_path: "/workspace/AI4AI/training/verl"
+
+# --- Resources (main agent) ---
+gpu_ids: "0,1,2,3"
+num_gpus: 4
+time_budget_hours: 10
+
+# --- Evaluation ---
+evaluator_script: "/workspace/AI4AI/experiments/evaluator/aime/submit_checkpoint.sh"
+request_eval_script: "/workspace/AI4AI/experiments/claude-code-aime/request_eval.sh"
+final_script: "/workspace/AI4AI/experiments/evaluator/aime/submit_final.sh"
+eval_tp_size: 1
+
+# --- Claude Code ---
+claude_model: "claude-opus-4-6"
+initial_prompt: "Read program.md carefully, then begin a new experiment. "
+
+# --- Eval Agent (runs on separate server) ---
+eval_agent_poll_seconds: 300
+eval_agent_gpu_ids: "4,5,6,7"

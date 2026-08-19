@@ -1,0 +1,19 @@
+{
+  "setting": "autonomous",
+  "benchmark": "AIME 2025",
+  "scaffold": "codex",
+  "agent_model": "gpt-5.2",
+  "base_model": "Qwen3-1.7B-Base",
+  "num_gpus": 4,
+  "time_budget_hours": 10,
+  "elapsed": "07:24:20",
+  "elapsed_seconds": 26660,
+  "start": "2026-06-09T02:41:27Z",
+  "end": "2026-06-09T10:05:35Z",
+  "final_metrics": {
+    "accuracy": 0.0,
+    "stderr": 0.0
+  },
+  "source_run_id": "codex_aime2025_qwen3_1_7b_4gpu_v1",
+  "note": "Reconstructed from the PostTrainBench run record: elapsed from time_taken.txt, start/end from the first and last harness timestamp in trajectory.jsonl."
+}

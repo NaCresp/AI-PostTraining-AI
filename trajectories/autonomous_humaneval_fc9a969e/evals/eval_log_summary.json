@@ -1,0 +1,299 @@
+[
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm//home/user/models/Qwen/Qwen3-1.7B-Base",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 20,
+    "completed_samples": 20,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 20,
+        "metrics": {
+          "accuracy": 0.05,
+          "stderr": 0.04999999999999999
+        }
+      }
+    ],
+    "started_at": "2026-06-09T11:09:02+00:00",
+    "completed_at": "2026-06-09T11:09:33+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 20,
+    "completed_samples": 20,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 20,
+        "metrics": {
+          "accuracy": 0.1,
+          "stderr": 0.06882472016116853
+        }
+      }
+    ],
+    "started_at": "2026-06-09T14:28:30+00:00",
+    "completed_at": "2026-06-09T14:31:41+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 20,
+    "completed_samples": 20,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 20,
+        "metrics": {
+          "accuracy": 0.05,
+          "stderr": 0.04999999999999999
+        }
+      }
+    ],
+    "started_at": "2026-06-09T16:37:57+00:00",
+    "completed_at": "2026-06-09T16:40:56+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 20,
+    "completed_samples": 20,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 20,
+        "metrics": {
+          "accuracy": 0.35,
+          "stderr": 0.1094243309804831
+        }
+      }
+    ],
+    "started_at": "2026-06-09T18:34:16+00:00",
+    "completed_at": "2026-06-09T18:34:43+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 150,
+    "completed_samples": 150,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 150,
+        "metrics": {
+          "accuracy": 0.22,
+          "stderr": 0.03393637948203953
+        }
+      }
+    ],
+    "started_at": "2026-06-09T18:39:56+00:00",
+    "completed_at": "2026-06-09T18:44:41+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 20,
+    "completed_samples": 20,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 20,
+        "metrics": {
+          "accuracy": 0.2,
+          "stderr": 0.09176629354822471
+        }
+      }
+    ],
+    "started_at": "2026-06-09T19:22:59+00:00",
+    "completed_at": "2026-06-09T19:23:16+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 20,
+    "completed_samples": 20,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 20,
+        "metrics": {
+          "accuracy": 0.0,
+          "stderr": 0.0
+        }
+      }
+    ],
+    "started_at": "2026-06-09T20:44:07+00:00",
+    "completed_at": "2026-06-09T20:44:15+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 20,
+    "completed_samples": 20,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 20,
+        "metrics": {
+          "accuracy": 0.0,
+          "stderr": 0.0
+        }
+      }
+    ],
+    "started_at": "2026-06-09T20:50:34+00:00",
+    "completed_at": "2026-06-09T20:50:42+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/humaneval",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.3,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {
+      "solver": null,
+      "instruction_prompt": "\nRead the following function signature and docstring, and fully implement\nthe function described. Your response should only contain the code for\nthis function.\n\n",
+      "scorer": null,
+      "sandbox": "local"
+    },
+    "dataset": {
+      "name": "openai/openai_humaneval",
+      "samples": 164
+    },
+    "total_samples": 20,
+    "completed_samples": 20,
+    "scores": [
+      {
+        "name": "verify",
+        "scored_samples": 20,
+        "metrics": {
+          "accuracy": 0.05,
+          "stderr": 0.04999999999999999
+        }
+      }
+    ],
+    "started_at": "2026-06-09T20:53:27+00:00",
+    "completed_at": "2026-06-09T20:59:39+00:00",
+    "status": "success"
+  }
+]

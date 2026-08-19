@@ -1,0 +1,83 @@
+#!/bin/bash
+# GRPO training v1 for Qwen3-1.7B-Base on math data
+# Uses verl with 4 GPUs, GRPO advantage estimator, no KL initially
+
+set -e
+
+export CUDA_VISIBLE_DEVICES=0,1,2,3
+export WANDB_MODE=disabled
+export TOKENIZERS_PARALLELISM=false
+export VLLM_ATTENTION_BACKEND=FLASH_ATTN
+
+WORK_DIR="/workspace/AI4AI/experiments/claude-code-verl/workspace"
+MODEL_PATH="/root/models/Qwen/Qwen3-1.7B-Base"
+
+python3 -m verl.trainer.main_ppo \
+    algorithm.adv_estimator=grpo \
+    algorithm.use_kl_in_reward=False \
+    algorithm.norm_adv_by_std_in_grpo=True \
+    \
+    actor_rollout_ref.model.path=${MODEL_PATH} \
+    actor_rollout_ref.model.use_remove_padding=True \
+    actor_rollout_ref.model.trust_remote_code=True \
+    \
+    actor_rollout_ref.actor.strategy=fsdp \
+    actor_rollout_ref.actor.ppo_mini_batch_size=256 \
+    actor_rollout_ref.actor.ppo_micro_batch_size_per_gpu=4 \
+    actor_rollout_ref.actor.ppo_epochs=1 \
+    actor_rollout_ref.actor.grad_clip=1.0 \
+    actor_rollout_ref.actor.use_kl_loss=False \
+    actor_rollout_ref.actor.entropy_coeff=0.001 \
+    actor_rollout_ref.actor.use_dynamic_bsz=True \
+    actor_rollout_ref.actor.ppo_max_token_len_per_gpu=24576 \
+    actor_rollout_ref.actor.clip_ratio=0.2 \
+    actor_rollout_ref.actor.use_torch_compile=False \
+    actor_rollout_ref.actor.fsdp_config.param_offload=False \
+    actor_rollout_ref.actor.fsdp_config.optimizer_offload=False \
+    actor_rollout_ref.actor.optim.lr=1e-6 \
+    actor_rollout_ref.actor.optim.lr_warmup_steps_ratio=0.05 \
+    actor_rollout_ref.actor.optim.weight_decay=0.01 \
+    actor_rollout_ref.actor.optim.lr_scheduler_type=cosine \
+    actor_rollout_ref.actor.optim.min_lr_ratio=0.1 \
+    \
+    actor_rollout_ref.rollout.name=vllm \
+    actor_rollout_ref.rollout.mode=async \
+    actor_rollout_ref.rollout.gpu_memory_utilization=0.4 \
+    actor_rollout_ref.rollout.tensor_model_parallel_size=1 \
+    actor_rollout_ref.rollout.n=8 \
+    actor_rollout_ref.rollout.temperature=1.0 \
+    actor_rollout_ref.rollout.top_p=0.95 \
+    actor_rollout_ref.rollout.top_k=-1 \
+    actor_rollout_ref.rollout.max_model_len=3072 \
+    actor_rollout_ref.rollout.dtype=bfloat16 \
+    actor_rollout_ref.rollout.enforce_eager=True \
+    actor_rollout_ref.rollout.free_cache_engine=True \
+    actor_rollout_ref.rollout.load_format=dummy \
+    actor_rollout_ref.rollout.enable_chunked_prefill=True \
+    \
+    data.train_files=${WORK_DIR}/data/train.parquet \
+    data.val_files=${WORK_DIR}/data/val.parquet \
+    data.train_batch_size=256 \
+    data.max_prompt_length=512 \
+    data.max_response_length=2048 \
+    data.filter_overlong_prompts=True \
+    data.truncation=left \
+    data.return_raw_chat=True \
+    data.trust_remote_code=True \
+    \
+    reward.custom_reward_function.path=${WORK_DIR}/reward_function.py \
+    reward.custom_reward_function.name=compute_score \
+    \
+    trainer.total_epochs=3 \
+    trainer.total_training_steps=null \
+    trainer.project_name=grpo_math \
+    trainer.experiment_name=grpo_v1 \
+    trainer.logger='["console"]' \
+    trainer.nnodes=1 \
+    trainer.n_gpus_per_node=4 \
+    trainer.save_freq=25 \
+    trainer.test_freq=-1 \
+    trainer.val_before_train=False \
+    trainer.default_local_dir=${WORK_DIR}/checkpoints/grpo_v1 \
+    trainer.resume_mode=disable \
+    2>&1 | tee ${WORK_DIR}/logs/grpo_v1.log

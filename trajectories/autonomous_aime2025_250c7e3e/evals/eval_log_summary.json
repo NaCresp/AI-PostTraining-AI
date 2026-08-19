@@ -1,0 +1,198 @@
+[
+  {
+    "task": "inspect_evals/aime2025",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.8,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {},
+    "dataset": {
+      "name": "math-ai/aime25",
+      "samples": 30
+    },
+    "total_samples": 5,
+    "completed_samples": 5,
+    "scores": [
+      {
+        "name": "aime_scorer",
+        "scored_samples": 5,
+        "metrics": {
+          "accuracy": 0.0,
+          "stderr": 0.0
+        }
+      }
+    ],
+    "started_at": "2026-06-09T13:34:15+00:00",
+    "completed_at": "2026-06-09T13:34:46+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/aime2025",
+    "model": "vllm/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.8,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {},
+    "dataset": {
+      "name": "math-ai/aime25",
+      "samples": 30
+    },
+    "total_samples": 5,
+    "completed_samples": 5,
+    "scores": [
+      {
+        "name": "aime_scorer",
+        "scored_samples": 5,
+        "metrics": {
+          "accuracy": 0.0,
+          "stderr": 0.0
+        }
+      }
+    ],
+    "started_at": "2026-06-09T13:38:32+00:00",
+    "completed_at": "2026-06-09T13:39:49+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/aime2025",
+    "model": "vllm//home/ben/task/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.8,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {},
+    "dataset": {
+      "name": "math-ai/aime25",
+      "samples": 30
+    },
+    "total_samples": 5,
+    "completed_samples": 5,
+    "scores": [
+      {
+        "name": "aime_scorer",
+        "scored_samples": 5,
+        "metrics": {
+          "accuracy": 0.0,
+          "stderr": 0.0
+        }
+      }
+    ],
+    "started_at": "2026-06-09T15:01:33+00:00",
+    "completed_at": "2026-06-09T15:02:36+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/aime2025",
+    "model": "vllm//home/ben/task/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.8,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {},
+    "dataset": {
+      "name": "math-ai/aime25",
+      "samples": 30
+    },
+    "total_samples": 5,
+    "completed_samples": 5,
+    "scores": [
+      {
+        "name": "aime_scorer",
+        "scored_samples": 5,
+        "metrics": {
+          "accuracy": 0.0,
+          "stderr": 0.0
+        }
+      }
+    ],
+    "started_at": "2026-06-09T16:13:59+00:00",
+    "completed_at": "2026-06-09T16:15:22+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/aime2025",
+    "model": "vllm//home/ben/task/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.8,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {},
+    "dataset": {
+      "name": "math-ai/aime25",
+      "samples": 30
+    },
+    "total_samples": 30,
+    "completed_samples": 30,
+    "scores": [
+      {
+        "name": "aime_scorer",
+        "scored_samples": 30,
+        "metrics": {
+          "accuracy": 0.0,
+          "stderr": 0.0
+        }
+      }
+    ],
+    "started_at": "2026-06-09T16:18:19+00:00",
+    "completed_at": "2026-06-09T16:21:52+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/aime2025",
+    "model": "vllm//home/ben/task/final_model",
+    "model_args": {
+      "gpu_memory_utilization": 0.8,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {},
+    "dataset": {
+      "name": "math-ai/aime25",
+      "samples": 30
+    },
+    "total_samples": 30,
+    "completed_samples": 30,
+    "scores": [
+      {
+        "name": "aime_scorer",
+        "scored_samples": 30,
+        "metrics": {
+          "accuracy": 0.03333333333333333,
+          "stderr": 0.033333333333333326
+        }
+      }
+    ],
+    "started_at": "2026-06-09T18:36:59+00:00",
+    "completed_at": "2026-06-09T18:38:30+00:00",
+    "status": "success"
+  },
+  {
+    "task": "inspect_evals/aime2025",
+    "model": "vllm//home/ben/task/sft_output_v4/checkpoint-1200",
+    "model_args": {
+      "gpu_memory_utilization": 0.8,
+      "chat_template": "templates/qwen3.jinja"
+    },
+    "task_args": {},
+    "dataset": {
+      "name": "math-ai/aime25",
+      "samples": 30
+    },
+    "total_samples": 30,
+    "completed_samples": 30,
+    "scores": [
+      {
+        "name": "aime_scorer",
+        "scored_samples": 30,
+        "metrics": {
+          "accuracy": 0.0,
+          "stderr": 0.0
+        }
+      }
+    ],
+    "started_at": "2026-06-09T18:54:51+00:00",
+    "completed_at": "2026-06-09T18:56:43+00:00",
+    "status": "success"
+  }
+]

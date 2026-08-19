@@ -1,0 +1,28 @@
+{
+  "version": "pilot-study-v3-objective-2026-07-22",
+  "seed": 20260715,
+  "max_workspace_file_bytes": 2097152,
+  "bootstrap_replicates": 200,
+  "objective_taxonomy": {
+    "supervised_likelihood": "fixed-target token likelihood; full and parameter-efficient updates are merged",
+    "reward_optimization": "online sampled outputs optimized with a scalar reward",
+    "preference_optimization": "chosen-versus-rejected or equivalent preference objective",
+    "on_policy_distillation": "teacher-student distribution matching on student-generated samples",
+    "objective_unknown": "verified update without recoverable objective evidence"
+  },
+  "benchmarks": [
+    "AIME 2025",
+    "ArenaHardWriting",
+    "BFCL",
+    "GPQA Main",
+    "GSM8K",
+    "HealthBench",
+    "HumanEval"
+  ],
+  "base_models": [
+    "Gemma-3-4B-PT",
+    "Qwen3-1.7B-Base",
+    "Qwen3-4B-Base",
+    "SmolLM3-3B-Base"
+  ]
+}
