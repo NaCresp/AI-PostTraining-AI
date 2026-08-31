@@ -13,15 +13,69 @@ Code and data for **[What is Missing from AI Post-Training AI: An Empirical Anal
 
 We give coding agents a base language model, a benchmark, one GPU, and ten hours, and ask them to
 post-train the model. Repeating this 1,338 times, we find that agents are strong *executors* and
-weak *strategists*: they configure trainers, fit models onto a single card, and recover from
-crashes reliably, but the training objective, data source, and stage structure they commit to in
-their **first** experiment is almost never revised afterwards — even when their own abort criteria
-say it should be. We call this **strategy lock-in**. Adding an experience-driven framework
-(experiment journal, skill library, evaluator agent) markedly improves execution and leaves
-lock-in intact.
+weak *strategists*.
 
-This repository contains the harness that ran the experiments, the annotations behind the paper's
-numbers, and ten archived agent runs covering all three conditions.
+The paper separates two capabilities that discussions of AI-for-AI tend to conflate:
+
+- **Execution level** — iterating inside a selected strategy: constructing data, tuning
+  hyperparameters, shaping rewards, selecting checkpoints, debugging the implementation.
+- **Strategy level** — revising the high-level judgment itself: switching the training paradigm,
+  adding or removing a stage, redirecting the remaining budget.
+
+Agents configure trainers, fit models onto a single card, and recover from crashes reliably. But
+the strategy they commit to — training paradigm, data source, stage structure — is fixed in the
+planning phase, before any code is written or any experiment is run, and is almost never revised
+afterwards, even when the agent's own recorded evidence says it should be. We call this **strategy
+lock-in**.
+
+The analyzed trajectories are publicly released PostTrainBench runs, spanning seven benchmarks,
+four base models, and five agent scaffolds; the controlled experiments are our own. This
+repository contains the harness that ran them, the annotations behind the paper's numbers, and ten
+archived agent runs covering all three conditions.
+
+## Findings
+
+**Agents are competent executors.** A trajectory averages 3.8 training runs and 13.8 evaluations.
+Nearly every agent completes the pipeline from data preparation through training, evaluation, and
+checkpoint submission, and every benchmark shows an average gain over the base model. The repairs
+are technically meaningful — realigning generation templates, concentrating a data mixture on the
+target format, fixing EOS handling — so execution is not the binding constraint.
+
+**The strategy tracks the agent, not the task.** 80.7% of Claude Code trajectories anchor on
+full-parameter SFT; 89.6% of Codex CLI trajectories anchor on parameter-efficient fine-tuning —
+on the same tasks, under the same budget. Once training starts, the budget is spent inside that
+choice: 2.1% of adjacent training pairs ever probe an alternative, and the rest are denser local
+search over learning rates, data mixtures, and chat templates.
+
+**Neither experience, guidance, nor reasoning compute reopens the choice.**
+
+| Intervention | Effect on execution | Effect on strategy |
+| --- | --- | --- |
+| Experience-driven framework | +12.6 on GSM8K, +40.8 on HumanEval | unchanged — the agent adopts every execution-level suggestion the evaluator makes, and none of the strategy-level ones |
+| Human review of the plan before training | starting strategy is redirected, and the agent extends it on its own initiative | the run falls back into local adjustment once training begins |
+| Several times the inference tokens | large gains on the easier benchmarks | no gain on the hardest one |
+
+The strategy is plastic only within a short window before the first training run. Once that window
+closes, the same channels stop working. What is missing is not a resource but a mechanism for
+spontaneously reopening a committed choice during execution.
+
+## Controlled Experiments
+
+Qwen3-1.7B-Base on three benchmarks of increasing difficulty, ten hours per run on four A800 GPUs,
+three independent runs per configuration, with the system prompt, base model, hardware, and
+evaluation protocol held fixed within each comparison. Scores are pass@1, except AIME 2025, which
+has only 30 problems and is scored pass@8.
+
+| Setting | GSM8K | HumanEval | AIME 2025 |
+| --- | --- | --- | --- |
+| Base model | 10.84% | 5.48% | 0.00% |
+| Autonomous — Claude Code (Opus 4.6) | 64.70% | 22.00% | 3.33% |
+| Autonomous — Codex CLI (GPT-5.2) | 43.44% | 13.41% | 0.00% |
+| Experience-driven framework | **77.30%** | **62.80%** | **5.56%** |
+
+Mean over three runs. Human guidance is evaluated on AIME 2025 only, where its best run reaches
+13.33% pass@8; since a one-problem difference on AIME lies within evaluation variance, that column
+is read qualitatively, alongside the trajectories.
 
 ## Repository Structure
 
@@ -38,6 +92,15 @@ numbers, and ten archived agent runs covering all three conditions.
 ```
 
 Each directory has its own `README.md`.
+
+The scaffold's three components map onto the first three subdirectories. The **experiment journal**
+persists plans, results, observations, and lessons across iterations, so evidence from an early
+experiment survives into a later decision. The **skill library** distills recipes, configurations,
+and known failure modes from widely used training frameworks into references the agent consults
+while building and debugging its pipeline. The **evaluator agent** runs whenever the main agent
+requests an evaluation: it forms an expectation, invokes the original scoring script, inspects both
+the scores and the model outputs, and returns a diagnosis with concrete suggestions — which the
+main agent is free to ignore, and at the strategy level does.
 
 ## Installation
 
@@ -92,6 +155,13 @@ both stream formats the pipeline handles.
 `objective_level/` labels the training objective of each experiment, and `strategy_level/` labels
 the full strategy state — training strategy, data source, and stage structure.
 
+A *training experiment* is counted only when an executed command launches a parameter update;
+writing training scripts, constructing data, installing packages, running evaluations, and saving
+checkpoints do not count as independent experiments. A transition between adjacent experiments is
+a *strategy change* only when it alters the training paradigm, the data-source type, or the stage
+structure; everything else — learning rates, data reformatting, reward shaping within a paradigm,
+checkpoint selection, bug fixes — is an execution change.
+
 Labels are assigned from executed evidence only, never from stated intent, and missing labels are
 never imputed. Every label carries a reference back to the exact line of the source trajectory.
 
@@ -104,16 +174,17 @@ never imputed. Every label carries a reference back to the exact line of the sou
 ## Citation
 
 ```bibtex
-@misc{lim2026missing,
-  title         = {What is Missing from {AI} Post-Training {AI}: An Empirical Analysis},
-  year          = {2026},
-  eprint        = {2608.19072},
-  archivePrefix = {arXiv},
-  url           = {https://arxiv.org/abs/2608.19072}
+@misc{lim2026missingaiposttrainingai,
+      title={What is Missing from AI Post-Training AI: An Empirical Analysis},
+      author={Joy Jia Yin Lim and Xin Huang and Hao Peng and Yaxi Lu and Xin Cong and Zhong Zhang and Maosong Sun and Yankai Lin},
+      year={2026},
+      eprint={2608.19072},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2608.19072},
 }
 ```
 
 ## License
 
-[MIT](LICENSE). Upstream libraries under `framework/skills/wiki/sources/upstream/` and the
-benchmark datasets keep their own licenses.
+[MIT](LICENSE).
